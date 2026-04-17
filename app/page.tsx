@@ -20,7 +20,7 @@ export default function Home() {
       return
     }
 
-    const pesan = `Halo SupportKos! 👋\n\n*Nama:* ${formData.nama || '-'}\n*No. WA:* ${formData.wa || '-'}\n*Kota Asal:* ${formData.kota || '-'}\n*Layanan:* ${formData.layanan || '-'}\n*Rencana Pindah:* ${formData.tanggal || '-'}\n\n*Link Kos yang Mau Dicek:*\n${formData.linkKos || '(belum diisi, mau tanya dulu)'}\n\nSaya ingin tahu lebih lanjut tentang layanan SupportKos 🙏`
+    const pesan = `Halo Bantu Kos! 👋\n\n*Nama:* ${formData.nama || '-'}\n*No. WA:* ${formData.wa || '-'}\n*Kota Asal:* ${formData.kota || '-'}\n*Layanan:* ${formData.layanan || '-'}\n*Rencana Pindah:* ${formData.tanggal || '-'}\n\n*Link Kos yang Mau Dicek:*\n${formData.linkKos || '(belum diisi, mau tanya dulu)'}\n\nSaya ingin tahu lebih lanjut tentang layanan Bantu Kos 🙏`
 
     const encoded = encodeURIComponent(pesan)
     window.open(`https://wa.me/6289506585454?text=${encoded}`, '_blank')
@@ -32,7 +32,7 @@ export default function Home() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 sm:px-8 py-4 bg-[#080c14]/70 backdrop-blur-xl border-b border-white/10">
         <div className="text-xl font-extrabold tracking-tight text-gradient">
-          Support<span className="text-slate-200">Kos</span>
+          Bantu <span className="text-slate-200">Kos</span>
         </div>
         <ul className="hidden sm:flex gap-8 list-none m-0">
           <li><Link href="#layanan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Layanan</Link></li>
@@ -190,7 +190,7 @@ export default function Home() {
       <section id="cara-kerja" className="relative z-10 py-20 px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-xs font-bold tracking-[1.5px] uppercase text-sky-400 mb-3">Prosesnya Mudah</div>
-          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Cara kerja SupportKos</h2>
+          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Cara kerja Bantu Kos</h2>
           <p className="text-slate-400 max-w-2xl mb-12">Dari order hingga laporan, semuanya bisa dilakukan dari kotamu sekarang.</p>
 
           <div className="relative max-w-2xl flex flex-col gap-0">
@@ -222,9 +222,9 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { s: '★★★★★', t: '"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai SupportKos dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."', name: 'Ayu R.', f: 'Jakarta Selatan → Jakarta', a: 'A' },
+              { s: '★★★★★', t: '"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai Bantu Kos dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."', name: 'Ayu R.', f: 'Jakarta Selatan → Jakarta', a: 'A' },
               { s: '★★★★★', t: '"Starter kit-nya worth banget. Pas aku landing malem-malem, kamar udah ada galon, ada listrik, ada sabun. Langsung bisa tidur tanpa beli-beli dulu."', name: 'Rian M.', f: 'Surabaya → Surabaya', a: 'R' },
-              { s: '★★★★★', t: '"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari SupportKos detail dan jujur banget, termasuk screenshot speed test-nya."', name: 'Dito S.', f: 'Bandung → Bandung', a: 'D' }
+              { s: '★★★★★', t: '"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari Bantu Kos detail dan jujur banget, termasuk screenshot speed test-nya."', name: 'Dito S.', f: 'Bandung → Bandung', a: 'D' }
             ].map((t, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:-translate-y-1 transition-all hover:border-sky-400/30">
                 <div className="text-amber-400 text-sm tracking-[2px] mb-3">{t.s}</div>
@@ -340,13 +340,17 @@ export default function Home() {
       </div>
 
       {/* FOOTER */}
-      <footer className="relative z-10 border-t border-white/10 py-8 text-center text-sm text-slate-400">
-        <p>© 2025 <strong className="text-slate-200">SupportKos</strong> — Jasa Inspeksi Kos Independen di Kota Tujuanmu</p>
+      <footer className="relative z-10 border-t border-white/10 py-8 flex flex-col items-center justify-center text-center text-sm text-slate-400">
+        <div className="flex gap-6 mb-4 text-slate-300 font-medium">
+          <a href="https://instagram.com/bantukos" target="_blank" className="hover:text-sky-400 transition-colors flex items-center gap-2">📷 @bantukos</a>
+          <a href="https://tiktok.com/@bantukos" target="_blank" className="hover:text-sky-400 transition-colors flex items-center gap-2">🎵 @bantukos</a>
+        </div>
+        <p>© 2026 <strong className="text-slate-200">Bantu Kos</strong> — Jasa Inspeksi Kos Independen di Kota Tujuanmu</p>
         <p className="mt-2">Bukan agen, bukan calo. Jujur, transparan, dan berpihak pada perantau. 🌴</p>
       </footer>
       
       {/* FLOATING WA BUTTON */}
-      <a href="https://wa.me/6289506585454?text=Halo%20SupportKos%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos" 
+      <a href="https://wa.me/6289506585454?text=Halo%20Bantu%20Kos%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos" 
          className="fixed bottom-8 right-8 z-50 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-[0_4px_20px_rgba(16,185,129,0.4)] hover:scale-110 hover:shadow-[0_6px_30px_rgba(16,185,129,0.6)] transition-all animate-fade-up"
          target="_blank" title="Chat WhatsApp">
          💬

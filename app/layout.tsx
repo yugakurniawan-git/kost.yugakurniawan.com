@@ -5,7 +5,7 @@ import './globals.css'
 const font = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SupportKos — Jasa Inspeksi Kos Independen di Kota Tujuanmu',
+  title: 'Bantu Kos — Jasa Inspeksi Kos Independen di Kota Tujuanmu',
   description: 'Mau pindah ke Bali? Jangan langsung transfer DP kos sebelum kami cek kondisi aslinya. Jasa inspeksi kos independen, jujur, dan terpercaya di Kota Tujuanmu.',
 }
 
