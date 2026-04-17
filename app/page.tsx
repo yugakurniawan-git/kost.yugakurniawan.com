@@ -20,10 +20,10 @@ export default function Home() {
       return
     }
 
-    const pesan = `Halo CekKosBali! 👋\n\n*Nama:* ${formData.nama || '-'}\n*No. WA:* ${formData.wa || '-'}\n*Kota Asal:* ${formData.kota || '-'}\n*Layanan:* ${formData.layanan || '-'}\n*Rencana Pindah:* ${formData.tanggal || '-'}\n\n*Link Kos yang Mau Dicek:*\n${formData.linkKos || '(belum diisi, mau tanya dulu)'}\n\nSaya ingin tahu lebih lanjut tentang layanan CekKosBali 🙏`
+    const pesan = `Halo SupportKos! 👋\n\n*Nama:* ${formData.nama || '-'}\n*No. WA:* ${formData.wa || '-'}\n*Kota Asal:* ${formData.kota || '-'}\n*Layanan:* ${formData.layanan || '-'}\n*Rencana Pindah:* ${formData.tanggal || '-'}\n\n*Link Kos yang Mau Dicek:*\n${formData.linkKos || '(belum diisi, mau tanya dulu)'}\n\nSaya ingin tahu lebih lanjut tentang layanan SupportKos 🙏`
 
     const encoded = encodeURIComponent(pesan)
-    window.open(`https://wa.me/6281234567890?text=${encoded}`, '_blank')
+    window.open(`https://wa.me/6289506585454?text=${encoded}`, '_blank')
   }
 
   return (
@@ -32,7 +32,7 @@ export default function Home() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 sm:px-8 py-4 bg-[#080c14]/70 backdrop-blur-xl border-b border-white/10">
         <div className="text-xl font-extrabold tracking-tight text-gradient">
-          CekKos<span className="text-slate-200">Bali</span>
+          Support<span className="text-slate-200">Kos</span>
         </div>
         <ul className="hidden sm:flex gap-8 list-none m-0">
           <li><Link href="#layanan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Layanan</Link></li>
@@ -49,10 +49,10 @@ export default function Home() {
       {/* HERO */}
       <section className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-8 pt-32 pb-16">
         <div className="animate-fade-up inline-flex items-center gap-2 bg-sky-400/10 border border-sky-400/25 rounded-full px-4 py-1.5 text-xs font-semibold text-sky-400 mb-6">
-          <span className="w-1.5 h-1.5 bg-sky-400 rounded-full animate-pulse-custom"></span>Jasa Inspeksi Kos Independen di Bali
+          <span className="w-1.5 h-1.5 bg-sky-400 rounded-full animate-pulse-custom"></span>Jasa Inspeksi Kos Independen di Kota Tujuanmu
         </div>
         <h1 className="animate-fade-up animate-delay-100 text-[clamp(2.4rem,6vw,4rem)] font-extrabold leading-tight tracking-tight max-w-4xl">
-          Jangan <span className="text-gradient">DP Kos Bali</span> Sebelum Kami Cek Kondisi Aslinya
+          Jangan <span className="text-gradient">DP Kos</span> Sebelum Kami Cek Kondisi Aslinya
         </h1>
         <p className="animate-fade-up animate-delay-200 mt-5 text-lg text-slate-400 max-w-2xl">
           Foto di internet bisa menipu. Kami datang langsung ke lokasi, rekam video real, tes WiFi, cek air, dan kirim laporan jujur ke kamu dalam 24 jam.
@@ -82,8 +82,8 @@ export default function Home() {
       <section id="masalah" className="relative z-10 py-20 px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-xs font-bold tracking-[1.5px] uppercase text-sky-400 mb-3">Kenapa Ini Penting?</div>
-          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Cari kos di Bali dari jauh itu penuh risiko</h2>
-          <p className="text-slate-400 max-w-2xl mb-12">Masalah yang sering dialami orang yang mau pindah ke Bali tanpa survei dulu.</p>
+          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Cari kos di Kota Tujuanmu dari jauh itu penuh risiko</h2>
+          <p className="text-slate-400 max-w-2xl mb-12">Masalah yang sering dialami orang yang mau pindah tanpa survei dulu.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
@@ -91,7 +91,7 @@ export default function Home() {
               { e: '📶', t: 'WiFi "Sampai 100 Mbps" Ternyata Lemot', d: 'Pemilik kos bilang WiFi cepat. Nyatanya 10 kamar pakai 1 router, kamu yang kerja remote bakal menderita.' },
               { e: '🤝', t: 'Harga Sudah Naik Tapi Tidak Diupdate', d: 'Listing menampilkan harga lama. Begitu kamu datang, harga sudah naik 30% dan kamu tidak punya pilihan lain.' },
               { e: '📍', t: 'Lokasi Tidak Sesuai Ekspektasi', d: '"Dekat pantai" ternyata 30 menit jalan kaki. Lingkungan sekitar bising atau banjir saat musim hujan.' },
-              { e: '💧', t: 'Air Mati / Kecil / Bau', d: 'Kualitas air di Bali sangat bervariasi. Ada yang air sumur, ada PAM. Detail ini tidak pernah ditulis di listing kos.' },
+              { e: '💧', t: 'Air Mati / Kecil / Bau', d: 'Kualitas air di Kota Tujuanmu sangat bervariasi. Ada yang air sumur, ada PAM. Detail ini tidak pernah ditulis di listing kos.' },
               { e: '😤', t: 'Terlanjur Bayar, Baru Menyesal', d: 'Karena pemilik kos minta DP dulu lewat transfer, banyak yang terpaksa bayar penuh sebelum melihat kondisi aslinya.' },
             ].map((p, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-6 transition-all hover:border-red-400/30 hover:bg-red-400/5 hover:-translate-y-1">
@@ -108,7 +108,7 @@ export default function Home() {
       <section id="layanan" className="relative z-10 py-20 px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-xs font-bold tracking-[1.5px] uppercase text-sky-400 mb-3">Layanan Kami</div>
-          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Solusi lengkap untuk perantau Bali</h2>
+          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Solusi lengkap untuk perantau</h2>
           <p className="text-slate-400 max-w-2xl mb-12">Dari inspeksi kos hingga kamar yang siap huni ketika kamu mendarat.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -190,7 +190,7 @@ export default function Home() {
       <section id="cara-kerja" className="relative z-10 py-20 px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-xs font-bold tracking-[1.5px] uppercase text-sky-400 mb-3">Prosesnya Mudah</div>
-          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Cara kerja CekKosBali</h2>
+          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Cara kerja SupportKos</h2>
           <p className="text-slate-400 max-w-2xl mb-12">Dari order hingga laporan, semuanya bisa dilakukan dari kotamu sekarang.</p>
 
           <div className="relative max-w-2xl flex flex-col gap-0">
@@ -222,9 +222,9 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { s: '★★★★★', t: '"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai CekKosBali dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."', name: 'Ayu R.', f: 'Jakarta Selatan → Canggu, Bali', a: 'A' },
-              { s: '★★★★★', t: '"Starter kit-nya worth banget. Pas aku landing malem-malem, kamar udah ada galon, ada listrik, ada sabun. Langsung bisa tidur tanpa beli-beli dulu."', name: 'Rian M.', f: 'Surabaya → Jimbaran, Bali', a: 'R' },
-              { s: '★★★★★', t: '"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari CekKosBali detail dan jujur banget, termasuk screenshot speed test-nya."', name: 'Dito S.', f: 'Bandung → Denpasar, Bali', a: 'D' }
+              { s: '★★★★★', t: '"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai SupportKos dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."', name: 'Ayu R.', f: 'Jakarta Selatan → Jakarta', a: 'A' },
+              { s: '★★★★★', t: '"Starter kit-nya worth banget. Pas aku landing malem-malem, kamar udah ada galon, ada listrik, ada sabun. Langsung bisa tidur tanpa beli-beli dulu."', name: 'Rian M.', f: 'Surabaya → Surabaya', a: 'R' },
+              { s: '★★★★★', t: '"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari SupportKos detail dan jujur banget, termasuk screenshot speed test-nya."', name: 'Dito S.', f: 'Bandung → Bandung', a: 'D' }
             ].map((t, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:-translate-y-1 transition-all hover:border-sky-400/30">
                 <div className="text-amber-400 text-sm tracking-[2px] mb-3">{t.s}</div>
@@ -254,7 +254,7 @@ export default function Home() {
               { q: 'Berapa lama laporan dikirim setelah pesan?', a: 'Kami menargetkan pengiriman laporan maksimal 1x24 jam setelah pembayaran diterima. Untuk area Denpasar Selatan, Kuta, Seminyak, dan Canggu, biasanya bisa lebih cepat (3-6 jam).' },
               { q: 'Area mana saja yang sudah bisa dicek?', a: 'Saat ini kami beroperasi di area Denpasar, Kuta, Legian, Seminyak, Canggu, Jimbaran, dan Nusa Dua. Untuk area di luar itu (Ubud, Sanur, dll), silakan tanyakan terlebih dahulu via WhatsApp.' },
               { q: 'Bagaimana cara pembayarannya?', a: 'Pembayaran dilakukan via QRIS, GoPay, atau transfer bank setelah kamu mendapatkan konfirmasi dari tim kami via WhatsApp. Tidak ada biaya tersembunyi.' },
-              { q: 'Bagaimana jika lokasi kos ternyata sudah terisi?', a: 'Jika kos sudah penuh saat kami tiba, kami akan konfirmasi ke kamu terlebih dahulu. Kamu bisa memilih untuk mengganti lokasi inspeksi lain, atau kami kembalikan pembayaran sepenuhnya.' }
+              { q: 'Bagaimana jika lokasi kos ternyata sudah terisi?', a: 'Jika kos sudah penuh saat kami tiba, kami akan konfirmasi ke kamu terlebih dahulu. Kamu bisa memilih untuk mengganti lokasi inspeksi lain, atau kami kembalikan biaya 50% (sebagai pengganti ongkos transportasi dan waktu tim kami).' }
             ].map((f, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-sky-400/40 transition-colors">
                 <button 
@@ -281,7 +281,7 @@ export default function Home() {
           <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-72 h-72 bg-sky-400/10 blur-[80px] rounded-full pointer-events-none"></div>
           
           <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4 relative z-10">
-            Siap Pindah ke Bali dengan <span className="text-gradient">Tenang?</span>
+            Siap Pindah dengan <span className="text-gradient">Tenang?</span>
           </h2>
           <p className="text-slate-400 max-w-lg mx-auto mb-10 relative z-10">Isi form di bawah ini dan tim kami akan menghubungi kamu via WhatsApp dalam 15 menit. Gratis konsultasi!</p>
 
@@ -324,7 +324,7 @@ export default function Home() {
             </div>
             
             <div className="mb-6">
-              <label className="block text-sm font-semibold text-slate-400 mb-2">Rencana Pindah ke Bali</label>
+              <label className="block text-sm font-semibold text-slate-400 mb-2">Rencana Pindah</label>
               <input type="month" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-sky-400 transition-colors"
                 value={formData.tanggal} onChange={e => setFormData({...formData, tanggal: e.target.value})} />
             </div>
@@ -341,12 +341,12 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="relative z-10 border-t border-white/10 py-8 text-center text-sm text-slate-400">
-        <p>© 2025 <strong className="text-slate-200">CekKosBali</strong> — Jasa Inspeksi Kos Independen di Bali</p>
+        <p>© 2025 <strong className="text-slate-200">SupportKos</strong> — Jasa Inspeksi Kos Independen di Kota Tujuanmu</p>
         <p className="mt-2">Bukan agen, bukan calo. Jujur, transparan, dan berpihak pada perantau. 🌴</p>
       </footer>
       
       {/* FLOATING WA BUTTON */}
-      <a href="https://wa.me/6281234567890?text=Halo%20CekKosBali%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos" 
+      <a href="https://wa.me/6289506585454?text=Halo%20SupportKos%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos" 
          className="fixed bottom-8 right-8 z-50 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-[0_4px_20px_rgba(16,185,129,0.4)] hover:scale-110 hover:shadow-[0_6px_30px_rgba(16,185,129,0.6)] transition-all animate-fade-up"
          target="_blank" title="Chat WhatsApp">
          💬
