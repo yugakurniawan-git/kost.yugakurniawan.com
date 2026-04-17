@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CekKosBali — Jasa Inspeksi Kos Independen di Bali</title>
+  <meta name="description" content="Mau pindah ke Bali? Jangan langsung transfer DP kos sebelum kami cek kondisi aslinya. Jasa inspeksi kos independen, jujur, dan terpercaya di Bali." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #080c14;
+      --surface: rgba(255,255,255,0.04);
+      --surface-hover: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.08);
+      --border-hover: rgba(99,179,237,0.4);
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56,189,248,0.2);
+      --accent2: #818cf8;
+      --green: #34d399;
+      --green-glow: rgba(52,211,153,0.15);
+      --gold: #fbbf24;
+      --red: #f87171;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Background blobs */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -200px; left: -200px;
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(56,189,248,0.08) 0%, transparent 70%);
+      pointer-events: none; z-index: 0;
+      animation: blobFloat 12s ease-in-out infinite alternate;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      bottom: -200px; right: -200px;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(129,140,248,0.08) 0%, transparent 70%);
+      pointer-events: none; z-index: 0;
+    }
+    @keyframes blobFloat {
+      from { transform: translate(0,0) scale(1); }
+      to   { transform: translate(40px, 60px) scale(1.1); }
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2rem;
+      background: rgba(8,12,20,0.7);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 1.2rem; font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      letter-spacing: -0.5px;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--text-muted); text-decoration: none; font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--accent); }
+    .nav-cta {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #0a0f1a; font-weight: 700; border: none; border-radius: 10px;
+      padding: 0.55rem 1.3rem; font-size: 0.9rem; cursor: pointer;
+      text-decoration: none; transition: opacity 0.2s, transform 0.2s;
+    }
+    .nav-cta:hover { opacity: 0.85; transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      position: relative; z-index: 1;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center; padding: 6rem 2rem 4rem;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.25);
+      border-radius: 100px; padding: 0.35rem 1rem; font-size: 0.8rem;
+      color: var(--accent); font-weight: 600; margin-bottom: 1.5rem;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .hero-badge span { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.8)} }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 800; line-height: 1.1;
+      letter-spacing: -1.5px;
+      animation: fadeUp 0.7s 0.1s ease both;
+      max-width: 800px;
+    }
+    .hero h1 .highlight {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      margin-top: 1.2rem; font-size: 1.1rem; color: var(--text-muted);
+      max-width: 560px; animation: fadeUp 0.7s 0.2s ease both;
+    }
+    .hero-actions {
+      display: flex; gap: 1rem; margin-top: 2.5rem; flex-wrap: wrap; justify-content: center;
+      animation: fadeUp 0.7s 0.3s ease both;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #0a0f1a; font-weight: 700; border: none; border-radius: 12px;
+      padding: 0.85rem 2rem; font-size: 1rem; cursor: pointer;
+      text-decoration: none; transition: all 0.25s; display: inline-block;
+      box-shadow: 0 0 30px rgba(56,189,248,0.25);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 40px rgba(56,189,248,0.4); }
+    .btn-outline {
+      background: var(--surface); border: 1px solid var(--border);
+      color: var(--text); font-weight: 600; border-radius: 12px;
+      padding: 0.85rem 2rem; font-size: 1rem; cursor: pointer;
+      text-decoration: none; transition: all 0.25s; display: inline-block;
+    }
+    .btn-outline:hover { border-color: var(--border-hover); background: var(--surface-hover); }
+
+    .hero-trust {
+      margin-top: 3rem; display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;
+      animation: fadeUp 0.7s 0.4s ease both;
+    }
+    .trust-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; color: var(--text-muted); }
+    .trust-icon { font-size: 1rem; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* SECTION */
+    section { position: relative; z-index: 1; padding: 5rem 2rem; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-tag {
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      font-weight: 800; letter-spacing: -0.5px;
+      margin-bottom: 1rem;
+    }
+    .section-sub { color: var(--text-muted); max-width: 560px; font-size: 1rem; }
+
+    /* PROBLEM */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 1.2rem; margin-top: 3rem;
+    }
+    .problem-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 1.5rem;
+      transition: all 0.3s;
+    }
+    .problem-card:hover { border-color: rgba(248,113,113,0.3); background: rgba(248,113,113,0.04); transform: translateY(-3px); }
+    .problem-emoji { font-size: 1.8rem; margin-bottom: 0.75rem; }
+    .problem-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .problem-card p { font-size: 0.875rem; color: var(--text-muted); }
+
+    /* SERVICES */
+    .services-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem; margin-top: 3rem;
+    }
+    .service-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 20px; padding: 2rem;
+      transition: all 0.3s; cursor: default;
+      position: relative; overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .service-card:hover { border-color: var(--border-hover); transform: translateY(-4px); box-shadow: 0 20px 60px rgba(56,189,248,0.08); }
+    .service-card:hover::before { opacity: 1; }
+    .service-badge {
+      display: inline-block; background: var(--accent-glow);
+      border: 1px solid rgba(56,189,248,0.2);
+      color: var(--accent); border-radius: 8px; font-size: 0.75rem;
+      font-weight: 700; padding: 0.25rem 0.65rem; margin-bottom: 1rem;
+    }
+    .service-icon { font-size: 2.2rem; margin-bottom: 1rem; }
+    .service-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .service-card > p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.25rem; }
+    .service-features { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .service-features li {
+      display: flex; align-items: flex-start; gap: 0.6rem; font-size: 0.875rem; color: var(--text-muted);
+    }
+    .service-features li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .service-price {
+      margin-top: 1.5rem; padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .price-amount { font-size: 1.3rem; font-weight: 800; color: var(--accent); }
+    .price-note { font-size: 0.78rem; color: var(--text-muted); }
+    .popular-badge {
+      background: linear-gradient(135deg, var(--gold), #f59e0b);
+      color: #0a0f1a; font-size: 0.7rem; font-weight: 800;
+      padding: 0.2rem 0.6rem; border-radius: 6px;letter-spacing: 0.5px;
+    }
+
+    /* HOW IT WORKS */
+    .steps { display: flex; flex-direction: column; gap: 0; margin-top: 3rem; position: relative; }
+    .steps::before {
+      content: ''; position: absolute; left: 23px; top: 24px; bottom: 24px; width: 1px;
+      background: linear-gradient(180deg, var(--accent), var(--accent2), transparent);
+    }
+    .step {
+      display: flex; gap: 1.5rem; align-items: flex-start;
+      padding: 1.5rem 0;
+    }
+    .step-num {
+      width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #0a0f1a; font-weight: 800; font-size: 1rem;
+      display: flex; align-items: center; justify-content: center;
+      position: relative; z-index: 1;
+    }
+    .step-content h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .step-content p { font-size: 0.875rem; color: var(--text-muted); }
+
+    /* TESTIMONIALS placeholder */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.2rem; margin-top: 3rem;
+    }
+    .testimonial-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 1.5rem; transition: all 0.3s;
+    }
+    .testimonial-card:hover { border-color: var(--border-hover); transform: translateY(-3px); }
+    .stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 0.75rem; letter-spacing: 2px; }
+    .testimonial-text { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem; font-style: italic; line-height: 1.7; }
+    .testimonial-author { display: flex; align-items: center; gap: 0.75rem; }
+    .author-avatar {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.85rem; font-weight: 700; color: #0a0f1a;
+    }
+    .author-info .name { font-size: 0.875rem; font-weight: 700; }
+    .author-info .from { font-size: 0.775rem; color: var(--text-muted); }
+
+    /* FAQ */
+    .faq-list { margin-top: 3rem; display: flex; flex-direction: column; gap: 1rem; max-width: 720px; }
+    .faq-item {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; overflow: hidden; transition: border-color 0.3s;
+    }
+    .faq-item:hover { border-color: var(--border-hover); }
+    .faq-q {
+      width: 100%; text-align: left; background: none; border: none;
+      padding: 1.1rem 1.4rem; color: var(--text); font-weight: 600;
+      font-size: 0.95rem; cursor: pointer; display: flex; justify-content: space-between;
+      align-items: center; gap: 1rem; font-family: inherit;
+    }
+    .faq-arrow { transition: transform 0.3s; font-size: 1rem; color: var(--accent); flex-shrink: 0; }
+    .faq-a {
+      max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s;
+      font-size: 0.875rem; color: var(--text-muted);
+      padding: 0 1.4rem; line-height: 1.7;
+    }
+    .faq-item.open .faq-a { max-height: 200px; padding: 0 1.4rem 1.25rem; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+
+    /* CTA / ORDER SECTION */
+    .cta-section {
+      position: relative; z-index: 1;
+      background: linear-gradient(135deg, rgba(56,189,248,0.06), rgba(129,140,248,0.06));
+      border: 1px solid rgba(56,189,248,0.12); border-radius: 24px;
+      padding: 4rem 2.5rem; text-align: center; margin: 0 2rem 5rem;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(56,189,248,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .cta-section h2 { font-size: clamp(1.8rem, 3.5vw, 2.5rem); font-weight: 800; letter-spacing: -0.5px; }
+    .cta-section p { color: var(--text-muted); margin: 1rem auto; max-width: 480px; }
+
+    /* ORDER FORM */
+    .order-form {
+      max-width: 540px; margin: 2rem auto 0;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 20px; padding: 2rem;
+      text-align: left;
+    }
+    .form-group { margin-bottom: 1.2rem; }
+    .form-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-muted); }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%; background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+      border-radius: 10px; padding: 0.75rem 1rem; color: var(--text);
+      font-family: inherit; font-size: 0.9rem; outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--accent); }
+    .form-group textarea { resize: vertical; min-height: 90px; }
+    .form-group select option { background: #1a2035; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .submit-btn {
+      width: 100%; background: linear-gradient(135deg, #25d366, #128c7e);
+      color: #fff; font-weight: 700; font-size: 1rem; border: none;
+      border-radius: 12px; padding: 1rem; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; gap: 0.6rem;
+      transition: all 0.3s; font-family: inherit;
+      box-shadow: 0 0 30px rgba(37,211,102,0.2);
+    }
+    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 0 40px rgba(37,211,102,0.35); }
+    .submit-btn svg { width: 20px; height: 20px; fill: currentColor; }
+    .form-note { font-size: 0.78rem; color: var(--text-muted); text-align: center; margin-top: 0.85rem; }
+
+    /* FOOTER */
+    footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 2rem; text-align: center;
+      font-size: 0.82rem; color: var(--text-muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+
+    /* FLOATING WA BUTTON */
+    .wa-float {
+      position: fixed; bottom: 2rem; right: 2rem; z-index: 200;
+      background: #25d366; color: #fff; width: 56px; height: 56px;
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+      text-decoration: none; transition: all 0.3s;
+      animation: fadeUp 1s 0.8s ease both;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 30px rgba(37,211,102,0.6); }
+
+    /* RESPONSIVE */
+    @media (max-width: 640px) {
+      nav { padding: 1rem; }
+      .nav-links { display: none; }
+      .form-row { grid-template-columns: 1fr; }
+      .cta-section { margin: 0 1rem 3rem; padding: 2.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">CekKos<span style="color:var(--text)">Bali</span></div>
+    <ul class="nav-links">
+      <li><a href="#layanan">Layanan</a></li>
+      <li><a href="#cara-kerja">Cara Kerja</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#pesan" class="nav-cta">Pesan Sekarang</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge"><span></span>Jasa Inspeksi Kos Independen di Bali</div>
+    <h1>Jangan <span class="highlight">DP Kos Bali</span> Sebelum Kami Cek Kondisi Aslinya</h1>
+    <p>Foto di internet bisa menipu. Kami datang langsung ke lokasi, rekam video real, tes WiFi, cek air, dan kirim laporan jujur ke kamu dalam 24 jam.</p>
+    <div class="hero-actions">
+      <a href="#pesan" class="btn-primary">🔍 Pesan Inspeksi Sekarang</a>
+      <a href="#cara-kerja" class="btn-outline">Lihat Cara Kerjanya</a>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-item"><span class="trust-icon">✅</span> Bukan agen, bukan calo</div>
+      <div class="trust-item"><span class="trust-icon">📹</span> Video real tanpa edit</div>
+      <div class="trust-item"><span class="trust-icon">⚡</span> Laporan dalam 24 jam</div>
+      <div class="trust-item"><span class="trust-icon">🔒</span> Tanpa perantara</div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section id="masalah" style="padding-top: 2rem;">
+    <div class="container">
+      <div class="section-tag">Kenapa Ini Penting?</div>
+      <h2 class="section-title">Cari kos di Bali dari jauh itu penuh risiko</h2>
+      <p class="section-sub">Masalah yang sering dialami orang yang mau pindah ke Bali tanpa survei dulu.</p>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-emoji">📸</div>
+          <h3>Foto Palsu / Menyesatkan</h3>
+          <p>Foto di Mamikos/Facebook diambil saat kos masih baru. Kenyataannya dinding sudah lembab dan kebocoran di mana-mana.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-emoji">📶</div>
+          <h3>WiFi "Sampai 100 Mbps" Ternyata Lemot</h3>
+          <p>Pemilik kos bilang WiFi cepat. Nyatanya 10 kamar pakai 1 router, kamu yang kerja remote bakal menderita.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-emoji">🤝</div>
+          <h3>Harga Sudah Naik Tapi Tidak Diupdate</h3>
+          <p>Listing menampilkan harga lama. Begitu kamu datang, harga sudah naik 30% dan kamu tidak punya pilihan lain.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-emoji">📍</div>
+          <h3>Lokasi Tidak Sesuai Ekspektasi</h3>
+          <p>"Dekat pantai" ternyata 30 menit jalan kaki. Lingkungan sekitar bising atau banjir saat musim hujan.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-emoji">💧</div>
+          <h3>Air Mati / Kecil / Bau</h3>
+          <p>Kualitas air di Bali sangat bervariasi. Ada yang air sumur, ada PAM. Detail ini tidak pernah ditulis di listing kos.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-emoji">😤</div>
+          <h3>Terlanjur Bayar, Baru Menyesal</h3>
+          <p>Karena pemilik kos minta DP dulu lewat transfer, banyak yang terpaksa bayar penuh sebelum melihat kondisi aslinya.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="layanan">
+    <div class="container">
+      <div class="section-tag">Layanan Kami</div>
+      <h2 class="section-title">Solusi lengkap untuk perantau Bali</h2>
+      <p class="section-sub">Dari inspeksi kos hingga kamar yang siap huni ketika kamu mendarat.</p>
+      <div class="services-grid">
+
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-badge">Layanan Utama</div>
+          <div class="service-icon">🔍</div>
+          <h3>Kos Inspection Report</h3>
+          <p>Kami datang ke kos pilihanmu, rekam video real, dan kirim laporan lengkap dalam 24 jam.</p>
+          <ul class="service-features">
+            <li>Speed test WiFi + screenshot hasil</li>
+            <li>Cek sinyal (Telkomsel/XL/Smartfren)</li>
+            <li>Kualitas & tekanan air, cek kebocoran</li>
+            <li>Foto & video kondisi kamar real (tanpa filter)</li>
+            <li>Kondisi keamanan & lingkungan sekitar</li>
+            <li>Laporan PDF siap print</li>
+          </ul>
+          <div class="service-price">
+            <div>
+              <div class="price-amount">Rp 150.000</div>
+              <div class="price-note">per 1 lokasi kos</div>
+            </div>
+            <a href="#pesan" class="btn-primary" style="font-size:0.85rem; padding: 0.55rem 1.1rem;">Pesan →</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-badge" style="background: rgba(251,191,36,0.1); border-color: rgba(251,191,36,0.2); color: var(--gold);">⭐ Terlaris</div>
+          <div class="service-icon">🎒</div>
+          <h3>Soft-Landing Starter Kit</h3>
+          <p>Kamarmu sudah siap sebelum kamu landing. Kami belikan dan antar semua kebutuhan awal ke kos.</p>
+          <ul class="service-features">
+            <li>Galon air minum + pompa / dispenser</li>
+            <li>Token listrik awal</li>
+            <li>Perlengkapan kebersihan dasar</li>
+            <li>Sabun cuci, cairan pel, pengharum ruangan</li>
+            <li>Opsional: Antar jemput dari Bandara</li>
+          </ul>
+          <div class="service-price">
+            <div>
+              <div class="price-amount">Rp 200.000</div>
+              <div class="price-note">jasa saja, belum harga barang</div>
+            </div>
+            <a href="#pesan" class="btn-primary" style="font-size:0.85rem; padding: 0.55rem 1.1rem;">Pesan →</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-badge" style="background: rgba(129,140,248,0.1); border-color: rgba(129,140,248,0.2); color: var(--accent2);">Paket Kombo</div>
+          <div class="service-icon">🏠</div>
+          <h3>Full Settle-In Package</h3>
+          <p>Inspeksi kos + persiapan kamar + jemput bandara. Tinggal landing, langsung nyaman.</p>
+          <ul class="service-features">
+            <li>Inspeksi hingga 2 lokasi kos</li>
+            <li>Full Starter Kit (galon, listrik, kebersihan)</li>
+            <li>Jemput dari Bandara Ngurah Rai</li>
+            <li>Laporan PDF + Video rekaman</li>
+            <li>Konsultasi WA 3 hari pasca huni</li>
+          </ul>
+          <div class="service-price">
+            <div>
+              <div class="price-amount">Rp 450.000</div>
+              <div class="price-note">paket terlengkap, belum harga barang</div>
+            </div>
+            <a href="#pesan" class="btn-primary" style="font-size:0.85rem; padding: 0.55rem 1.1rem;">Pesan →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="cara-kerja">
+    <div class="container">
+      <div class="section-tag">Prosesnya Mudah</div>
+      <h2 class="section-title">Cara kerja CekKosBali</h2>
+      <p class="section-sub">Dari order hingga laporan, semuanya bisa dilakukan dari kotamu sekarang.</p>
+      <div class="steps" style="max-width: 600px;">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Isi Form Pemesanan</h3>
+            <p>Pilih layanan, masukkan link kos yang kamu temukan, dan isi data dirimu. Tidak perlu daftar akun.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Chat Konfirmasi via WhatsApp</h3>
+            <p>Tim kami akan konfirmasi detail pesanan dan kirim link pembayaran QRIS / transfer bank dalam 15 menit.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Bayar & Kami Berangkat</h3>
+            <p>Setelah pembayaran, kami jadwalkan kunjungan ke lokasi kos. Biasanya dalam 1x24 jam.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h3>Terima Laporan Lengkap</h3>
+            <p>Kamu menerima video real, foto, dan PDF laporan lengkap via WhatsApp. Keputusan ada di tanganmu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section>
+    <div class="container">
+      <div class="section-tag">Kata Mereka</div>
+      <h2 class="section-title">Sudah bantu perantau dari berbagai kota</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai CekKosBali dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div class="author-info"><div class="name">Ayu R.</div><div class="from">Jakarta Selatan → Canggu, Bali</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Starter kit-nya worth banget. Pas aku landing malem-malem, kamar udah ada galon, ada listrik, ada sabun. Langsung bisa tidur tanpa beli-beli dulu."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div class="author-info"><div class="name">Rian M.</div><div class="from">Surabaya → Jimbaran, Bali</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari CekKosBali detail dan jujur banget, termasuk screenshot speed test-nya."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">D</div>
+            <div class="author-info"><div class="name">Dito S.</div><div class="from">Bandung → Denpasar, Bali</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-tag">Pertanyaan Umum</div>
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Apakah kalian membantu mencarikan kos?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">Tidak. Kami bukan agen kos dan bukan calo. Kamu yang mencari opsi kos sendiri (lewat Mamikos, Facebook Group, atau rekomendasi teman). Tugas kami adalah datang ke lokasi dan memverifikasi kondisi aslinya secara jujur.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Berapa lama laporan dikirim setelah pesan?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">Kami menargetkan pengiriman laporan maksimal 1x24 jam setelah pembayaran diterima. Untuk area Denpasar Selatan, Kuta, Seminyak, dan Canggu, biasanya bisa lebih cepat (3-6 jam).</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Area mana saja yang sudah bisa dicek?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">Saat ini kami beroperasi di area Denpasar, Kuta, Legian, Seminyak, Canggu, Jimbaran, dan Nusa Dua. Untuk area di luar itu (Ubud, Sanur, dll), silakan tanyakan terlebih dahulu via WhatsApp.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Bagaimana cara pembayarannya?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">Pembayaran dilakukan via QRIS, GoPay, atau transfer bank setelah kamu mendapatkan konfirmasi dari tim kami via WhatsApp. Tidak ada biaya tersembunyi.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Bagaimana jika lokasi kos ternyata sudah terisi?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">Jika kos sudah penuh saat kami tiba, kami akan konfirmasi ke kamu terlebih dahulu. Kamu bisa memilih untuk mengganti lokasi inspeksi lain, atau kami kembalikan pembayaran sepenuhnya.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER CTA -->
+  <div id="pesan">
+    <div class="cta-section">
+      <h2>Siap Pindah ke Bali dengan <span style="background: linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Tenang?</span></h2>
+      <p>Isi form di bawah ini dan tim kami akan menghubungi kamu via WhatsApp dalam 15 menit. Gratis konsultasi!</p>
+
+      <div class="order-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nama">Nama Kamu</label>
+            <input type="text" id="nama" placeholder="contoh: Budi Santoso" />
+          </div>
+          <div class="form-group">
+            <label for="wa">No. WhatsApp</label>
+            <input type="tel" id="wa" placeholder="0812xxxxxxxx" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="kota">Kota Asal Kamu</label>
+          <input type="text" id="kota" placeholder="contoh: Jakarta, Bandung, Surabaya..." />
+        </div>
+        <div class="form-group">
+          <label for="layanan">Layanan yang Kamu Inginkan</label>
+          <select id="layanan">
+            <option value="">Pilih layanan...</option>
+            <option value="inspeksi">🔍 Kos Inspection Report — Rp 150.000/kos</option>
+            <option value="starter">🎒 Soft-Landing Starter Kit — Rp 200.000 (jasa)</option>
+            <option value="kombo">🏠 Full Settle-In Package — Rp 450.000</option>
+            <option value="tanya">💬 Konsultasi Gratis Dulu</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="link-kos">Link Kos yang Mau Dicek</label>
+          <textarea id="link-kos" placeholder="Tempel link kos dari Mamikos / OLX / Facebook / lainnya di sini. Maksimal 3 link sekaligus."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="tanggal">Rencana Pindah ke Bali</label>
+          <input type="month" id="tanggal" />
+        </div>
+        <button class="submit-btn" onclick="kirimWA()">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Chat via WhatsApp Sekarang
+        </button>
+        <p class="form-note">📱 Data kamu aman. Kami hanya menggunakan informasi ini untuk menghubungi kamu terkait pesanan.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 <strong>CekKosBali</strong> — Jasa Inspeksi Kos Independen di Bali</p>
+    <p style="margin-top:0.5rem;">Bukan agen, bukan calo. Jujur, transparan, dan berpihak pada perantau. 🌴</p>
+  </footer>
+
+  <!-- Floating WA -->
+  <a href="https://wa.me/6281234567890?text=Halo%20CekKosBali%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos" 
+     class="wa-float" target="_blank" title="Chat WhatsApp">💬</a>
+
+  <script>
+    // FAQ Toggle
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // Send to WhatsApp
+    function kirimWA() {
+      const nama = document.getElementById('nama').value.trim();
+      const wa = document.getElementById('wa').value.trim();
+      const kota = document.getElementById('kota').value.trim();
+      const layanan = document.getElementById('layanan').options[document.getElementById('layanan').selectedIndex].text;
+      const linkKos = document.getElementById('link-kos').value.trim();
+      const tanggal = document.getElementById('tanggal').value;
+
+      if (!nama || !wa) {
+        alert('Mohon isi minimal nama dan nomor WhatsApp kamu ya 🙏');
+        return;
+      }
+
+      const pesan = `Halo CekKosBali! 👋
+
+*Nama:* ${nama || '-'}
+*No. WA:* ${wa || '-'}
+*Kota Asal:* ${kota || '-'}
+*Layanan:* ${layanan || '-'}
+*Rencana Pindah:* ${tanggal || '-'}
+
+*Link Kos yang Mau Dicek:*
+${linkKos || '(belum diisi, mau tanya dulu)'}
+
+Saya ingin tahu lebih lanjut tentang layanan CekKosBali 🙏`;
+
+      const encoded = encodeURIComponent(pesan);
+      // Ganti nomor ini dengan nomor WA bisnis Anda
+      window.open(`https://wa.me/6281234567890?text=${encoded}`, '_blank');
+    }
+
+    // Scroll animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.problem-card, .service-card, .step, .testimonial-card, .faq-item').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
