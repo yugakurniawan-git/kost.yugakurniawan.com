@@ -92,7 +92,7 @@ export default function Home() {
               { e: '🤝', t: 'Harga Sudah Naik Tapi Tidak Diupdate', d: 'Listing menampilkan harga lama. Begitu kamu datang, harga sudah naik 30% dan kamu tidak punya pilihan lain.' },
               { e: '📍', t: 'Lokasi Tidak Sesuai Ekspektasi', d: '"Dekat pantai" ternyata 30 menit jalan kaki. Lingkungan sekitar bising atau banjir saat musim hujan.' },
               { e: '💧', t: 'Air Mati / Kecil / Bau', d: 'Kualitas air di Kota Tujuanmu sangat bervariasi. Ada yang air sumur, ada PAM. Detail ini tidak pernah ditulis di listing kos.' },
-              { e: '😤', t: 'Terlanjur Bayar, Baru Menyesal', d: 'Karena pemilik kos minta DP dulu lewat transfer, banyak yang terpaksa bayar penuh sebelum melihat kondisi aslinya.' },
+              { e: '😤', t: 'Terlanjur Bayar, Baru Menyesal', d: 'Karena pemilik kos minta DP dulu lewat transfer, banyak yang terpaksa bayar penuh sebelum melihat kondisi aslinya. Ternyata penipuan, alamat tidak ada, atau kondisi jauh dari foto.' },
             ].map((p, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-6 transition-all hover:border-red-400/30 hover:bg-red-400/5 hover:-translate-y-1">
                 <div className="text-3xl mb-3">{p.e}</div>
