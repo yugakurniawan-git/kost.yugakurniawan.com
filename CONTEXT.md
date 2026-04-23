@@ -21,7 +21,7 @@ namun tidak berani DP kos langsung karena foto/info di internet tidak bisa diper
   - Foto lingkungan sekitar (keamanan, akses motor, dll)
 - Hasil dikirim dalam 24 jam (PDF Report + Video)
 
-### 2. Soft-Landing Starter Kit (Upsell) - Rp 150.000 - 300.000 (jasa, belum termasuk harga barang)
+### 2. Soft-Landing Starter Kit (Upsell) - Rp 200.000 (jasa, belum termasuk harga barang)
 - Pembelian & pengantaran galon air + pompa
 - Token listrik awal
 - Perlengkapan kebersihan dasar (sapu, pel, sabun)

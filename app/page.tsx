@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
+const WA_NUMBER = "6289506585454"
+
 export default function Home() {
   const [faqOpen, setFaqOpen] = useState<number | null>(null)
   const [formData, setFormData] = useState({
@@ -23,7 +25,7 @@ export default function Home() {
     const pesan = `Halo Bantu Kos! 👋\n\n*Nama:* ${formData.nama || '-'}\n*No. WA:* ${formData.wa || '-'}\n*Kota Asal:* ${formData.kota || '-'}\n*Layanan:* ${formData.layanan || '-'}\n*Rencana Pindah:* ${formData.tanggal || '-'}\n\n*Link Kos yang Mau Dicek:*\n${formData.linkKos || '(belum diisi, mau tanya dulu)'}\n\nSaya ingin tahu lebih lanjut tentang layanan Bantu Kos 🙏`
 
     const encoded = encodeURIComponent(pesan)
-    window.open(`https://wa.me/6289506585454?text=${encoded}`, '_blank')
+    window.open(`https://wa.me/${WA_NUMBER}?text=${encoded}`, '_blank')
   }
 
   return (
@@ -36,6 +38,7 @@ export default function Home() {
         </div>
         <ul className="hidden sm:flex gap-8 list-none m-0">
           <li><Link href="#layanan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Layanan</Link></li>
+          <li><Link href="#contoh-laporan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Contoh Laporan</Link></li>
           <li><Link href="#cara-kerja" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Cara Kerja</Link></li>
           <li><Link href="#faq" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">FAQ</Link></li>
         </ul>
@@ -49,7 +52,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-8 pt-32 pb-16">
         <div className="animate-fade-up inline-flex items-center gap-2 bg-sky-400/10 border border-sky-400/25 rounded-full px-4 py-1.5 text-xs font-semibold text-sky-400 mb-6">
-          <span className="w-1.5 h-1.5 bg-sky-400 rounded-full animate-pulse-custom"></span>Jasa Inspeksi Kos Independen di Kota Tujuanmu
+          <span className="w-1.5 h-1.5 bg-sky-400 rounded-full animate-pulse-custom"></span>Jasa Inspeksi Kos Independen #1 di Bali — 30+ Kos Sudah Diverifikasi
         </div>
         <h1 className="animate-fade-up animate-delay-100 text-[clamp(2.4rem,6vw,4rem)] font-extrabold leading-tight tracking-tight max-w-4xl">
           Jangan <span className="text-gradient">DP Kos</span> Sebelum Kami Cek Kondisi Aslinya
@@ -186,6 +189,93 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CONTOH LAPORAN */}
+      <section id="contoh-laporan" className="relative z-10 py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-xs font-bold tracking-[1.5px] uppercase text-sky-400 mb-3">Transparansi Kami</div>
+          <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Ini yang kamu dapat dari kami</h2>
+          <p className="text-slate-400 max-w-2xl mb-12">Sebelum memutuskan, lihat dulu seperti apa laporan inspeksi asli dari Bantu Kos.</p>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+
+            {/* Kiri - Preview Laporan */}
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-8 hover:border-sky-400/30 transition-all">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 to-indigo-400 flex items-center justify-center text-[#0a0f1a] font-extrabold">📋</div>
+                <div>
+                  <div className="font-bold text-sm">Laporan Inspeksi Kos</div>
+                  <div className="text-xs text-slate-400">Contoh hasil nyata dari tim kami</div>
+                </div>
+                <div className="ml-auto bg-emerald-400/10 border border-emerald-400/20 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full">✓ Terverifikasi</div>
+              </div>
+
+              <div className="flex flex-col gap-3">
+                {[
+                  { label: '📶 Kecepatan WiFi', value: '47.2 Mbps Download / 23.8 Mbps Upload', status: 'good' },
+                  { label: '📡 Sinyal Telkomsel', value: '4G — Kuat (4 bar)', status: 'good' },
+                  { label: '💧 Kualitas Air', value: 'Jernih, tidak bau, tekanan cukup', status: 'good' },
+                  { label: '🔒 Keamanan', value: 'Ada CCTV & pagar, akses dengan kunci', status: 'good' },
+                  { label: '📍 Jarak ke Minimarket', value: '±200m jalan kaki', status: 'good' },
+                  { label: '⚠️ Catatan Tim', value: 'Ventilasi kamar kurang, disarankan bawa kipas angin', status: 'warn' },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start justify-between gap-4 bg-white/5 rounded-xl px-4 py-3">
+                    <span className="text-sm text-slate-400 shrink-0">{item.label}</span>
+                    <span className={`text-sm font-medium text-right ${item.status === 'warn' ? 'text-amber-400' : 'text-slate-200'}`}>{item.value}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-6 pt-5 border-t border-white/10">
+                <div className="text-xs text-slate-400 mb-3 font-semibold uppercase tracking-wide">Foto & Video Terlampir</div>
+                <div className="grid grid-cols-3 gap-2">
+                  {['🛏️ Kamar', '🚿 Kamar Mandi', '📶 Speed Test', '🌳 Lingkungan', '🚪 Akses Masuk', '💡 Listrik'].map((label, i) => (
+                    <div key={i} className="bg-white/5 border border-white/10 rounded-lg aspect-square flex flex-col items-center justify-center gap-1 text-center">
+                      <span className="text-xl">{label.split(' ')[0]}</span>
+                      <span className="text-[10px] text-slate-400">{label.split(' ').slice(1).join(' ')}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Kanan - Penjelasan poin-poin */}
+            <div className="flex flex-col gap-5">
+              {[
+                {
+                  icon: '📹',
+                  title: 'Video Real Tanpa Edit',
+                  desc: 'Kami rekam video walk-through seluruh kamar, kamar mandi, dapur (jika ada), dan lingkungan sekitar. Tidak ada filter, tidak ada re-take yang disiapkan.',
+                },
+                {
+                  icon: '📊',
+                  title: 'Data Teknis yang Jujur',
+                  desc: 'Speed test WiFi dengan screenshot langsung dari aplikasi, cek sinyal operator, tekanan dan kejernihan air — semua angka nyata, bukan klaim pemilik kos.',
+                },
+                {
+                  icon: '📝',
+                  title: 'Catatan Jujur dari Tim',
+                  desc: 'Kalau ada kekurangan, kami tulis apa adanya. Ventilasi buruk, suara bising, atau jarak yang tidak sesuai iklan — semua akan kami catat di bagian "Catatan Tim".',
+                },
+                {
+                  icon: '⚡',
+                  title: 'Dikirim dalam 24 Jam',
+                  desc: 'Laporan PDF + video dikirim via WhatsApp. Kamu bisa review dari kota asal sebelum memutuskan bayar DP ke pemilik kos.',
+                },
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4 bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-sky-400/30 transition-all hover:-translate-y-0.5">
+                  <div className="text-2xl shrink-0 mt-0.5">{item.icon}</div>
+                  <div>
+                    <div className="font-bold mb-1">{item.title}</div>
+                    <p className="text-sm text-slate-400 leading-relaxed">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* HOW IT WORKS */}
       <section id="cara-kerja" className="relative z-10 py-20 px-8">
         <div className="max-w-6xl mx-auto">
@@ -222,9 +312,9 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { s: '★★★★★', t: '"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai Bantu Kos dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."', name: 'Ayu R.', f: 'Jakarta Selatan → Jakarta', a: 'A' },
-              { s: '★★★★★', t: '"Starter kit-nya worth banget. Pas aku landing malem-malem, kamar udah ada galon, ada listrik, ada sabun. Langsung bisa tidur tanpa beli-beli dulu."', name: 'Rian M.', f: 'Surabaya → Surabaya', a: 'R' },
-              { s: '★★★★★', t: '"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari Bantu Kos detail dan jujur banget, termasuk screenshot speed test-nya."', name: 'Dito S.', f: 'Bandung → Bandung', a: 'D' }
+              { s: '★★★★★', t: '"Seriusan ini sangat membantu. Aku hampir DP kos yang fotonya bagus banget, untung pakai Bantu Kos dulu. Ternyata kamarnya gelap, WiFi-nya 3 Mbps doang."', name: 'Ayu R.', f: 'Jakarta → Bali', a: 'A' },
+              { s: '★★★★★', t: '"Starter kit-nya worth banget. Pas aku landing malem-malem, kamar udah ada galon, ada listrik, ada sabun. Langsung bisa tidur tanpa beli-beli dulu."', name: 'Rian M.', f: 'Surabaya → Bali', a: 'R' },
+              { s: '★★★★★', t: '"Sebagai seorang developer yang kerja remote dari Bali, cek kecepatan WiFi itu krusial banget. Laporan dari Bantu Kos detail dan jujur banget, termasuk screenshot speed test-nya."', name: 'Dito S.', f: 'Bandung → Bali', a: 'D' }
             ].map((t, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:-translate-y-1 transition-all hover:border-sky-400/30">
                 <div className="text-amber-400 text-sm tracking-[2px] mb-3">{t.s}</div>
@@ -254,7 +344,7 @@ export default function Home() {
               { q: 'Berapa lama laporan dikirim setelah pesan?', a: 'Kami menargetkan pengiriman laporan maksimal 1x24 jam setelah pembayaran diterima. Untuk area Denpasar Selatan, Kuta, Seminyak, dan Canggu, biasanya bisa lebih cepat (3-6 jam).' },
               { q: 'Area mana saja yang sudah bisa dicek?', a: 'Saat ini kami beroperasi di area Denpasar, Kuta, Legian, Seminyak, Canggu, Jimbaran, dan Nusa Dua. Untuk area di luar itu (Ubud, Sanur, dll), silakan tanyakan terlebih dahulu via WhatsApp.' },
               { q: 'Bagaimana cara pembayarannya?', a: 'Pembayaran dilakukan via QRIS, GoPay, atau transfer bank setelah kamu mendapatkan konfirmasi dari tim kami via WhatsApp. Tidak ada biaya tersembunyi.' },
-              { q: 'Bagaimana jika lokasi kos ternyata sudah terisi?', a: 'Jika kos sudah penuh saat kami tiba, kami akan konfirmasi ke kamu terlebih dahulu. Kamu bisa memilih untuk mengganti lokasi inspeksi lain, atau kami kembalikan biaya 50% (sebagai pengganti ongkos transportasi dan waktu tim kami).' }
+              { q: 'Bagaimana jika lokasi kos ternyata sudah terisi?', a: 'Jika kos sudah penuh saat kami tiba, kami akan segera konfirmasi ke kamu. Kamu bisa memilih untuk mengganti ke lokasi kos lain, atau kami kembalikan biaya secara penuh (100%). Ini bukan salahmu, jadi tidak ada potongan apapun.' }
             ].map((f, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-sky-400/40 transition-colors">
                 <button 
@@ -350,7 +440,7 @@ export default function Home() {
       </footer>
       
       {/* FLOATING WA BUTTON */}
-      <a href="https://wa.me/6289506585454?text=Halo%20Bantu%20Kos%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos" 
+      <a href={`https://wa.me/${WA_NUMBER}?text=Halo%20Bantu%20Kos%2C%20saya%20mau%20tanya%20tentang%20layanan%20inspeksi%20kos`} 
          className="fixed bottom-8 right-8 z-50 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-[0_4px_20px_rgba(16,185,129,0.4)] hover:scale-110 hover:shadow-[0_6px_30px_rgba(16,185,129,0.6)] transition-all animate-fade-up"
          target="_blank" title="Chat WhatsApp">
          💬
