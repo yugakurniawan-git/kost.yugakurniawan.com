@@ -13,6 +13,11 @@ Thumbs.db
 *.swp
 *.swo
 
+# Next.js build output
+.next/
+out/
+
 # Logs
 *.log
 npm-debug.log*
+.gitnexus

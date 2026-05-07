@@ -1,0 +1,222 @@
+[
+  {
+    "id": 64,
+    "location": "Denpasar",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-04-27"
+  },
+  {
+    "id": 63,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-04-27"
+  },
+  {
+    "id": 62,
+    "location": "Pemogan",
+    "price": "Rp 1.6jt/bln",
+    "type": "Putri",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-04-27"
+  },
+  {
+    "id": 54,
+    "location": "Bali",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-04-27"
+  },
+  {
+    "id": 50,
+    "location": "Denpasar",
+    "price": "Rp 180rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-04-27"
+  },
+  {
+    "id": 49,
+    "location": "Bali",
+    "price": "Rp 2.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-04-27"
+  },
+  {
+    "id": 45,
+    "location": "Jimbaran",
+    "price": "Rp 4.5jt/bln",
+    "type": "Kontrakan",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-04-26"
+  },
+  {
+    "id": 33,
+    "location": "Kuta",
+    "price": "Rp 3.000.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 32,
+    "location": "Denpasar",
+    "price": "Rp 2.900.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 31,
+    "location": "Kuta",
+    "price": "Rp 1.850.000/bln",
+    "type": "Putri",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 30,
+    "location": "Kuta",
+    "price": "Rp 2.800.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 29,
+    "location": "Denpasar",
+    "price": "Rp 2.500.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 28,
+    "location": "Kuta",
+    "price": "Rp 2.300.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 27,
+    "location": "Kuta",
+    "price": "Rp 2.250.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 26,
+    "location": "Mengwi",
+    "price": "Rp 3.000.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 25,
+    "location": "Denpasar",
+    "price": "Rp 3.000.000/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 24,
+    "location": "Denpasar",
+    "price": "Rp 3.500.000/bln",
+    "type": "Studio",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  },
+  {
+    "id": 23,
+    "location": "Denpasar",
+    "price": "Rp 650rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "mamikos",
+    "posted_at": "2026-04-23"
+  }
+]

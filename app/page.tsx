@@ -40,6 +40,7 @@ export default function Home() {
           <li><Link href="#layanan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Layanan</Link></li>
           <li><Link href="#contoh-laporan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Contoh Laporan</Link></li>
           <li><Link href="#cara-kerja" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Cara Kerja</Link></li>
+          <li><Link href="/listings" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Kos Tersedia</Link></li>
           <li><Link href="#faq" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">FAQ</Link></li>
         </ul>
         <Link href="#pesan">
