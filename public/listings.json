@@ -8,7 +8,8 @@
       "Kasur"
     ],
     "source": "facebook",
-    "posted_at": "2026-05-05"
+    "posted_at": "2026-05-05",
+    "image_url": ""
   },
   {
     "id": 416,
@@ -21,7 +22,8 @@
       "Kulkas"
     ],
     "source": "facebook",
-    "posted_at": "2026-05-01"
+    "posted_at": "2026-05-01",
+    "image_url": ""
   },
   {
     "id": 259,
@@ -36,7 +38,8 @@
       "Kasur"
     ],
     "source": "facebook",
-    "posted_at": "2026-04-30"
+    "posted_at": "2026-04-30",
+    "image_url": ""
   },
   {
     "id": 229,
@@ -48,7 +51,8 @@
       "Dapur"
     ],
     "source": "facebook",
-    "posted_at": "2026-04-30"
+    "posted_at": "2026-04-30",
+    "image_url": ""
   },
   {
     "id": 144,
@@ -63,7 +67,8 @@
       "Kasur"
     ],
     "source": "facebook",
-    "posted_at": "2026-04-29"
+    "posted_at": "2026-04-29",
+    "image_url": ""
   },
   {
     "id": 98,
@@ -74,6 +79,7 @@
       "AC"
     ],
     "source": "facebook",
-    "posted_at": "2026-04-28"
+    "posted_at": "2026-04-28",
+    "image_url": ""
   }
 ]
