@@ -56,10 +56,10 @@ export default function Home() {
           <span className="w-1.5 h-1.5 bg-sky-400 rounded-full animate-pulse-custom"></span>Jasa Inspeksi Kos Independen #1 di Bali — 30+ Kos Sudah Diverifikasi
         </div>
         <h1 className="animate-fade-up animate-delay-100 text-[clamp(2.4rem,6vw,4rem)] font-extrabold leading-tight tracking-tight max-w-4xl">
-          Jangan <span className="text-gradient">DP Kos</span> Sebelum Kami Cek Kondisi Aslinya
+          Cari <span className="text-gradient">Kos di Bali?</span> Jangan DP Sebelum Kami Cek Dulu
         </h1>
         <p className="animate-fade-up animate-delay-200 mt-5 text-lg text-slate-400 max-w-2xl">
-          Foto di internet bisa menipu. Kami datang langsung ke lokasi, rekam video real, tes WiFi, cek air, dan kirim laporan jujur ke kamu dalam 24 jam.
+          Foto kos di internet bisa menipu. Kami datang langsung ke lokasi, rekam video real, tes WiFi, cek air, dan kirim laporan jujur ke kamu dalam 24 jam.
         </p>
         <div className="animate-fade-up flex flex-wrap gap-4 mt-10 justify-center">
           <Link href="#pesan">
