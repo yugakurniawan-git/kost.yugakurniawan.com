@@ -14,6 +14,7 @@ interface Listing {
   facilities: string[]
   source: string
   posted_at: string
+  image_url: string
 }
 
 const TYPE_COLORS: Record<string, string> = {
@@ -159,52 +160,79 @@ function ListingCard({ listing, waNumber }: { listing: Listing; waNumber: string
   )
 
   return (
-    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col hover:border-sky-400/30 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(56,189,248,0.07)] transition-all">
-      {/* Type badge + Source */}
-      <div className="flex items-center justify-between mb-4">
-        <span className={`text-xs font-bold px-3 py-1 rounded-full border ${typeColor}`}>
-          {listing.type}
-        </span>
-        <span className="text-xs text-slate-500">
-          {listing.source === 'mamikos' ? '📋 Mamikos' : '👥 Facebook'}
-        </span>
-      </div>
-
-      {/* Location */}
-      <div className="flex items-center gap-2 mb-2">
-        <span className="text-slate-400 text-sm">📍</span>
-        <span className="font-semibold text-base">{listing.location}</span>
-      </div>
-
-      {/* Price */}
-      <div className="text-sky-400 font-extrabold text-xl mb-4">{listing.price}</div>
-
-      {/* Facilities */}
-      {listing.facilities.length > 0 ? (
-        <div className="flex flex-wrap gap-1.5 mb-5">
-          {listing.facilities.map(f => (
-            <span key={f} className="text-xs bg-white/5 border border-white/10 rounded-lg px-2.5 py-1 text-slate-400">
-              {f}
-            </span>
-          ))}
+    <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden flex flex-col hover:border-sky-400/30 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(56,189,248,0.07)] transition-all">
+      {/* Photo */}
+      {listing.image_url ? (
+        <div className="relative w-full h-44 bg-white/5 overflow-hidden">
+          <img
+            src={listing.image_url}
+            alt={`Kos di ${listing.location}`}
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#080c14]/60 to-transparent" />
+          <span className={`absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full border backdrop-blur-sm ${typeColor}`}>
+            {listing.type}
+          </span>
+          <span className="absolute top-3 right-3 text-xs text-slate-300 bg-black/40 backdrop-blur-sm px-2 py-1 rounded-lg">
+            {listing.source === 'mamikos' ? '📋 Mamikos' : '👥 Facebook'}
+          </span>
         </div>
       ) : (
-        <div className="mb-5 text-xs text-slate-500">Fasilitas: hubungi pemilik</div>
+        <div className="w-full h-32 bg-white/[0.03] flex flex-col items-center justify-center gap-1 border-b border-white/10">
+          <span className="text-3xl">🏠</span>
+          <span className="text-xs text-slate-500">Foto belum tersedia</span>
+        </div>
       )}
 
-      {/* Actions */}
-      <div className="mt-auto flex gap-2">
-        <a
-          href={`https://wa.me/${waNumber}?text=${waText}`}
-          target="_blank"
-          className="flex-1 bg-gradient-to-r from-sky-400 to-indigo-400 text-[#0a0f1a] font-bold rounded-xl py-2.5 text-sm text-center hover:opacity-90 transition-opacity"
-        >
-          Minta Dicek →
-        </a>
-      </div>
+      <div className="p-5 flex flex-col flex-1">
+        {/* Badge row when no image */}
+        {!listing.image_url && (
+          <div className="flex items-center justify-between mb-3">
+            <span className={`text-xs font-bold px-3 py-1 rounded-full border ${typeColor}`}>
+              {listing.type}
+            </span>
+            <span className="text-xs text-slate-500">
+              {listing.source === 'mamikos' ? '📋 Mamikos' : '👥 Facebook'}
+            </span>
+          </div>
+        )}
 
-      {/* Date */}
-      <div className="text-xs text-slate-600 mt-3 text-right">{listing.posted_at}</div>
+        {/* Location */}
+        <div className="flex items-center gap-2 mb-1">
+          <span className="text-slate-400 text-sm">📍</span>
+          <span className="font-semibold text-base">{listing.location}</span>
+        </div>
+
+        {/* Price */}
+        <div className="text-sky-400 font-extrabold text-xl mb-4">{listing.price}</div>
+
+        {/* Facilities */}
+        {listing.facilities.length > 0 ? (
+          <div className="flex flex-wrap gap-1.5 mb-5">
+            {listing.facilities.map(f => (
+              <span key={f} className="text-xs bg-white/5 border border-white/10 rounded-lg px-2.5 py-1 text-slate-400">
+                {f}
+              </span>
+            ))}
+          </div>
+        ) : (
+          <div className="mb-5 text-xs text-slate-500">Fasilitas: hubungi pemilik</div>
+        )}
+
+        {/* CTA */}
+        <div className="mt-auto flex gap-2">
+          <a
+            href={`https://wa.me/${waNumber}?text=${waText}`}
+            target="_blank"
+            className="flex-1 bg-gradient-to-r from-sky-400 to-indigo-400 text-[#0a0f1a] font-bold rounded-xl py-2.5 text-sm text-center hover:opacity-90 transition-opacity"
+          >
+            Minta Dicek →
+          </a>
+        </div>
+
+        <div className="text-xs text-slate-600 mt-3 text-right">{listing.posted_at}</div>
+      </div>
     </div>
   )
 }
