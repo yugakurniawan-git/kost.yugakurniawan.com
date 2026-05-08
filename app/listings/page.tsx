@@ -26,7 +26,12 @@ const TYPE_COLORS: Record<string, string> = {
   Kos: 'bg-sky-400/15 border-sky-400/30 text-sky-300',
 }
 
-const AREAS = ['Semua', 'Denpasar', 'Kuta', 'Seminyak', 'Canggu', 'Jimbaran', 'Ubud', 'Sanur', 'Sesetan', 'Pemogan', 'Mengwi']
+const AREAS = [
+  'Semua',
+  'Sesetan', 'Renon', 'Pemogan', 'Padangsambian', 'Monang-Maning', 'Peguyangan', 'Kesiman',
+  'Kerobokan', 'Canggu', 'Berawa', 'Seminyak', 'Legian', 'Kuta',
+  'Sanur', 'Jimbaran', 'Ubud', 'Mengwi', 'Denpasar',
+]
 
 export default function ListingsPage() {
   const [listings, setListings] = useState<Listing[]>([])
