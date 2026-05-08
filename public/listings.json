@@ -22,20 +22,6 @@
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778244534/bantukos/sno69wnpe8bhrbihgia8.jpg"
   },
   {
-    "id": 416,
-    "location": "Monang Maning",
-    "price": "Rp 200rb/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Kasur",
-      "Kulkas"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-01",
-    "image_url": ""
-  },
-  {
     "id": 259,
     "location": "Canggu",
     "price": "Rp 2.6jt/bln",
@@ -49,18 +35,6 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
-  },
-  {
-    "id": 98,
-    "location": "Renon",
-    "price": "Rp 200rb/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-04-28",
     "image_url": ""
   }
 ]
