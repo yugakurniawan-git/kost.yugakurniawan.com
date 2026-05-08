@@ -10,20 +10,8 @@
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778254590/bantukos/ewmu9kmfvrqbou02urwc.jpg"
   },
   {
-    "id": 885,
-    "location": "Denpasar",
-    "price": "Rp 1.2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778244579/bantukos/nvar2yghi4jli9kuwo5q.jpg"
-  },
-  {
     "id": 841,
-    "location": "Denpasar",
+    "location": "Gatsu",
     "price": "Rp 800rb/bln",
     "type": "Kos",
     "facilities": [
@@ -32,28 +20,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778244534/bantukos/sno69wnpe8bhrbihgia8.jpg"
-  },
-  {
-    "id": 776,
-    "location": "Bali",
-    "price": "Rp 2.2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778230885/bantukos/rs6a42jxtlnguaxpwreu.jpg"
-  },
-  {
-    "id": 706,
-    "location": "Denpasar",
-    "price": "Rp 750rb/bln",
-    "type": "Kos",
-    "facilities": [
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-05",
-    "image_url": ""
   },
   {
     "id": 416,
@@ -71,7 +37,7 @@
   },
   {
     "id": 259,
-    "location": "Denpasar",
+    "location": "Canggu",
     "price": "Rp 2.6jt/bln",
     "type": "Kos",
     "facilities": [
@@ -83,35 +49,6 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
-  },
-  {
-    "id": 229,
-    "location": "Bali",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-04-30",
-    "image_url": ""
-  },
-  {
-    "id": 144,
-    "location": "Bali",
-    "price": "Rp 1jt/bln",
-    "type": "Putri",
-    "facilities": [
-      "WiFi",
-      "KM Dalam",
-      "Parkir",
-      "Dapur",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-04-29",
     "image_url": ""
   },
   {
