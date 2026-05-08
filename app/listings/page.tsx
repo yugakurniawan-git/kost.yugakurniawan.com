@@ -156,7 +156,7 @@ export default function ListingsPage() {
 function ListingCard({ listing, waNumber }: { listing: Listing; waNumber: string }) {
   const typeColor = TYPE_COLORS[listing.type] || TYPE_COLORS.Kos
   const waText = encodeURIComponent(
-    `Halo Bantu Kos! 👋\n\nSaya lihat listing kos di *${listing.location}* harga *${listing.price}* di bantukos.com.\n\nBisa minta info lebih lengkap dan foto terbaru kondisi aslinya? Terima kasih 🙏`
+    `Halo Bantu Kos! 👋\n\nSaya lihat listing *#${listing.id}* di bantukos.com — kos di *${listing.location}* harga *${listing.price}*.\n\nBisa minta info lebih lengkap dan foto terbaru kondisi aslinya? Terima kasih 🙏`
   )
 
   return (
@@ -231,7 +231,10 @@ function ListingCard({ listing, waNumber }: { listing: Listing; waNumber: string
           </a>
         </div>
 
-        <div className="text-xs text-slate-600 mt-3 text-right">{listing.posted_at}</div>
+        <div className="text-xs text-slate-600 mt-3 flex justify-between">
+          <span>#{listing.id}</span>
+          <span>{listing.posted_at}</span>
+        </div>
       </div>
     </div>
   )
