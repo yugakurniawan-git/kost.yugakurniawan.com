@@ -50,7 +50,7 @@ export default function ListingsPage() {
     })
   }, [listings, search, area])
 
-  const waText = encodeURIComponent(`Halo Bantu Kos! 👋\n\nSaya tertarik dengan listing kos yang ada di bantukos.com. Bisa bantu cek kondisi aslinya?\n\nTerima kasih 🙏`)
+  const waText = encodeURIComponent(`Halo Bantu Kos! 👋\n\nSaya lihat listing kos di bantukos.com. Bisa minta info lebih lengkap, foto terbaru, dan kondisi aslinya?\n\nTerima kasih 🙏`)
 
   return (
     <main className="min-h-screen relative overflow-hidden text-slate-200">
@@ -133,11 +133,11 @@ export default function ListingsPage() {
           <div className="text-3xl mb-4">🔍</div>
           <h2 className="text-xl sm:text-2xl font-extrabold mb-3">Tertarik dengan salah satu listing?</h2>
           <p className="text-slate-400 max-w-md mx-auto mb-6 text-sm">
-            Jangan langsung DP. Kami bisa datang ke lokasi, cek kondisi aslinya, dan kirim laporan video dalam 24 jam — hanya Rp 150.000.
+            Info di listing masih terbatas? Chat kami dulu — kami bisa kasih foto terbaru, kondisi asli, dan jawab semua pertanyaanmu sebelum kamu memutuskan.
           </p>
           <a href={`https://wa.me/${WA_NUMBER}?text=${waText}`} target="_blank">
             <Button size="lg" className="bg-gradient-to-r from-sky-400 to-indigo-400 font-bold text-[#0a0f1a] rounded-xl px-8">
-              Minta Inspeksi via WhatsApp →
+              Tanya Info Lengkap via WhatsApp →
             </Button>
           </a>
         </div>
@@ -156,7 +156,7 @@ export default function ListingsPage() {
 function ListingCard({ listing, waNumber }: { listing: Listing; waNumber: string }) {
   const typeColor = TYPE_COLORS[listing.type] || TYPE_COLORS.Kos
   const waText = encodeURIComponent(
-    `Halo Bantu Kos! 👋\n\nSaya tertarik dengan listing kos di *${listing.location}* harga *${listing.price}*.\n\nBisa minta dicek kondisi aslinya? Terima kasih 🙏`
+    `Halo Bantu Kos! 👋\n\nSaya lihat listing kos di *${listing.location}* harga *${listing.price}* di bantukos.com.\n\nBisa minta info lebih lengkap dan foto terbaru kondisi aslinya? Terima kasih 🙏`
   )
 
   return (
@@ -227,7 +227,7 @@ function ListingCard({ listing, waNumber }: { listing: Listing; waNumber: string
             target="_blank"
             className="flex-1 bg-gradient-to-r from-sky-400 to-indigo-400 text-[#0a0f1a] font-bold rounded-xl py-2.5 text-sm text-center hover:opacity-90 transition-opacity"
           >
-            Minta Dicek →
+            Tanya Info Lengkap →
           </a>
         </div>
 
