@@ -1,5 +1,15 @@
 [
   {
+    "id": 776,
+    "location": "Bali",
+    "price": "Rp 2.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-08",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778230885/bantukos/rs6a42jxtlnguaxpwreu.jpg"
+  },
+  {
     "id": 706,
     "location": "Denpasar",
     "price": "Rp 750rb/bln",
