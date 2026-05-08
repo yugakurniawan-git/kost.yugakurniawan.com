@@ -78,7 +78,7 @@ const jsonLd = {
       name: 'Bantu Kos',
       description: 'Jasa inspeksi kos independen di Bali. Kami datang langsung ke lokasi, rekam video real, dan kirim laporan jujur sebelum kamu DP.',
       url: SITE_URL,
-      telephone: '+6289506585454',
+      telephone: '+6285190810100',
       priceRange: 'Rp 150.000 - Rp 450.000',
       image: `${SITE_URL}/og-image.jpg`,
       logo: `${SITE_URL}/icon.svg`,
@@ -111,7 +111,7 @@ const jsonLd = {
       sameAs: [
         'https://instagram.com/bantukos',
         'https://tiktok.com/@bantukos',
-        'https://wa.me/6289506585454',
+        'https://wa.me/6285190810100',
       ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',

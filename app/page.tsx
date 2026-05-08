@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
-const WA_NUMBER = "6289506585454"
+const WA_NUMBER = "6285190810100"
 
 export default function Home() {
   const [faqOpen, setFaqOpen] = useState<number | null>(null)

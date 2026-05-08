@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
-const WA_NUMBER = "6289506585454"
+const WA_NUMBER = "6285190810100"
 
 interface Listing {
   id: number
