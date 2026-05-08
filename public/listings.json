@@ -1,5 +1,29 @@
 [
   {
+    "id": 885,
+    "location": "Denpasar",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-08",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778244579/bantukos/nvar2yghi4jli9kuwo5q.jpg"
+  },
+  {
+    "id": 841,
+    "location": "Denpasar",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-08",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778244534/bantukos/sno69wnpe8bhrbihgia8.jpg"
+  },
+  {
     "id": 776,
     "location": "Bali",
     "price": "Rp 2.2jt/bln",
