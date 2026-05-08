@@ -1,5 +1,15 @@
 [
   {
+    "id": 910,
+    "location": "Panjer",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-08",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778254590/bantukos/ewmu9kmfvrqbou02urwc.jpg"
+  },
+  {
     "id": 885,
     "location": "Denpasar",
     "price": "Rp 1.2jt/bln",
@@ -106,7 +116,7 @@
   },
   {
     "id": 98,
-    "location": "Sanur",
+    "location": "Renon",
     "price": "Rp 200rb/bln",
     "type": "Kos",
     "facilities": [
