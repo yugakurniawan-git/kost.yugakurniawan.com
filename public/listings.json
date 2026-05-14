@@ -1,5 +1,67 @@
 [
   {
+    "id": 1306,
+    "location": "Panjer",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1304,
+    "location": "Sidakarya",
+    "price": "Rp 600rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1298,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1288,
+    "location": "Nusa Dua",
+    "price": "Rp 750rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762768/bantukos/vlv2xdv9owkf85q25gac.jpg"
+  },
+  {
+    "id": 1273,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1236,
+    "location": "Tegal Kertha",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762773/bantukos/ldloyc37xsgkinba5heo.jpg"
+  },
+  {
     "id": 1228,
     "location": "Renon",
     "price": "Rp 1.5jt/bln",
@@ -220,18 +282,6 @@
     "image_url": ""
   },
   {
-    "id": 1067,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
     "id": 1054,
     "location": "Renon",
     "price": "Rp 900rb/bln",
@@ -391,16 +441,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": ""
-  },
-  {
-    "id": 910,
-    "location": "Panjer",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778254590/bantukos/ewmu9kmfvrqbou02urwc.jpg"
   },
   {
     "id": 908,
@@ -872,22 +912,6 @@
     "image_url": ""
   },
   {
-    "id": 515,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Putri",
-    "facilities": [
-      "WiFi",
-      "Parkir",
-      "Dapur",
-      "Kasur",
-      "Kulkas"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-03",
-    "image_url": ""
-  },
-  {
     "id": 514,
     "location": "Mas",
     "price": "Rp 3.8jt/bln",
@@ -1274,7 +1298,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-28",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762802/bantukos/a9dvjburrjak0j7yixhz.jpg"
   },
   {
     "id": 73,
