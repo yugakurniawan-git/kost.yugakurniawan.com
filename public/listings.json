@@ -1,10 +1,34 @@
 [
   {
-    "id": 1513,
+    "id": 1539,
+    "location": "Kerobokan",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1533,
     "location": "Panjer",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1529,
+    "location": "Mas",
+    "price": "Rp 1.2jt/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "Parkir",
+      "Kasur"
+    ],
     "source": "facebook",
     "posted_at": "2026-05-14",
     "image_url": ""
@@ -896,22 +920,6 @@
     "image_url": ""
   },
   {
-    "id": 689,
-    "location": "Mas",
-    "price": "Rp 1.2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "KM Dalam",
-      "Parkir",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-05",
-    "image_url": ""
-  },
-  {
     "id": 674,
     "location": "Tonja",
     "price": "Rp 2jt/bln",
@@ -1381,16 +1389,6 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
-  },
-  {
-    "id": 170,
-    "location": "Kerobokan",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-04-29",
     "image_url": ""
   },
   {
