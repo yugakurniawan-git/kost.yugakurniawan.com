@@ -1,5 +1,17 @@
 [
   {
+    "id": 1623,
+    "location": "Pemogan",
+    "price": "Rp 1.9jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
     "id": 1539,
     "location": "Kerobokan",
     "price": "Rp 2jt/bln",
