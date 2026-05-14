@@ -1,5 +1,42 @@
 [
   {
+    "id": 1228,
+    "location": "Renon",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1204,
+    "location": "Sesetan",
+    "price": "Rp 1.4jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1177,
+    "location": "Pemogan",
+    "price": "Rp 3.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
     "id": 1172,
     "location": "Imam Bonjol",
     "price": "Rp 1jt/bln",
@@ -354,18 +391,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": ""
-  },
-  {
-    "id": 923,
-    "location": "Renon",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741681/bantukos/vzwees16zh9qxsoodp04.jpg"
   },
   {
     "id": 910,
@@ -1077,7 +1102,7 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778757804/bantukos/y5acokacjuz1mhnue1w1.jpg"
   },
   {
     "id": 253,
@@ -1103,7 +1128,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778757808/bantukos/evoqqnwr75vitu2xrxfn.jpg"
   },
   {
     "id": 234,
