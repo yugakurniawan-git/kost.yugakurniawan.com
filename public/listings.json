@@ -1,16 +1,187 @@
 [
   {
-    "id": 1028,
+    "id": 1140,
+    "location": "Kuta",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1133,
     "location": "Sesetan",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
-    "posted_at": "2026-05-08",
+    "posted_at": "2026-05-14",
     "image_url": ""
   },
   {
-    "id": 1019,
+    "id": 1114,
+    "location": "Imam Bonjol",
+    "price": "Rp 720rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1111,
+    "location": "Pemogan",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1110,
+    "location": "Nusa Dua",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748221/bantukos/v87lzakvav0albqiaakj.jpg"
+  },
+  {
+    "id": 1104,
+    "location": "Gatsu",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748225/bantukos/xglk1z9lqrmwpgueyooq.jpg"
+  },
+  {
+    "id": 1101,
+    "location": "Renon",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1088,
+    "location": "Sesetan",
+    "price": "Rp 2.1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748231/bantukos/rrrnrmjc8xo0otzpx1tv.jpg"
+  },
+  {
+    "id": 1083,
+    "location": "Pemogan",
+    "price": "Rp 650rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748232/bantukos/h33kijrlarlg6zfhqosr.jpg"
+  },
+  {
+    "id": 1081,
+    "location": "Mas",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748233/bantukos/ye4tucnlzb8bgxpiuhxz.jpg"
+  },
+  {
+    "id": 1077,
+    "location": "Dalung",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1071,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1067,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1054,
+    "location": "Renon",
+    "price": "Rp 900rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1048,
+    "location": "Kesiman",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1036,
+    "location": "Canggu",
+    "price": "Rp 1.7jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-08",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748242/bantukos/eifgktfj4lzjo7s3gfsj.jpg"
+  },
+  {
+    "id": 1035,
     "location": "Gatsu",
     "price": "Rp 2.6jt/bln",
     "type": "Kos",
@@ -22,11 +193,13 @@
     "image_url": ""
   },
   {
-    "id": 1018,
-    "location": "Pemogan",
+    "id": 1034,
+    "location": "Renon",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [
+      "WiFi",
+      "KM Dalam",
       "Dapur"
     ],
     "source": "facebook",
@@ -265,34 +438,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741700/bantukos/olf0i0puq7fy36h3eain.jpg"
-  },
-  {
-    "id": 835,
-    "location": "Renon",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
-  },
-  {
-    "id": 829,
-    "location": "Sesetan",
-    "price": "Rp 2.1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Parkir",
-      "Dapur",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
   },
   {
     "id": 818,
@@ -541,7 +686,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748249/bantukos/udjqgttwqpy6hek8trjy.jpg"
   },
   {
     "id": 605,
@@ -737,16 +882,6 @@
     "image_url": ""
   },
   {
-    "id": 436,
-    "location": "Pemogan",
-    "price": "Rp 650rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-01",
-    "image_url": ""
-  },
-  {
     "id": 431,
     "location": "Gatsu",
     "price": "Rp 1jt/bln",
@@ -828,22 +963,6 @@
       "KM Dalam",
       "Furnished",
       "Parkir"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-01",
-    "image_url": ""
-  },
-  {
-    "id": 373,
-    "location": "Kuta",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "KM Dalam",
-      "Dapur",
-      "Kasur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-01",
