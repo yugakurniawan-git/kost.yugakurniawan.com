@@ -1,5 +1,55 @@
 [
   {
+    "id": 1172,
+    "location": "Imam Bonjol",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1170,
+    "location": "Pedungan",
+    "price": "Rp 910rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751889/bantukos/xz6y3e9ex5daywgdmf5o.jpg"
+  },
+  {
+    "id": 1148,
+    "location": "Pemogan",
+    "price": "Rp 3.3jt/bln",
+    "type": "Kontrakan",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1143,
+    "location": "Panjer",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1144,
+    "location": "Sanur",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
     "id": 1140,
     "location": "Kuta",
     "price": "Rp 2jt/bln",
@@ -702,7 +752,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751894/bantukos/n3p8peav553zart7bjak.jpg"
   },
   {
     "id": 582,
@@ -750,7 +800,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-03",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751903/bantukos/ssjpvhelelhfh7dojki6.jpg"
   },
   {
     "id": 542,
@@ -772,16 +822,6 @@
       "Parkir",
       "Dapur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-03",
-    "image_url": ""
-  },
-  {
-    "id": 535,
-    "location": "Imam Bonjol",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-03",
     "image_url": ""
@@ -832,7 +872,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-03",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751914/bantukos/jk8ifosfgaxdrpgqq3ly.jpg"
   },
   {
     "id": 489,
