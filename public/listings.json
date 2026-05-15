@@ -1,5 +1,35 @@
 [
   {
+    "id": 1715,
+    "location": "Sidakarya",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 1685,
+    "location": "Panjer",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 1682,
+    "location": "Ubud",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
     "id": 1664,
     "location": "Sidakarya",
     "price": "Rp 600rb/bln",
@@ -63,16 +93,6 @@
     "id": 1539,
     "location": "Kerobokan",
     "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1533,
-    "location": "Panjer",
-    "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -988,18 +1008,6 @@
     "source": "facebook",
     "posted_at": "2026-05-05",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741725/bantukos/efmzd7yn0s5u7aiyzp8b.jpg"
-  },
-  {
-    "id": 663,
-    "location": "Ubud",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-04",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741726/bantukos/gtxkbgelsbgysvgzcnnt.jpg"
   },
   {
     "id": 641,
