@@ -1,5 +1,18 @@
 [
   {
+    "id": 1929,
+    "location": "Monang Maning",
+    "price": "Rp 3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
     "id": 1901,
     "location": "Padangsambian",
     "price": "Rp 850rb/bln",
