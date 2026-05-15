@@ -1,5 +1,27 @@
 [
   {
+    "id": 2251,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 2237,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
     "id": 2203,
     "location": "Dalung",
     "price": "Rp 500rb/bln",
@@ -18,16 +40,6 @@
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778879100/bantukos/ahkl90jg0aemwn9iedub.jpg"
-  },
-  {
-    "id": 2181,
-    "location": "Pemogan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": ""
   },
   {
     "id": 2156,
@@ -603,18 +615,6 @@
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1298,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-14",
     "image_url": ""
