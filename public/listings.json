@@ -1,5 +1,27 @@
 [
   {
+    "id": 1982,
+    "location": "Monang Maning",
+    "price": "Rp 1.1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 1959,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
     "id": 1929,
     "location": "Monang Maning",
     "price": "Rp 3jt/bln",
@@ -475,16 +497,6 @@
   {
     "id": 1313,
     "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1309,
-    "location": "Pemogan",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
