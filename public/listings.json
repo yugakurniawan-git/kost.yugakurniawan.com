@@ -1,5 +1,39 @@
 [
   {
+    "id": 2086,
+    "location": "Dalung",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 2082,
+    "location": "Imam Bonjol",
+    "price": "Rp 3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 2067,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
     "id": 2051,
     "location": "Sanur",
     "price": "Rp 700rb/bln",
@@ -30,16 +64,6 @@
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778851855/bantukos/bomex79nrij9mlmz0wnf.jpg"
-  },
-  {
-    "id": 2012,
-    "location": "Pemogan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": ""
   },
   {
     "id": 2003,
@@ -134,16 +158,6 @@
       "WiFi",
       "Kasur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": ""
-  },
-  {
-    "id": 1837,
-    "location": "Dalung",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": ""
