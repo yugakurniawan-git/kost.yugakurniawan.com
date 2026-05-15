@@ -1,5 +1,53 @@
 [
   {
+    "id": 1664,
+    "location": "Sidakarya",
+    "price": "Rp 600rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 1659,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Parkir"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": ""
+  },
+  {
+    "id": 1634,
+    "location": "Mas",
+    "price": "Rp 650rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "KM Dalam",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
+    "id": 1635,
+    "location": "Kerobokan",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-14",
+    "image_url": ""
+  },
+  {
     "id": 1623,
     "location": "Pemogan",
     "price": "Rp 1.9jt/bln",
@@ -81,16 +129,6 @@
     "id": 1504,
     "location": "Peguyangan",
     "price": "Rp 800rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1502,
-    "location": "Sidakarya",
-    "price": "Rp 600rb/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -421,16 +459,6 @@
     "id": 1140,
     "location": "Kuta",
     "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1133,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
