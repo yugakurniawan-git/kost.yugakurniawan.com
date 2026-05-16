@@ -1,11 +1,34 @@
 [
   {
-    "id": 2789,
+    "id": 2847,
     "location": "Renon",
     "price": "Rp 1.5jt/bln",
     "type": "Kos",
     "facilities": [
       "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2813,
+    "location": "Nusa Dua",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2810,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
@@ -30,19 +53,6 @@
     "price": "Rp 1.3jt/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2775,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Dapur"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
