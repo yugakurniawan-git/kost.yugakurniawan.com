@@ -1,10 +1,72 @@
 [
   {
-    "id": 2376,
+    "id": 2423,
+    "location": "Pemogan",
+    "price": "Rp 1.8jt/bln",
+    "type": "Kontrakan",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2418,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2414,
+    "location": "Renon",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Parkir",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778908964/bantukos/tjpnu3aug04d4p20xwo4.jpg"
+  },
+  {
+    "id": 2407,
+    "location": "Gatsu",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2402,
     "location": "Panjer",
     "price": "Rp 2jt/bln",
     "type": "Kos",
     "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2392,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam"
+    ],
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
@@ -18,28 +80,6 @@
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903646/bantukos/rqdjj3tluxb9fmijmeqz.jpg"
-  },
-  {
-    "id": 2373,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Putri",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2365,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
   },
   {
     "id": 2360,
@@ -933,20 +973,6 @@
     "type": "Kos",
     "facilities": [
       "Furnished"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
-  },
-  {
-    "id": 1034,
-    "location": "Renon",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi",
-      "KM Dalam",
-      "Dapur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
