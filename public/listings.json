@@ -1,6 +1,6 @@
 [
   {
-    "id": 2723,
+    "id": 2789,
     "location": "Renon",
     "price": "Rp 1.5jt/bln",
     "type": "Kos",
@@ -12,10 +12,46 @@
     "image_url": ""
   },
   {
-    "id": 2716,
+    "id": 2781,
+    "location": "Renon",
+    "price": "Rp 900rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778960624/bantukos/jt7v45qplxuohepnupac.jpg"
+  },
+  {
+    "id": 2777,
+    "location": "Kuta",
+    "price": "Rp 1.3jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2775,
     "location": "Mas",
     "price": "Rp 1jt/bln",
     "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2759,
+    "location": "Kedonganan",
+    "price": "Rp 2jt/bln",
+    "type": "Putri",
     "facilities": [
       "AC",
       "Dapur"
@@ -885,16 +921,6 @@
     "image_url": ""
   },
   {
-    "id": 1314,
-    "location": "Kuta",
-    "price": "Rp 1.3jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
     "id": 1288,
     "location": "Nusa Dua",
     "price": "Rp 750rb/bln",
@@ -1077,18 +1103,6 @@
     "price": "Rp 1.2jt/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1054,
-    "location": "Renon",
-    "price": "Rp 900rb/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-14",
     "image_url": ""
