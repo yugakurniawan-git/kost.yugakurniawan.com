@@ -1,10 +1,53 @@
 [
   {
-    "id": 2667,
+    "id": 2700,
     "location": "Sesetan",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778940663/bantukos/jeemdph6shdy0hz1gukz.jpg"
+  },
+  {
+    "id": 2699,
+    "location": "Panjer",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2682,
+    "location": "Sesetan",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2679,
+    "location": "Renon",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2674,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur"
+    ],
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
@@ -100,21 +143,6 @@
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
-  },
-  {
-    "id": 2586,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Putri",
-    "facilities": [
-      "WiFi",
-      "KM Dalam",
-      "Dapur",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778927868/bantukos/kq8cza3r1z2rhv0whau8.jpg"
   },
   {
     "id": 2583,
@@ -243,20 +271,6 @@
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903646/bantukos/rqdjj3tluxb9fmijmeqz.jpg"
-  },
-  {
-    "id": 2360,
-    "location": "Panjer",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
   },
   {
     "id": 2350,
@@ -1353,16 +1367,6 @@
     "id": 760,
     "location": "Renon",
     "price": "Rp 700rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
-  },
-  {
-    "id": 740,
-    "location": "Renon",
-    "price": "Rp 2jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
