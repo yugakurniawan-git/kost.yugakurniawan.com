@@ -1,7 +1,41 @@
 [
   {
-    "id": 2251,
-    "location": "Pemogan",
+    "id": 2271,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2270,
+    "location": "Seminyak",
+    "price": "Rp 850rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2269,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2260,
+    "location": "Sesetan",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
@@ -10,13 +44,21 @@
     "image_url": ""
   },
   {
-    "id": 2237,
-    "location": "Kuta",
+    "id": 2257,
+    "location": "Pemogan",
+    "price": "Rp 3jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-15",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778893212/bantukos/aj8erwkh1hqgnlcdn0fv.jpg"
+  },
+  {
+    "id": 2251,
+    "location": "Pemogan",
     "price": "Rp 1jt/bln",
     "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
+    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": ""
@@ -120,16 +162,6 @@
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778851848/bantukos/yhbiribmqifkorcsvt56.jpg"
-  },
-  {
-    "id": 2020,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778851855/bantukos/bomex79nrij9mlmz0wnf.jpg"
   },
   {
     "id": 2003,
@@ -603,16 +635,6 @@
     "id": 1314,
     "location": "Kuta",
     "price": "Rp 1.3jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1313,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
