@@ -1,5 +1,15 @@
 [
   {
+    "id": 2292,
+    "location": "Kerobokan",
+    "price": "Rp 2.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778897335/bantukos/lfaslwkhtgpzavbsiztw.jpg"
+  },
+  {
     "id": 2271,
     "location": "Kuta",
     "price": "Rp 1jt/bln",
