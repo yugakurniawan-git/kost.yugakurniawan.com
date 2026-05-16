@@ -1,6 +1,6 @@
 [
   {
-    "id": 2489,
+    "id": 2538,
     "location": "Panjer",
     "price": "Rp 2jt/bln",
     "type": "Kos",
@@ -10,13 +10,33 @@
     "image_url": ""
   },
   {
-    "id": 2468,
+    "id": 2528,
     "location": "Renon",
     "price": "Rp 1.5jt/bln",
     "type": "Kos",
     "facilities": [
       "AC"
     ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2516,
+    "location": "Mengwi",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
+    "id": 2506,
+    "location": "Kuta",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
@@ -398,16 +418,6 @@
       "KM Dalam",
       "Dapur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": ""
-  },
-  {
-    "id": 1844,
-    "location": "Mengwi",
-    "price": "Rp 700rb/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": ""
