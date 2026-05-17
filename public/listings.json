@@ -1,12 +1,95 @@
 [
   {
-    "id": 2992,
+    "id": 3044,
+    "location": "Kuta",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3033,
+    "location": "Mas",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3032,
+    "location": "Padangsambian",
+    "price": "Rp 2.2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3030,
+    "location": "Mas",
+    "price": "Rp 2.3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3009,
+    "location": "Renon",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3007,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2999,
     "location": "Kuta",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [
       "WiFi"
     ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2998,
+    "location": "Renon",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
@@ -44,31 +127,6 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 2921,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 2909,
-    "location": "Renon",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
     "image_url": ""
   },
   {
@@ -281,16 +339,6 @@
     "id": 2516,
     "location": "Mengwi",
     "price": "Rp 700rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2506,
-    "location": "Kuta",
-    "price": "Rp 1.5jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -1084,16 +1132,6 @@
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748221/bantukos/v87lzakvav0albqiaakj.jpg"
   },
   {
-    "id": 1101,
-    "location": "Renon",
-    "price": "Rp 800rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
     "id": 1088,
     "location": "Sesetan",
     "price": "Rp 2.1jt/bln",
@@ -1116,20 +1154,6 @@
     "source": "facebook",
     "posted_at": "2026-05-14",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748232/bantukos/h33kijrlarlg6zfhqosr.jpg"
-  },
-  {
-    "id": 1081,
-    "location": "Mas",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748233/bantukos/ye4tucnlzb8bgxpiuhxz.jpg"
   },
   {
     "id": 1077,
@@ -1687,19 +1711,6 @@
     "price": "Rp 800rb/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-01",
-    "image_url": ""
-  },
-  {
-    "id": 389,
-    "location": "Padangsambian",
-    "price": "Rp 2.2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Kasur"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-01",
     "image_url": ""
