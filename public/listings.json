@@ -1,5 +1,33 @@
 [
   {
+    "id": 3250,
+    "location": "Mas",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3247,
+    "location": "Pedungan",
+    "price": "Rp 2jt/bln",
+    "type": "Putri",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
     "id": 3210,
     "location": "Sidakarya",
     "price": "Rp 1.3jt/bln",
@@ -88,21 +116,6 @@
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
-  },
-  {
-    "id": 3137,
-    "location": "Pedungan",
-    "price": "Rp 2jt/bln",
-    "type": "Putri",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Parkir",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779007196/bantukos/jlpa1jfkdyyokbitlhom.jpg"
   },
   {
     "id": 3136,
@@ -461,19 +474,6 @@
     "type": "Kos",
     "facilities": [
       "Parkir",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2599,
-    "location": "Mas",
-    "price": "Rp 800rb/bln",
-    "type": "Kos",
-    "facilities": [
-      "KM Dalam",
       "Dapur"
     ],
     "source": "facebook",
