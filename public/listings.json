@@ -1,5 +1,35 @@
 [
   {
+    "id": 3306,
+    "location": "Pemogan",
+    "price": "Rp 3.3jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3304,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3294,
+    "location": "Kuta",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
     "id": 3280,
     "location": "Canggu",
     "price": "Rp 1.2jt/bln",
@@ -135,26 +165,6 @@
       "WiFi",
       "Kasur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3148,
-    "location": "Kuta",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3136,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
@@ -1223,16 +1233,6 @@
     "source": "facebook",
     "posted_at": "2026-05-14",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751889/bantukos/xz6y3e9ex5daywgdmf5o.jpg"
-  },
-  {
-    "id": 1148,
-    "location": "Pemogan",
-    "price": "Rp 3.3jt/bln",
-    "type": "Kontrakan",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
   },
   {
     "id": 1143,
