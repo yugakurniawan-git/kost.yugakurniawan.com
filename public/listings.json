@@ -1,5 +1,52 @@
 [
   {
+    "id": 2928,
+    "location": "Monang Maning",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2921,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2919,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2909,
+    "location": "Renon",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-16",
+    "image_url": ""
+  },
+  {
     "id": 2896,
     "location": "Kerobokan",
     "price": "Rp 1.5jt/bln",
@@ -14,36 +61,11 @@
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778973833/bantukos/q6tllkxr6w7pucd1qj4s.jpg"
   },
   {
-    "id": 2890,
-    "location": "Renon",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
     "id": 2813,
     "location": "Nusa Dua",
     "price": "Rp 2jt/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2810,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Dapur"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
@@ -187,19 +209,6 @@
     "facilities": [
       "Parkir",
       "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2603,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Putra",
-    "facilities": [
-      "AC",
-      "KM Dalam"
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
@@ -1714,16 +1723,6 @@
       "Furnished",
       "Parkir"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-01",
-    "image_url": ""
-  },
-  {
-    "id": 370,
-    "location": "Monang Maning",
-    "price": "Rp 700rb/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-01",
     "image_url": ""
