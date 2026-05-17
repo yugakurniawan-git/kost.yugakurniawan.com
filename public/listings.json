@@ -1,5 +1,40 @@
 [
   {
+    "id": 3416,
+    "location": "Canggu",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3413,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3411,
+    "location": "Imam Bonjol",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
     "id": 3382,
     "location": "Dalung",
     "price": "Rp 660rb/bln",
@@ -359,16 +394,6 @@
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778996835/bantukos/sj8cvf0h2zntnbcgjdzf.jpg"
   },
   {
-    "id": 3050,
-    "location": "Pemogan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
     "id": 3032,
     "location": "Padangsambian",
     "price": "Rp 2.2jt/bln",
@@ -718,16 +743,6 @@
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903648/bantukos/l0vganezauxlpuenxcp6.jpg"
-  },
-  {
-    "id": 2326,
-    "location": "Canggu",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
   },
   {
     "id": 2292,
