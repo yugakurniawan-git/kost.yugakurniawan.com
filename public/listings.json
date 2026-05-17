@@ -1,5 +1,31 @@
 [
   {
+    "id": 3382,
+    "location": "Dalung",
+    "price": "Rp 660rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3378,
+    "location": "Monang Maning",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
     "id": 3375,
     "location": "Sesetan",
     "price": "Rp 1jt/bln",
@@ -522,16 +548,6 @@
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778934996/bantukos/o5tww9nuycxh8oyqcaga.jpg"
-  },
-  {
-    "id": 2633,
-    "location": "Monang Maning",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
   },
   {
     "id": 2614,
