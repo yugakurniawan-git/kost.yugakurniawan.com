@@ -1,8 +1,21 @@
 [
   {
-    "id": 3306,
-    "location": "Pemogan",
-    "price": "Rp 3.3jt/bln",
+    "id": 3339,
+    "location": "Sesetan",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3335,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -10,9 +23,9 @@
     "image_url": ""
   },
   {
-    "id": 3304,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
+    "id": 3306,
+    "location": "Pemogan",
+    "price": "Rp 3.3jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
