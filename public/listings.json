@@ -1,5 +1,42 @@
 [
   {
+    "id": 2992,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2983,
+    "location": "Kuta",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 2976,
+    "location": "Renon",
+    "price": "Rp 2.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "KM Dalam",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778985743/bantukos/oimqbmhjcqmvhdx2aacx.jpg"
+  },
+  {
     "id": 2928,
     "location": "Monang Maning",
     "price": "Rp 700rb/bln",
@@ -17,18 +54,6 @@
     "facilities": [
       "AC",
       "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 2919,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
@@ -1037,16 +1062,6 @@
     "image_url": ""
   },
   {
-    "id": 1140,
-    "location": "Kuta",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
     "id": 1114,
     "location": "Imam Bonjol",
     "price": "Rp 720rb/bln",
@@ -1213,18 +1228,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741677/bantukos/xyewhx8vnno1hmaaaark.jpg"
-  },
-  {
-    "id": 950,
-    "location": "Renon",
-    "price": "Rp 2.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
   },
   {
     "id": 945,
