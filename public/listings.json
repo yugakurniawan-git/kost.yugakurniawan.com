@@ -1,5 +1,37 @@
 [
   {
+    "id": 3280,
+    "location": "Canggu",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779026537/bantukos/t2etdpngkqnmnqte82cm.jpg"
+  },
+  {
+    "id": 3277,
+    "location": "Sesetan",
+    "price": "Rp 2.5jt/bln",
+    "type": "Kontrakan",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3278,
+    "location": "Sesetan",
+    "price": "Rp 3jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
     "id": 3250,
     "location": "Mas",
     "price": "Rp 800rb/bln",
@@ -697,16 +729,6 @@
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778867501/bantukos/pqrk9ddp2uyem4qqlffg.jpg"
-  },
-  {
-    "id": 2134,
-    "location": "Canggu",
-    "price": "Rp 1.2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778867505/bantukos/c4j0fuzvqm30tusspr0n.jpg"
   },
   {
     "id": 2132,
