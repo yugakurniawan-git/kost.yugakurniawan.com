@@ -1,5 +1,41 @@
 [
   {
+    "id": 3210,
+    "location": "Sidakarya",
+    "price": "Rp 1.3jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3190,
+    "location": "Pemogan",
+    "price": "Rp 1.7jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3182,
+    "location": "Seminyak",
+    "price": "Rp 1.8jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "KM Dalam",
+      "Parkir",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779016391/bantukos/hnjysg5nv3wacriam4sc.jpg"
+  },
+  {
     "id": 3173,
     "location": "Seminyak",
     "price": "Rp 1jt/bln",
@@ -1489,18 +1525,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741706/bantukos/qkzonrlfqnupqhg18rtq.jpg"
-  },
-  {
-    "id": 812,
-    "location": "Pemogan",
-    "price": "Rp 1.7jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
   },
   {
     "id": 791,
