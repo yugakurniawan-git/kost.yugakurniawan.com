@@ -1,5 +1,41 @@
 [
   {
+    "id": 3375,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3356,
+    "location": "Jimbaran",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3355,
+    "location": "Renon",
+    "price": "Rp 1.3jt/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779042648/bantukos/ahgzfxf7um2rzyvnq2rf.jpg"
+  },
+  {
     "id": 3339,
     "location": "Sesetan",
     "price": "Rp 700rb/bln",
@@ -8,16 +44,6 @@
       "WiFi",
       "Dapur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3335,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
@@ -2003,16 +2029,6 @@
     "image_url": ""
   },
   {
-    "id": 156,
-    "location": "Renon",
-    "price": "Rp 1.3jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-04-29",
-    "image_url": ""
-  },
-  {
     "id": 154,
     "location": "Kuta",
     "price": "Rp 800rb/bln",
@@ -2067,22 +2083,6 @@
     "facilities": [
       "AC",
       "WiFi",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-04-28",
-    "image_url": ""
-  },
-  {
-    "id": 73,
-    "location": "Jimbaran",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "KM Dalam",
-      "Parkir",
       "Dapur"
     ],
     "source": "facebook",
