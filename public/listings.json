@@ -1,10 +1,44 @@
 [
   {
-    "id": 3153,
+    "id": 3173,
     "location": "Seminyak",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3172,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Putri",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779011640/bantukos/trefeldx3m4l6sbizagm.jpg"
+  },
+  {
+    "id": 3170,
+    "location": "Sesetan",
+    "price": "Rp 500rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-17",
+    "image_url": ""
+  },
+  {
+    "id": 3162,
+    "location": "Padangsambian",
+    "price": "Rp 2.7jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Kasur"
+    ],
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
@@ -98,18 +132,6 @@
     "type": "Kos",
     "facilities": [
       "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3087,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
