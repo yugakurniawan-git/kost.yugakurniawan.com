@@ -1,16 +1,63 @@
 [
   {
-    "id": 3437,
-    "location": "Sesetan",
-    "price": "Rp 700rb/bln",
+    "id": 3454,
+    "location": "Padangsambian",
+    "price": "Rp 2.7jt/bln",
     "type": "Kos",
     "facilities": [
+      "AC",
       "WiFi",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3453,
+    "location": "Pedungan",
+    "price": "Rp 3.5jt/bln",
+    "type": "Kos",
+    "facilities": [
       "Dapur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
     "image_url": ""
+  },
+  {
+    "id": 3449,
+    "location": "Panjer",
+    "price": "Rp 2.3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3447,
+    "location": "Sesetan",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3440,
+    "location": "Renon",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779068615/bantukos/t0gf0pxnx0w6zq50zoir.jpg"
   },
   {
     "id": 3433,
@@ -269,20 +316,6 @@
     "image_url": ""
   },
   {
-    "id": 3162,
-    "location": "Padangsambian",
-    "price": "Rp 2.7jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
     "id": 3131,
     "location": "Kerobokan",
     "price": "Rp 1jt/bln",
@@ -345,16 +378,6 @@
     "id": 3082,
     "location": "Gatsu",
     "price": "Rp 7.3jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3076,
-    "location": "Panjer",
-    "price": "Rp 2.3jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -1642,16 +1665,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741712/bantukos/aqvydvndssnaph8n2g8u.jpg"
-  },
-  {
-    "id": 760,
-    "location": "Renon",
-    "price": "Rp 700rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
   },
   {
     "id": 720,
