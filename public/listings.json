@@ -1,5 +1,17 @@
 [
   {
+    "id": 3478,
+    "location": "Panjer",
+    "price": "Rp 2.3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
     "id": 3454,
     "location": "Padangsambian",
     "price": "Rp 2.7jt/bln",
@@ -20,18 +32,6 @@
     "type": "Kos",
     "facilities": [
       "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3449,
-    "location": "Panjer",
-    "price": "Rp 2.3jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Furnished"
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
