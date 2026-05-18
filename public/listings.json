@@ -1,5 +1,25 @@
 [
   {
+    "id": 3513,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3512,
+    "location": "Sesetan",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
     "id": 3505,
     "location": "Sesetan",
     "price": "Rp 1.6jt/bln",
@@ -63,18 +83,6 @@
     "id": 3453,
     "location": "Pedungan",
     "price": "Rp 3.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3447,
-    "location": "Sesetan",
-    "price": "Rp 700rb/bln",
     "type": "Kos",
     "facilities": [
       "Dapur"
@@ -151,16 +159,6 @@
     "facilities": [
       "Dapur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3375,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
