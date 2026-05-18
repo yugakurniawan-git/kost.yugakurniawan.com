@@ -15,7 +15,6 @@ interface Listing {
   source: string
   posted_at: string
   image_url: string
-  source_url?: string
 }
 
 const TYPE_COLORS: Record<string, string> = {
@@ -235,17 +234,6 @@ function ListingCard({ listing, waNumber }: { listing: Listing; waNumber: string
           >
             Tanya Info Lengkap →
           </a>
-          {!listing.image_url && listing.source_url && (
-            <a
-              href={listing.source_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-3 bg-white/5 border border-white/10 rounded-xl text-xs text-slate-400 hover:text-slate-200 hover:border-white/20 transition-all flex items-center"
-              title="Lihat postingan asli"
-            >
-              📷
-            </a>
-          )}
         </div>
 
         <div className="text-xs text-slate-600 mt-3 flex justify-between">
