@@ -1,5 +1,46 @@
 [
   {
+    "id": 3703,
+    "location": "Gatsu",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104007333861751/"
+  },
+  {
+    "id": 3702,
+    "location": "Pemogan",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104788573783627/"
+  },
+  {
+    "id": 3699,
+    "location": "Mertasari",
+    "price": "Rp 850rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680756653116750/"
+  },
+  {
     "id": 3696,
     "location": "Mengwi",
     "price": "Rp 2jt/bln",
@@ -13,17 +54,6 @@
     "posted_at": "2026-05-18",
     "image_url": "",
     "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2060710648212781/"
-  },
-  {
-    "id": 3695,
-    "location": "Gatsu",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": "",
-    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104007333861751/"
   },
   {
     "id": 3694,
@@ -2062,17 +2092,6 @@
     "facilities": [
       "Kasur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-02",
-    "image_url": "",
-    "source_url": ""
-  },
-  {
-    "id": 455,
-    "location": "Pemogan",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-02",
     "image_url": "",
