@@ -1,5 +1,21 @@
 [
   {
+    "id": 3558,
+    "location": "Sesetan",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
     "id": 3548,
     "location": "Sesetan",
     "price": "Rp 850rb/bln",
@@ -35,16 +51,6 @@
     "id": 3512,
     "location": "Sesetan",
     "price": "Rp 700rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3505,
-    "location": "Sesetan",
-    "price": "Rp 1.6jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
