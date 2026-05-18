@@ -1,5 +1,27 @@
 [
   {
+    "id": 3548,
+    "location": "Sesetan",
+    "price": "Rp 850rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3537,
+    "location": "Gatsu",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
     "id": 3513,
     "location": "Sesetan",
     "price": "Rp 1jt/bln",
@@ -1906,16 +1928,6 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-02",
-    "image_url": ""
-  },
-  {
-    "id": 431,
-    "location": "Gatsu",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-01",
     "image_url": ""
   },
   {
