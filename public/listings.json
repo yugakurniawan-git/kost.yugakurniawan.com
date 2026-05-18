@@ -1,5 +1,40 @@
 [
   {
+    "id": 3680,
+    "location": "Gatsu",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104007333861751/"
+  },
+  {
+    "id": 3675,
+    "location": "Tuban",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779120007/bantukos/ssyyqndanxjwmpxnqhjy.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26796052036727211/"
+  },
+  {
+    "id": 3664,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680656083126807/"
+  },
+  {
     "id": 3658,
     "location": "Pemogan",
     "price": "Rp 1jt/bln",
@@ -7,7 +42,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104874197108398/"
   },
   {
     "id": 3652,
@@ -21,7 +57,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779115975/bantukos/htaxibquhrre2nqtrfqg.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779115975/bantukos/htaxibquhrre2nqtrfqg.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26808452452153836/"
   },
   {
     "id": 3650,
@@ -31,7 +68,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26808315988834149/"
   },
   {
     "id": 3647,
@@ -41,17 +79,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3646,
-    "location": "Gianyar",
-    "price": "Rp 12jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779115977/bantukos/yihnl1y4p4botxvh7sse.jpg"
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26494488863550198/"
   },
   {
     "id": 3645,
@@ -61,7 +90,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26807534602245621/"
   },
   {
     "id": 3644,
@@ -73,17 +103,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3632,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26726312700367812/"
   },
   {
     "id": 3630,
@@ -95,7 +116,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2060749524875560/"
   },
   {
     "id": 3622,
@@ -105,7 +127,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26808071722191909/"
   },
   {
     "id": 3620,
@@ -115,7 +138,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26807958565536558/"
   },
   {
     "id": 3617,
@@ -125,7 +149,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680552576470491/"
   },
   {
     "id": 3608,
@@ -138,7 +163,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2060507258233120/"
   },
   {
     "id": 3602,
@@ -150,7 +176,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2102784403984044/"
   },
   {
     "id": 3583,
@@ -164,7 +191,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26795974353401646/"
   },
   {
     "id": 3581,
@@ -176,7 +204,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779101651/bantukos/s2ljg54cvjblqekuszxb.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779101651/bantukos/s2ljg54cvjblqekuszxb.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680366443155771/"
   },
   {
     "id": 3580,
@@ -189,7 +218,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680377193154696/"
   },
   {
     "id": 3576,
@@ -199,7 +229,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2039816266968886/"
   },
   {
     "id": 3575,
@@ -211,7 +242,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104358087160009/"
   },
   {
     "id": 3558,
@@ -227,7 +259,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2061679984761153/"
   },
   {
     "id": 3548,
@@ -239,7 +272,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/1989333908683789/"
   },
   {
     "id": 3537,
@@ -249,7 +283,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26804720212527060/"
   },
   {
     "id": 3513,
@@ -259,7 +294,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680318556493893/"
   },
   {
     "id": 3512,
@@ -269,7 +305,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680324726493276/"
   },
   {
     "id": 3499,
@@ -281,7 +318,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26799762323022849/"
   },
   {
     "id": 3489,
@@ -293,7 +331,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26790822070583541/"
   },
   {
     "id": 3454,
@@ -307,19 +346,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3453,
-    "location": "Pedungan",
-    "price": "Rp 3.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2060370201580159/"
   },
   {
     "id": 3440,
@@ -329,7 +357,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779068615/bantukos/t0gf0pxnx0w6zq50zoir.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779068615/bantukos/t0gf0pxnx0w6zq50zoir.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1680199523172463/"
   },
   {
     "id": 3426,
@@ -342,7 +371,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2059947934955719/"
   },
   {
     "id": 3382,
@@ -356,7 +386,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26679030668429349/"
   },
   {
     "id": 3356,
@@ -368,7 +399,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/25936724445993312/"
   },
   {
     "id": 3355,
@@ -382,7 +414,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779042648/bantukos/ahgzfxf7um2rzyvnq2rf.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779042648/bantukos/ahgzfxf7um2rzyvnq2rf.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26798037736528641/"
   },
   {
     "id": 3306,
@@ -392,7 +425,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2059964304954082/"
   },
   {
     "id": 3294,
@@ -402,7 +436,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2103126123949872/"
   },
   {
     "id": 3280,
@@ -412,7 +447,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779026537/bantukos/t2etdpngkqnmnqte82cm.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779026537/bantukos/t2etdpngkqnmnqte82cm.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2100007200928431/"
   },
   {
     "id": 3277,
@@ -424,7 +460,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26795620543437027/"
   },
   {
     "id": 3278,
@@ -434,7 +471,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26795620543437027/"
   },
   {
     "id": 3250,
@@ -447,7 +485,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2056119775338535/"
   },
   {
     "id": 3247,
@@ -462,7 +501,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2103840073878477/"
   },
   {
     "id": 3210,
@@ -472,7 +512,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2103789280550223/"
   },
   {
     "id": 3190,
@@ -482,7 +523,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26463189273346824/"
   },
   {
     "id": 3182,
@@ -498,7 +540,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779016391/bantukos/hnjysg5nv3wacriam4sc.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779016391/bantukos/hnjysg5nv3wacriam4sc.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1679689439890138/"
   },
   {
     "id": 3170,
@@ -508,7 +551,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2059742248309621/"
   },
   {
     "id": 3124,
@@ -523,7 +567,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1679597143232701/"
   },
   {
     "id": 3119,
@@ -533,7 +578,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2103555193906965/"
   },
   {
     "id": 3082,
@@ -543,7 +589,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26791187187213696/"
   },
   {
     "id": 3074,
@@ -553,7 +600,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2103643707231447/"
   },
   {
     "id": 3054,
@@ -563,7 +611,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26791187187213696/"
   },
   {
     "id": 3030,
@@ -576,7 +625,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26790805480585200/"
   },
   {
     "id": 2998,
@@ -586,7 +636,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1679382536587495/"
   },
   {
     "id": 2983,
@@ -596,7 +647,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26779531221712626/"
   },
   {
     "id": 2976,
@@ -611,7 +663,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778985743/bantukos/oimqbmhjcqmvhdx2aacx.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778985743/bantukos/oimqbmhjcqmvhdx2aacx.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26789897984009283/"
   },
   {
     "id": 2928,
@@ -621,7 +674,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-17",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26789126967419718/"
   },
   {
     "id": 2896,
@@ -635,7 +689,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778973833/bantukos/q6tllkxr6w7pucd1qj4s.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778973833/bantukos/q6tllkxr6w7pucd1qj4s.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2102805740648577/"
   },
   {
     "id": 2813,
@@ -645,7 +700,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1679211406604608/"
   },
   {
     "id": 2781,
@@ -658,7 +714,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778960624/bantukos/jt7v45qplxuohepnupac.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778960624/bantukos/jt7v45qplxuohepnupac.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26785593147773100/"
   },
   {
     "id": 2777,
@@ -668,7 +725,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26783814117951003/"
   },
   {
     "id": 2759,
@@ -681,7 +739,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1679171253275290/"
   },
   {
     "id": 2713,
@@ -695,7 +754,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26782329044766177/"
   },
   {
     "id": 2682,
@@ -705,7 +765,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1678981449960937/"
   },
   {
     "id": 2679,
@@ -715,7 +776,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26782851691380579/"
   },
   {
     "id": 2639,
@@ -731,7 +793,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778934996/bantukos/o5tww9nuycxh8oyqcaga.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778934996/bantukos/o5tww9nuycxh8oyqcaga.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26724882487177500/"
   },
   {
     "id": 2614,
@@ -746,7 +809,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2058882775062235/"
   },
   {
     "id": 2602,
@@ -759,7 +823,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26701934536138962/"
   },
   {
     "id": 2583,
@@ -774,7 +839,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26348497458149340/"
   },
   {
     "id": 2538,
@@ -784,7 +850,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2058620311755148/"
   },
   {
     "id": 2516,
@@ -794,7 +861,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2102856000643551/"
   },
   {
     "id": 2444,
@@ -809,7 +877,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26776440008688414/"
   },
   {
     "id": 2440,
@@ -819,7 +888,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26777949035204178/"
   },
   {
     "id": 2423,
@@ -831,7 +901,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/1932795480982938/"
   },
   {
     "id": 2414,
@@ -845,19 +916,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778908964/bantukos/tjpnu3aug04d4p20xwo4.jpg"
-  },
-  {
-    "id": 2407,
-    "location": "Gatsu",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778908964/bantukos/tjpnu3aug04d4p20xwo4.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26778434658488949/"
   },
   {
     "id": 2350,
@@ -867,7 +927,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26776666451999103/"
   },
   {
     "id": 2337,
@@ -879,7 +940,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903647/bantukos/uai70o9espjdwc4yz1sc.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903647/bantukos/uai70o9espjdwc4yz1sc.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1678606803331735/"
   },
   {
     "id": 2329,
@@ -891,7 +953,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903648/bantukos/l0vganezauxlpuenxcp6.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778903648/bantukos/l0vganezauxlpuenxcp6.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26777093668623048/"
   },
   {
     "id": 2270,
@@ -903,7 +966,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-16",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26775956075403474/"
   },
   {
     "id": 2257,
@@ -913,7 +977,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778893212/bantukos/aj8erwkh1hqgnlcdn0fv.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778893212/bantukos/aj8erwkh1hqgnlcdn0fv.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26774833138849101/"
   },
   {
     "id": 2203,
@@ -923,7 +988,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778879098/bantukos/roeory9xqd2soek9ydxf.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778879098/bantukos/roeory9xqd2soek9ydxf.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26771643522501396/"
   },
   {
     "id": 2197,
@@ -933,7 +999,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778879100/bantukos/ahkl90jg0aemwn9iedub.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778879100/bantukos/ahkl90jg0aemwn9iedub.jpg",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2057900851827094/"
   },
   {
     "id": 2156,
@@ -947,7 +1014,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778867501/bantukos/pqrk9ddp2uyem4qqlffg.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778867501/bantukos/pqrk9ddp2uyem4qqlffg.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2102253834037101/"
   },
   {
     "id": 2132,
@@ -957,7 +1025,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26771871889145226/"
   },
   {
     "id": 2082,
@@ -971,7 +1040,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26770111922654556/"
   },
   {
     "id": 2051,
@@ -983,7 +1053,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2058051908478655/"
   },
   {
     "id": 2037,
@@ -993,7 +1064,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778851848/bantukos/yhbiribmqifkorcsvt56.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778851848/bantukos/yhbiribmqifkorcsvt56.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2102113327384485/"
   },
   {
     "id": 2003,
@@ -1007,7 +1079,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26767202882945460/"
   },
   {
     "id": 1982,
@@ -1019,7 +1092,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26768556589476756/"
   },
   {
     "id": 1929,
@@ -1032,7 +1106,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2054975482119631/"
   },
   {
     "id": 1901,
@@ -1045,7 +1120,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26741880482144367/"
   },
   {
     "id": 1843,
@@ -1058,19 +1134,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
-  },
-  {
-    "id": 1828,
-    "location": "Tabanan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26765571566441925/"
   },
   {
     "id": 1802,
@@ -1085,7 +1150,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778822800/bantukos/z6exquphvbybvyr7d95h.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778822800/bantukos/z6exquphvbybvyr7d95h.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2101878310741320/"
   },
   {
     "id": 1786,
@@ -1100,7 +1166,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778822804/bantukos/avaixqeirid7e56ohtzr.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778822804/bantukos/avaixqeirid7e56ohtzr.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26764093359923079/"
   },
   {
     "id": 1746,
@@ -1112,7 +1179,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2100068657588952/"
   },
   {
     "id": 1715,
@@ -1122,7 +1190,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2097576901171461/"
   },
   {
     "id": 1682,
@@ -1132,7 +1201,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26763100110022404/"
   },
   {
     "id": 1664,
@@ -1142,7 +1212,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-15",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2101270590802092/"
   },
   {
     "id": 1634,
@@ -1156,7 +1227,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26761840373481711/"
   },
   {
     "id": 1623,
@@ -1168,7 +1240,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26752613077737774/"
   },
   {
     "id": 1539,
@@ -1178,7 +1251,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26758299783835770/"
   },
   {
     "id": 1529,
@@ -1192,7 +1266,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2057402625210250/"
   },
   {
     "id": 1512,
@@ -1202,7 +1277,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778781016/bantukos/klu8oeieujiv6zxtvger.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778781016/bantukos/klu8oeieujiv6zxtvger.jpg",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2055852032031976/"
   },
   {
     "id": 1504,
@@ -1212,7 +1288,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26752715384394210/"
   },
   {
     "id": 1456,
@@ -1222,7 +1299,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2056300518653794/"
   },
   {
     "id": 1437,
@@ -1232,7 +1310,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2057175698566276/"
   },
   {
     "id": 1438,
@@ -1248,7 +1327,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778775288/bantukos/mfny6cxag5xujyrzx8zr.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778775288/bantukos/mfny6cxag5xujyrzx8zr.jpg",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2057175698566276/"
   },
   {
     "id": 1432,
@@ -1260,7 +1340,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1677248896800859/"
   },
   {
     "id": 1421,
@@ -1273,7 +1354,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2101404977455320/"
   },
   {
     "id": 1397,
@@ -1285,7 +1367,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26751499934515755/"
   },
   {
     "id": 1388,
@@ -1295,7 +1378,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26756078164057932/"
   },
   {
     "id": 1362,
@@ -1305,7 +1389,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2101372824125202/"
   },
   {
     "id": 1356,
@@ -1318,7 +1403,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26738122429186839/"
   },
   {
     "id": 1348,
@@ -1332,7 +1418,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26755999310732484/"
   },
   {
     "id": 1344,
@@ -1342,7 +1429,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26755648400767575/"
   },
   {
     "id": 1343,
@@ -1352,7 +1440,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778768950/bantukos/de4iodwabzvchrcz5yes.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778768950/bantukos/de4iodwabzvchrcz5yes.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26753112464354502/"
   },
   {
     "id": 1325,
@@ -1364,7 +1453,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1677194373472978/"
   },
   {
     "id": 1288,
@@ -1374,7 +1464,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762768/bantukos/vlv2xdv9owkf85q25gac.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762768/bantukos/vlv2xdv9owkf85q25gac.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26752832994382449/"
   },
   {
     "id": 1236,
@@ -1384,7 +1475,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762773/bantukos/ldloyc37xsgkinba5heo.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778762773/bantukos/ldloyc37xsgkinba5heo.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1677217846803964/"
   },
   {
     "id": 1204,
@@ -1398,7 +1490,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2100929814169503/"
   },
   {
     "id": 1177,
@@ -1411,7 +1504,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1677174720141610/"
   },
   {
     "id": 1172,
@@ -1421,7 +1515,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26753290781003337/"
   },
   {
     "id": 1170,
@@ -1431,7 +1526,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751889/bantukos/xz6y3e9ex5daywgdmf5o.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751889/bantukos/xz6y3e9ex5daywgdmf5o.jpg",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2053528045597708/"
   },
   {
     "id": 1143,
@@ -1441,7 +1537,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26741134618885620/"
   },
   {
     "id": 1144,
@@ -1451,7 +1548,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26741134618885620/"
   },
   {
     "id": 1114,
@@ -1463,7 +1561,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26751567704508978/"
   },
   {
     "id": 1110,
@@ -1473,7 +1572,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748221/bantukos/v87lzakvav0albqiaakj.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748221/bantukos/v87lzakvav0albqiaakj.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26744196468579435/"
   },
   {
     "id": 1088,
@@ -1487,7 +1587,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748231/bantukos/rrrnrmjc8xo0otzpx1tv.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748231/bantukos/rrrnrmjc8xo0otzpx1tv.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2100790240850127/"
   },
   {
     "id": 1083,
@@ -1497,7 +1598,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748232/bantukos/h33kijrlarlg6zfhqosr.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748232/bantukos/h33kijrlarlg6zfhqosr.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1677084880150594/"
   },
   {
     "id": 1077,
@@ -1507,7 +1609,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26741964308802651/"
   },
   {
     "id": 1048,
@@ -1517,21 +1620,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-14",
-    "image_url": ""
-  },
-  {
-    "id": 1036,
-    "location": "Canggu",
-    "price": "Rp 1.7jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Parkir",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748242/bantukos/eifgktfj4lzjo7s3gfsj.jpg"
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1677025933489822/"
   },
   {
     "id": 1035,
@@ -1543,7 +1633,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26685317227800693/"
   },
   {
     "id": 1016,
@@ -1557,33 +1648,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741669/bantukos/zjrsnpnkr2e5ejt4iubg.jpg"
-  },
-  {
-    "id": 1009,
-    "location": "Pemogan",
-    "price": "Rp 1.3jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "KM Dalam",
-      "Parkir",
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
-  },
-  {
-    "id": 973,
-    "location": "Jimbaran",
-    "price": "Rp 15jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "KM Dalam"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741669/bantukos/zjrsnpnkr2e5ejt4iubg.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1672231467302602/"
   },
   {
     "id": 962,
@@ -1595,7 +1661,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741677/bantukos/xyewhx8vnno1hmaaaark.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741677/bantukos/xyewhx8vnno1hmaaaark.jpg",
+    "source_url": "https://www.facebook.com/groups/406723907186704/posts/1672348733957542/"
   },
   {
     "id": 945,
@@ -1605,7 +1672,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26683028808029535/"
   },
   {
     "id": 908,
@@ -1617,7 +1685,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741686/bantukos/nqjqt2eoozkcc0xsuuns.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741686/bantukos/nqjqt2eoozkcc0xsuuns.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26638779529121130/"
   },
   {
     "id": 906,
@@ -1627,19 +1696,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
-  },
-  {
-    "id": 904,
-    "location": "Monang Maning",
-    "price": "Rp 11jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778769017/bantukos/bwdztc4qisn0nantegxj.jpg"
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26682146918117724/"
   },
   {
     "id": 898,
@@ -1655,7 +1713,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2051679119115934/"
   },
   {
     "id": 897,
@@ -1669,7 +1728,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2051634572453722/"
   },
   {
     "id": 877,
@@ -1682,7 +1742,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741695/bantukos/mbi5xftkfk0og7ct00ab.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741695/bantukos/mbi5xftkfk0og7ct00ab.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26681015254897557/"
   },
   {
     "id": 875,
@@ -1692,7 +1753,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26613336771665406/"
   },
   {
     "id": 872,
@@ -1705,7 +1767,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741696/bantukos/cc1uqkugdaghlwohmg62.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741696/bantukos/cc1uqkugdaghlwohmg62.jpg",
+    "source_url": "https://www.facebook.com/groups/861393030619800/posts/26681211251544624/"
   },
   {
     "id": 857,
@@ -1717,7 +1780,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741700/bantukos/olf0i0puq7fy36h3eain.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741700/bantukos/olf0i0puq7fy36h3eain.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2095738758021942/"
   },
   {
     "id": 818,
@@ -1729,7 +1793,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 819,
@@ -1745,7 +1810,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741706/bantukos/qkzonrlfqnupqhg18rtq.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741706/bantukos/qkzonrlfqnupqhg18rtq.jpg",
+    "source_url": ""
   },
   {
     "id": 791,
@@ -1757,7 +1823,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 772,
@@ -1767,7 +1834,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741712/bantukos/aqvydvndssnaph8n2g8u.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741712/bantukos/aqvydvndssnaph8n2g8u.jpg",
+    "source_url": ""
   },
   {
     "id": 720,
@@ -1777,7 +1845,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-05",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 674,
@@ -1792,7 +1861,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-05",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741721/bantukos/yrxiq8g04azoi06r7bau.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741721/bantukos/yrxiq8g04azoi06r7bau.jpg",
+    "source_url": ""
   },
   {
     "id": 673,
@@ -1807,7 +1877,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-05",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741725/bantukos/efmzd7yn0s5u7aiyzp8b.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741725/bantukos/efmzd7yn0s5u7aiyzp8b.jpg",
+    "source_url": ""
   },
   {
     "id": 641,
@@ -1817,7 +1888,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 634,
@@ -1829,7 +1901,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 629,
@@ -1843,7 +1916,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 614,
@@ -1857,7 +1931,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748249/bantukos/udjqgttwqpy6hek8trjy.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748249/bantukos/udjqgttwqpy6hek8trjy.jpg",
+    "source_url": ""
   },
   {
     "id": 605,
@@ -1873,7 +1948,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751894/bantukos/n3p8peav553zart7bjak.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751894/bantukos/n3p8peav553zart7bjak.jpg",
+    "source_url": ""
   },
   {
     "id": 579,
@@ -1886,7 +1962,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 552,
@@ -1898,7 +1975,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-03",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751903/bantukos/ssjpvhelelhfh7dojki6.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751903/bantukos/ssjpvhelelhfh7dojki6.jpg",
+    "source_url": ""
   },
   {
     "id": 542,
@@ -1908,7 +1986,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-03",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 541,
@@ -1922,7 +2001,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-03",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 521,
@@ -1932,19 +2012,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-03",
-    "image_url": ""
-  },
-  {
-    "id": 514,
-    "location": "Mas",
-    "price": "Rp 3.8jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-03",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751914/bantukos/jk8ifosfgaxdrpgqq3ly.jpg"
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 489,
@@ -1954,7 +2023,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-02",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 482,
@@ -1966,7 +2036,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-02",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 455,
@@ -1976,7 +2047,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-02",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 448,
@@ -1991,7 +2063,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-02",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 428,
@@ -2005,7 +2078,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-01",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 410,
@@ -2015,7 +2089,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-01",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 384,
@@ -2025,7 +2100,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-01",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 380,
@@ -2041,7 +2117,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-01",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 363,
@@ -2051,7 +2128,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-01",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 259,
@@ -2067,7 +2145,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 254,
@@ -2077,7 +2156,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778757804/bantukos/y5acokacjuz1mhnue1w1.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778757804/bantukos/y5acokacjuz1mhnue1w1.jpg",
+    "source_url": ""
   },
   {
     "id": 253,
@@ -2087,7 +2167,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 235,
@@ -2103,7 +2184,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778757808/bantukos/evoqqnwr75vitu2xrxfn.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778757808/bantukos/evoqqnwr75vitu2xrxfn.jpg",
+    "source_url": ""
   },
   {
     "id": 234,
@@ -2116,7 +2198,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 226,
@@ -2130,7 +2213,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 212,
@@ -2144,7 +2228,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 208,
@@ -2156,7 +2241,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-30",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 154,
@@ -2166,21 +2252,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-04-29",
-    "image_url": ""
-  },
-  {
-    "id": 142,
-    "location": "Pemogan",
-    "price": "Rp 8.1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Parkir"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-04-29",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 123,
@@ -2193,7 +2266,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-29",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 100,
@@ -2203,7 +2277,8 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-04-28",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 84,
@@ -2217,7 +2292,8 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-28",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   },
   {
     "id": 69,
@@ -2230,6 +2306,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-04-28",
-    "image_url": ""
+    "image_url": "",
+    "source_url": ""
   }
 ]
