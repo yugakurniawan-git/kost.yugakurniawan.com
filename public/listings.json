@@ -1,6 +1,21 @@
 [
   {
-    "id": 3680,
+    "id": 3696,
+    "location": "Mengwi",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "",
+    "source_url": "https://www.facebook.com/groups/1380894039527782/posts/2060710648212781/"
+  },
+  {
+    "id": 3695,
     "location": "Gatsu",
     "price": "Rp 2jt/bln",
     "type": "Kos",
@@ -9,6 +24,19 @@
     "posted_at": "2026-05-18",
     "image_url": "",
     "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2104007333861751/"
+  },
+  {
+    "id": 3694,
+    "location": "Gatsu",
+    "price": "Rp 3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779123861/bantukos/j3hoqwbnx2qanglhti0w.jpg",
+    "source_url": "https://www.facebook.com/groups/1063633451232483/posts/2105000093762475/"
   },
   {
     "id": 3675,
