@@ -1,11 +1,45 @@
 [
   {
-    "id": 3478,
+    "id": 3505,
+    "location": "Sesetan",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3504,
     "location": "Panjer",
     "price": "Rp 2.3jt/bln",
     "type": "Kos",
     "facilities": [
       "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3499,
+    "location": "Imam Bonjol",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-18",
+    "image_url": ""
+  },
+  {
+    "id": 3489,
+    "location": "Mas",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
@@ -58,18 +92,6 @@
     "source": "facebook",
     "posted_at": "2026-05-18",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779068615/bantukos/t0gf0pxnx0w6zq50zoir.jpg"
-  },
-  {
-    "id": 3433,
-    "location": "Imam Bonjol",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
   },
   {
     "id": 3426,
@@ -346,18 +368,6 @@
     "price": "Rp 4jt/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3116,
-    "location": "Mas",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-17",
     "image_url": ""
