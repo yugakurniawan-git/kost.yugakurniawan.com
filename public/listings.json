@@ -1,6 +1,6 @@
 [
   {
-    "id": 3785,
+    "id": 3796,
     "location": "Sesetan",
     "price": "Rp 2jt/bln",
     "type": "Kos",
@@ -10,7 +10,55 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-19",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779153843/bantukos/izainr3eer8pxxu4d1zg.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779157917/bantukos/obyaj9jy0aeu0wq4sorl.jpg"
+  },
+  {
+    "id": 3795,
+    "location": "Sesetan",
+    "price": "Rp 1.2jt/bln",
+    "type": "Campur",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "KM Dalam",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3793,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3791,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3788,
+    "location": "Ubud",
+    "price": "Rp 900rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
   },
   {
     "id": 3769,
@@ -24,18 +72,6 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-19",
-    "image_url": ""
-  },
-  {
-    "id": 3763,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
     "image_url": ""
   },
   {
@@ -175,16 +211,6 @@
     "source": "facebook",
     "posted_at": "2026-05-18",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779120007/bantukos/ssyyqndanxjwmpxnqhjy.jpg"
-  },
-  {
-    "id": 3658,
-    "location": "Pemogan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
   },
   {
     "id": 3652,
