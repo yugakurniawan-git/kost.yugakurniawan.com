@@ -1,5 +1,32 @@
 [
   {
+    "id": 3785,
+    "location": "Sesetan",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779153843/bantukos/izainr3eer8pxxu4d1zg.jpg"
+  },
+  {
+    "id": 3769,
+    "location": "Kuta",
+    "price": "Rp 2.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
     "id": 3763,
     "location": "Kuta",
     "price": "Rp 1jt/bln",
@@ -265,20 +292,6 @@
     "type": "Kos",
     "facilities": [
       "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3583,
-    "location": "Sesetan",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Parkir",
-      "Kasur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
@@ -1043,20 +1056,6 @@
     "source": "facebook",
     "posted_at": "2026-05-15",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778851848/bantukos/yhbiribmqifkorcsvt56.jpg"
-  },
-  {
-    "id": 2003,
-    "location": "Kuta",
-    "price": "Rp 2.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Parkir"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-15",
-    "image_url": ""
   },
   {
     "id": 1982,
