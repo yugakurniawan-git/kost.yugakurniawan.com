@@ -1,5 +1,81 @@
 [
   {
+    "id": 3830,
+    "location": "Sesetan",
+    "price": "Rp 600rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3827,
+    "location": "Kuta",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3823,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779162741/bantukos/rafh5zwn9zqdhmntvc63.jpg"
+  },
+  {
+    "id": 3819,
+    "location": "Tegal Harum",
+    "price": "Rp 1.9jt/bln",
+    "type": "Putri",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "KM Dalam",
+      "Dapur",
+      "Kulkas"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3804,
+    "location": "Gianyar",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Furnished",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3802,
+    "location": "Renon",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
     "id": 3796,
     "location": "Sesetan",
     "price": "Rp 2jt/bln",
@@ -23,28 +99,6 @@
       "KM Dalam",
       "Parkir",
       "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-19",
-    "image_url": ""
-  },
-  {
-    "id": 3793,
-    "location": "Pemogan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-19",
-    "image_url": ""
-  },
-  {
-    "id": 3791,
-    "location": "Kuta",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
     ],
     "source": "facebook",
     "posted_at": "2026-05-19",
