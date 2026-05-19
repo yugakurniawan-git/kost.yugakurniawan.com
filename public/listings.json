@@ -1,23 +1,59 @@
 [
   {
-    "id": 3830,
-    "location": "Sesetan",
-    "price": "Rp 600rb/bln",
+    "id": 3864,
+    "location": "Kerobokan",
+    "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [
-      "Kasur"
+      "WiFi"
     ],
     "source": "facebook",
     "posted_at": "2026-05-19",
     "image_url": ""
   },
   {
-    "id": 3827,
+    "id": 3859,
     "location": "Kuta",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [
       "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3853,
+    "location": "Pedungan",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Kasur",
+      "Kulkas"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779171987/bantukos/jueeevqmmvjs3vwxtetm.jpg"
+  },
+  {
+    "id": 3852,
+    "location": "Monang Maning",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3830,
+    "location": "Sesetan",
+    "price": "Rp 600rb/bln",
+    "type": "Kos",
+    "facilities": [
+      "Kasur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-19",
@@ -291,16 +327,6 @@
     "image_url": ""
   },
   {
-    "id": 3647,
-    "location": "Monang Maning",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
     "id": 3645,
     "location": "Dalung",
     "price": "Rp 1jt/bln",
@@ -376,18 +402,6 @@
     "source": "facebook",
     "posted_at": "2026-05-18",
     "image_url": ""
-  },
-  {
-    "id": 3581,
-    "location": "Kerobokan",
-    "price": "Rp 1jt/bln",
-    "type": "Putri",
-    "facilities": [
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779101651/bantukos/s2ljg54cvjblqekuszxb.jpg"
   },
   {
     "id": 3580,
@@ -610,21 +624,6 @@
     "type": "Kos",
     "facilities": [
       "KM Dalam",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
-    "image_url": ""
-  },
-  {
-    "id": 3247,
-    "location": "Pedungan",
-    "price": "Rp 2jt/bln",
-    "type": "Putri",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Parkir",
       "Kasur"
     ],
     "source": "facebook",
