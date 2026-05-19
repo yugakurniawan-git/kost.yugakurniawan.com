@@ -1,7 +1,17 @@
 [
   {
-    "id": 3864,
-    "location": "Kerobokan",
+    "id": 3895,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Putra",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3879,
+    "location": "Kuta",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [
@@ -12,8 +22,18 @@
     "image_url": ""
   },
   {
-    "id": 3859,
-    "location": "Kuta",
+    "id": 3880,
+    "location": "Pemogan",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-19",
+    "image_url": ""
+  },
+  {
+    "id": 3864,
+    "location": "Kerobokan",
     "price": "Rp 1jt/bln",
     "type": "Kos",
     "facilities": [
@@ -58,18 +78,6 @@
     "source": "facebook",
     "posted_at": "2026-05-19",
     "image_url": ""
-  },
-  {
-    "id": 3823,
-    "location": "Pemogan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "WiFi"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-19",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779162741/bantukos/rafh5zwn9zqdhmntvc63.jpg"
   },
   {
     "id": 3819,
@@ -462,16 +470,6 @@
     "facilities": [
       "Kasur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3513,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-18",
     "image_url": ""
