@@ -1,5 +1,20 @@
 [
   {
+    "id": 4286,
+    "location": "Renon",
+    "price": "Rp 2.7jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-20",
+    "image_url": ""
+  },
+  {
     "id": 4258,
     "location": "Gianyar",
     "price": "Rp 700rb/bln",
