@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const font = Plus_Jakarta_Sans({ subsets: ['latin'] })
@@ -215,7 +216,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <link rel="canonical" href={SITE_URL} />
       </head>
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-010PKC4R3X"
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-010PKC4R3X');
+          `}
+        </Script>
+      </body>
     </html>
   )
 }
