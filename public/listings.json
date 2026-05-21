@@ -1,5 +1,30 @@
 [
   {
+    "id": 5277,
+    "location": "Monang Maning",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-21",
+    "image_url": ""
+  },
+  {
+    "id": 5276,
+    "location": "Panjer",
+    "price": "Rp 5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Air Panas",
+      "Kulkas"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-21",
+    "image_url": ""
+  },
+  {
     "id": 5273,
     "location": "Pemogan",
     "price": "Rp 3jt/bln",
@@ -127,16 +152,6 @@
     "id": 5219,
     "location": "Panjer",
     "price": "Rp 1.8jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-21",
-    "image_url": ""
-  },
-  {
-    "id": 5201,
-    "location": "Monang Maning",
-    "price": "Rp 2jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
