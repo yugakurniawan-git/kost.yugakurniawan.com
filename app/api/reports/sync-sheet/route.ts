@@ -3,12 +3,12 @@ import { google } from 'googleapis'
 import { prisma } from '@/lib/prisma'
 import { VERDICT_LABELS } from '@/lib/report-utils'
 
-const SHEET_ID = process.env.GOOGLE_SHEET_ID!
+const SHEET_ID = process.env.GOOGLE_SHEET_ID || '1UrTecJzi0s8jePWvUJ3sGxDTs7c2q_PFzFhSvWFsVrI'
 const CLIENT_EMAIL = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL!
 const PRIVATE_KEY = (process.env.GOOGLE_SERVICE_ACCOUNT_KEY ?? '').replace(/\\n/g, '\n')
 
 export async function POST(_: NextRequest) {
-  if (!SHEET_ID || !CLIENT_EMAIL || !PRIVATE_KEY) {
+  if (!CLIENT_EMAIL || !PRIVATE_KEY) {
     return NextResponse.json({ error: 'Google Sheets env vars tidak dikonfigurasi' }, { status: 503 })
   }
 
@@ -52,7 +52,7 @@ export async function POST(_: NextRequest) {
 
   await sheets.spreadsheets.values.update({
     spreadsheetId: SHEET_ID,
-    range: 'Sheet1!A1',
+    range: 'Laporan Inspeksi!A1',
     valueInputOption: 'RAW',
     requestBody: { values: [header, ...rows] },
   })

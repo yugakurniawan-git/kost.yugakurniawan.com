@@ -14,10 +14,8 @@ type KosData = {
 }
 
 function extractKosName(data: KosData): string {
-  // Ambil baris pertama caption / raw_text sebagai nama kos
   const text = data.caption || data.raw_text || ''
   const firstLine = text.split('\n').find(l => l.trim().length > 0) || ''
-  // Potong kalau terlalu panjang
   return firstLine.slice(0, 60) || `Kos BK-${data.id}`
 }
 
@@ -25,21 +23,22 @@ export default function NewReportPage() {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
   const [kosId, setKosId] = useState('')
-  const [kosData, setKosData] = useState<KosData | null>(null)
   const [lookupState, setLookupState] = useState<'idle' | 'loading' | 'found' | 'notfound'>('idle')
-  const [clientName, setClientName] = useState('')
-  const [clientWa, setClientWa] = useState('')
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
+  const [clientName, setClientName] = useState('')
+  const [clientWa, setClientWa] = useState('')
+  const [kosName, setKosName] = useState('')
+  const [kosAddress, setKosAddress] = useState('')
+  const [kosOwnerContact, setKosOwnerContact] = useState('')
+  const [price, setPrice] = useState('')
+  const [kosDbId, setKosDbId] = useState<number | null>(null)
+
   function handleKosIdChange(raw: string) {
-    // Izinkan "BK-123" atau "123"
     const value = raw.replace(/[^0-9]/g, '')
     setKosId(value)
-    setKosData(null)
     setLookupState('idle')
-
     if (!value) return
-
     if (debounceRef.current) clearTimeout(debounceRef.current)
     debounceRef.current = setTimeout(() => lookupKos(value), 600)
   }
@@ -50,7 +49,11 @@ export default function NewReportPage() {
       const res = await fetch(`/api/kos/${id}`)
       if (!res.ok) { setLookupState('notfound'); return }
       const data: KosData = await res.json()
-      setKosData(data)
+      setKosName(extractKosName(data))
+      setKosAddress(data.location || '')
+      setKosOwnerContact(data.contact || '')
+      setPrice(data.price || '')
+      setKosDbId(data.id)
       setLookupState('found')
     } catch {
       setLookupState('notfound')
@@ -59,7 +62,7 @@ export default function NewReportPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!kosData) { alert('Cari dulu kos berdasarkan ID'); return }
+    if (!kosName.trim()) { alert('Nama kos wajib diisi'); return }
     if (!clientName.trim()) { alert('Nama klien wajib diisi'); return }
 
     setLoading(true)
@@ -70,13 +73,13 @@ export default function NewReportPage() {
         body: JSON.stringify({
           clientName: clientName.trim(),
           clientWa: clientWa.trim(),
-          kosName: extractKosName(kosData),
-          kosAddress: kosData.location,
+          kosName: kosName.trim(),
+          kosAddress: kosAddress.trim(),
           kosOwner: '',
-          kosOwnerContact: kosData.contact || '',
-          price: kosData.price || '',
+          kosOwnerContact: kosOwnerContact.trim(),
+          price: price.trim(),
           inspectionDate: new Date().toISOString(),
-          kosDbId: kosData.id,
+          ...(kosDbId ? { kosDbId } : {}),
         }),
       })
       if (!res.ok) {
@@ -104,57 +107,82 @@ export default function NewReportPage() {
             ← Kembali
           </button>
           <h1 className="text-xl font-bold text-white">Buat Laporan Baru</h1>
-          <p className="text-gray-400 text-sm mt-1">Masukkan ID kos dari database Bantukos</p>
+          <p className="text-gray-400 text-sm mt-1">Isi ID kos jika ada di database, atau input manual langsung</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Kos ID lookup */}
+          {/* Kos ID lookup (opsional) */}
           <section className="bg-gray-900 border border-gray-800 rounded-xl p-5">
-            <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wide mb-4">ID Kos</h2>
-            <div className="relative">
-              <div className="flex items-center bg-gray-800 border border-gray-700 rounded-lg overflow-hidden focus-within:border-cyan-500">
-                <span className="px-3 text-gray-500 font-mono text-sm select-none">BK-</span>
+            <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wide mb-1">ID Kos <span className="text-gray-600 font-normal normal-case">(opsional)</span></h2>
+            <p className="text-xs text-gray-500 mb-3">Jika kos ada di database Bantukos, isi ID-nya untuk auto-fill</p>
+            <div className="flex items-center bg-gray-800 border border-gray-700 rounded-lg overflow-hidden focus-within:border-cyan-500">
+              <span className="px-3 text-gray-500 font-mono text-sm select-none">BK-</span>
+              <input
+                type="text"
+                inputMode="numeric"
+                value={kosId}
+                onChange={e => handleKosIdChange(e.target.value)}
+                placeholder="contoh: 241"
+                className="flex-1 bg-transparent px-2 py-2.5 text-white placeholder-gray-600 focus:outline-none font-mono"
+              />
+              {lookupState === 'loading' && (
+                <span className="px-3 text-gray-500 text-xs">mencari...</span>
+              )}
+              {lookupState === 'found' && (
+                <span className="px-3 text-cyan-400 text-xs">✓ ditemukan</span>
+              )}
+            </div>
+            {lookupState === 'notfound' && kosId && (
+              <p className="mt-2 text-yellow-500 text-xs">BK-{kosId} tidak ditemukan — isi detail kos secara manual di bawah</p>
+            )}
+          </section>
+
+          {/* Detail Kos */}
+          <section className="bg-gray-900 border border-gray-800 rounded-xl p-5 space-y-4">
+            <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Detail Kos</h2>
+            <div>
+              <label className="block text-sm text-gray-300 mb-1.5">Nama Kos *</label>
+              <input
+                type="text"
+                value={kosName}
+                onChange={e => setKosName(e.target.value)}
+                placeholder="Kos Melati / nama kos"
+                required
+                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-cyan-500"
+              />
+            </div>
+            <div>
+              <label className="block text-sm text-gray-300 mb-1.5">Alamat</label>
+              <input
+                type="text"
+                value={kosAddress}
+                onChange={e => setKosAddress(e.target.value)}
+                placeholder="Jl. Mawar No. 5, Kota"
+                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-cyan-500"
+              />
+            </div>
+            <div className="flex gap-3">
+              <div className="flex-1">
+                <label className="block text-sm text-gray-300 mb-1.5">Harga</label>
                 <input
                   type="text"
-                  inputMode="numeric"
-                  value={kosId}
-                  onChange={e => handleKosIdChange(e.target.value)}
-                  placeholder="contoh: 241"
-                  className="flex-1 bg-transparent px-2 py-2.5 text-white placeholder-gray-600 focus:outline-none font-mono"
+                  value={price}
+                  onChange={e => setPrice(e.target.value)}
+                  placeholder="Rp 1.500.000/bln"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-cyan-500"
                 />
-                {lookupState === 'loading' && (
-                  <span className="px-3 text-gray-500 text-xs">mencari...</span>
-                )}
+              </div>
+              <div className="flex-1">
+                <label className="block text-sm text-gray-300 mb-1.5">Kontak Pemilik</label>
+                <input
+                  type="text"
+                  value={kosOwnerContact}
+                  onChange={e => setKosOwnerContact(e.target.value)}
+                  placeholder="628xxxxxxxxxx"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-cyan-500"
+                />
               </div>
             </div>
-
-            {/* Hasil lookup */}
-            {lookupState === 'found' && kosData && (
-              <div className="mt-3 bg-cyan-950/40 border border-cyan-800/50 rounded-lg p-3">
-                <div className="flex items-start gap-2">
-                  <span className="text-cyan-400 text-sm mt-0.5">✓</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-white text-sm font-medium truncate">{extractKosName(kosData)}</p>
-                    <p className="text-gray-400 text-xs mt-0.5 truncate">📍 {kosData.location}</p>
-                    <div className="flex flex-wrap gap-3 mt-1.5 text-xs">
-                      {kosData.price && (
-                        <span className="text-green-400">💰 {kosData.price}</span>
-                      )}
-                      {kosData.contact && (
-                        <span className="text-gray-400">📞 {kosData.contact}</span>
-                      )}
-                      <span className={`${kosData.status === 'posted' ? 'text-green-400' : 'text-yellow-400'}`}>
-                        ● {kosData.status}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {lookupState === 'notfound' && kosId && (
-              <p className="mt-2 text-red-400 text-xs">Kos BK-{kosId} tidak ditemukan di database</p>
-            )}
           </section>
 
           {/* Data Klien */}
@@ -183,17 +211,13 @@ export default function NewReportPage() {
             </div>
           </section>
 
-          {/* Info otomatis */}
-          {kosData && (
-            <div className="text-xs text-gray-500 px-1 space-y-0.5">
-              <p>✓ Detail kos diambil otomatis dari database BK-{kosData.id}</p>
-              <p>✓ Tanggal inspeksi: {new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-            </div>
-          )}
+          <p className="text-xs text-gray-600 px-1">
+            ✓ Tanggal inspeksi: {new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </p>
 
           <button
             type="submit"
-            disabled={loading || lookupState !== 'found'}
+            disabled={loading || !kosName.trim() || !clientName.trim()}
             className="w-full bg-cyan-600 hover:bg-cyan-500 disabled:bg-gray-800 disabled:text-gray-600 text-white py-3 rounded-xl font-semibold transition-colors"
           >
             {loading ? 'Membuat...' : 'Mulai Inspeksi →'}
