@@ -1,19 +1,26 @@
 import { PrismaClient } from '@prisma/client'
+import { PrismaPg } from '@prisma/adapter-pg'
+import pg from 'pg'
 
 declare global {
   // eslint-disable-next-line no-var
   var _prisma: PrismaClient | undefined
 }
 
+const DB_URL =
+  process.env.DATABASE_URL ??
+  'postgresql://bantukos:BantuKos2026!@bantukos-postgres:5432/bantukos_reports?schema=public'
+
 function getClient(): PrismaClient {
   if (!global._prisma) {
-    global._prisma = new PrismaClient()
+    const pool = new pg.Pool({ connectionString: DB_URL })
+    const adapter = new PrismaPg(pool)
+    global._prisma = new PrismaClient({ adapter } as never)
   }
   return global._prisma
 }
 
-// Lazy proxy — PrismaClient is only constructed on first actual DB call,
-// not at module import time (avoids build-time crash when DATABASE_URL is absent)
+// Lazy proxy — only instantiated on first DB call, safe at build time
 export const prisma = new Proxy({} as PrismaClient, {
   get(_, prop: string | symbol) {
     return Reflect.get(getClient(), prop)
