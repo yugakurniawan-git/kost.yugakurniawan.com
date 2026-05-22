@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Report {
+  id              String       @id @default(uuid())
+  slug            String       @unique  // URL: /laporan/[slug]
+  status          ReportStatus @default(DRAFT)
+
+  // Info klien
+  clientName      String
+  clientWa        String
+
+  // Info kos
+  kosName         String
+  kosAddress      String
+  kosOwner        String       @default("")
+  kosOwnerContact String       @default("")
+  price           String       // harga kos
+  priceMarketLow  String?      // harga pasar terendah (dari DB bantukos)
+  priceMarketHigh String?      // harga pasar tertinggi
+
+  // Inspeksi
+  inspectionDate  DateTime
+  inspectorName   String       @default("Bantukos")
+  overallScore    Float?       // 1.0–5.0
+  verdict         Verdict?     // RECOMMENDED | NEGOTIATE | SKIP
+  summary         String?      // ringkasan teks bebas
+  redFlags        String[]     // list string
+  hiddenGems      String[]     // list string
+
+  // Cover photo
+  coverPhotoUrl   String?
+
+  // Metadata
+  createdAt       DateTime     @default(now())
+  publishedAt     DateTime?
+  expiresAt       DateTime?    // valid 30 hari sejak publish
+
+  items           ReportItem[]
+
+  @@map("reports")
+}
+
+model ReportItem {
+  id          Int      @id @default(autoincrement())
+  reportId    String
+  report      Report   @relation(fields: [reportId], references: [id], onDelete: Cascade)
+
+  category    String   // KAMAR | KAMAR_MANDI | DAPUR | FASILITAS | KEAMANAN | SEKITAR | PEMILIK
+  label       String   // nama item, e.g. "Ventilasi / Jendela"
+  score       Int?     // 1–5, null = tidak dicek
+  notes       String?  // catatan inspector
+  photoUrls   String[] // Cloudinary URLs
+  order       Int      @default(0)
+
+  @@map("report_items")
+}
+
+enum ReportStatus {
+  DRAFT
+  PUBLISHED
+}
+
+enum Verdict {
+  RECOMMENDED
+  NEGOTIATE
+  SKIP
+}
