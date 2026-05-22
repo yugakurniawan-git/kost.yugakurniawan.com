@@ -16,6 +16,7 @@
     "@react-pdf/renderer": "^4.5.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "googleapis": "^172.0.0",
     "lucide-react": "^0.366.0",
     "nanoid": "^5.1.11",
     "next": "14.2.0",
