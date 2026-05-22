@@ -287,7 +287,7 @@ export default function InspectPage() {
               onRemove={idx => removeTag('redFlags', idx)}
             />
             <TagInput
-              title="💎 Bonus (di luar checklist)"
+              title="💎 Hidden Gems"
               placeholder="mis. warung dekat, parkir luas..."
               color="green"
               tags={report.hiddenGems}

@@ -113,7 +113,7 @@ export default async function LaporanPage({ params }: Props) {
             )}
             {report.hiddenGems.length > 0 && (
               <section className="bg-green-50 border border-green-200 rounded-2xl p-5">
-                <h2 className="font-semibold text-green-700 mb-3">💎 Kelebihan Kos</h2>
+                <h2 className="font-semibold text-green-700 mb-3">💎 Hidden Gems</h2>
                 <ul className="space-y-1.5">
                   {(report.hiddenGems as string[]).map((g, i) => (
                     <li key={i} className="text-green-700 text-sm flex items-start gap-2">
