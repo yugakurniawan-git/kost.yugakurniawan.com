@@ -278,7 +278,7 @@ export default function InspectPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <TagInput
               title="🚩 Red Flags"
-              placeholder="Tambah masalah..."
+              placeholder="mis. air bau, atap bocor..."
               color="red"
               tags={report.redFlags}
               input={redFlagInput}
@@ -287,14 +287,15 @@ export default function InspectPage() {
               onRemove={idx => removeTag('redFlags', idx)}
             />
             <TagInput
-              title="💎 Hidden Gems"
-              placeholder="Tambah kelebihan..."
+              title="💎 Bonus (di luar checklist)"
+              placeholder="mis. warung dekat, parkir luas..."
               color="green"
               tags={report.hiddenGems}
               input={hiddenGemInput}
               onInput={setHiddenGemInput}
               onAdd={() => addTag('hiddenGems', hiddenGemInput)}
               onRemove={idx => removeTag('hiddenGems', idx)}
+              hint="Hanya untuk hal di luar checklist — seperti akses jalan mudah, tetangga tenang, pemilik sangat ramah. WiFi, AC, air dll sudah ada di checklist."
             />
           </div>
 
@@ -443,7 +444,7 @@ function ScoreBadge({ score }: { score: number | null }) {
 }
 
 function TagInput({
-  title, placeholder, color, tags, input, onInput, onAdd, onRemove
+  title, placeholder, color, tags, input, onInput, onAdd, onRemove, hint
 }: {
   title: string
   placeholder: string
@@ -453,6 +454,7 @@ function TagInput({
   onInput: (v: string) => void
   onAdd: () => void
   onRemove: (i: number) => void
+  hint?: string
 }) {
   const colorClass = color === 'red'
     ? { bg: 'bg-red-900/30', text: 'text-red-300', border: 'border-red-800' }
@@ -460,7 +462,8 @@ function TagInput({
 
   return (
     <div className={`bg-gray-900 border ${colorClass.border} rounded-xl p-4`}>
-      <p className="text-sm font-medium text-gray-300 mb-3">{title}</p>
+      <p className={`text-sm font-medium text-gray-300 ${hint ? 'mb-1' : 'mb-3'}`}>{title}</p>
+      {hint && <p className="text-xs text-gray-600 mb-3 leading-relaxed">{hint}</p>}
       <div className="flex gap-2 mb-3">
         <input
           type="text"
