@@ -1,8 +1,8 @@
 [
   {
-    "id": 5389,
-    "location": "Pemogan",
-    "price": "Rp 3jt/bln",
+    "id": 5397,
+    "location": "Jimbaran",
+    "price": "Rp 8jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -10,9 +10,9 @@
     "image_url": ""
   },
   {
-    "id": 5385,
-    "location": "Jimbaran",
-    "price": "Rp 8jt/bln",
+    "id": 5389,
+    "location": "Pemogan",
+    "price": "Rp 3jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -129,7 +129,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-22",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779425896/bantukos/u6floekd7lavp7yyslpe.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779430422/bantukos/rt7cgpcnpezibxdqests.jpg"
   },
   {
     "id": 5329,
