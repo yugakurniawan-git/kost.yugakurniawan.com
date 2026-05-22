@@ -7,9 +7,8 @@ declare global {
   var _prisma: PrismaClient | undefined
 }
 
-const DB_URL =
-  process.env.DATABASE_URL ??
-  'postgresql://bantukos:BantuKos2026!@bantukos-postgres:5432/bantukos_reports?schema=public'
+const DB_URL = process.env.DATABASE_URL
+if (!DB_URL) throw new Error('DATABASE_URL environment variable is required')
 
 function getClient(): PrismaClient {
   if (!global._prisma) {

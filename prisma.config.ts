@@ -6,6 +6,6 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: process.env.DATABASE_URL ?? "postgresql://bantukos:BantuKos2026!@bantukos-postgres:5432/bantukos_reports?schema=public",
+    url: process.env.DATABASE_URL,
   },
 });

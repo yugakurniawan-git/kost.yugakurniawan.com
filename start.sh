@@ -1,8 +1,9 @@
 #!/bin/sh
 
-# Fallback jika Coolify belum set DATABASE_URL
-DATABASE_URL="${DATABASE_URL:-postgresql://bantukos:BantuKos2026!@bantukos-postgres:5432/bantukos_reports?schema=public}"
-export DATABASE_URL
+if [ -z "$DATABASE_URL" ]; then
+  echo "ERROR: DATABASE_URL environment variable is not set"
+  exit 1
+fi
 
 echo "DATABASE_URL set: ${DATABASE_URL%%@*}@..."
 echo "Running Prisma migrations..."
