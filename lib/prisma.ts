@@ -1,9 +1,21 @@
 import { PrismaClient } from '@prisma/client'
 
-const globalForPrisma = globalThis as unknown as { prisma: PrismaClient }
+declare global {
+  // eslint-disable-next-line no-var
+  var _prisma: PrismaClient | undefined
+}
 
-export const prisma =
-  globalForPrisma.prisma ||
-  new PrismaClient()
+function getClient(): PrismaClient {
+  if (!global._prisma) {
+    global._prisma = new PrismaClient()
+  }
+  return global._prisma
+}
 
-if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma
+// Lazy proxy — PrismaClient is only constructed on first actual DB call,
+// not at module import time (avoids build-time crash when DATABASE_URL is absent)
+export const prisma = new Proxy({} as PrismaClient, {
+  get(_, prop: string | symbol) {
+    return Reflect.get(getClient(), prop)
+  },
+})
