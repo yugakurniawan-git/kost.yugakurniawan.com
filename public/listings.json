@@ -1,5 +1,114 @@
 [
   {
+    "id": 5519,
+    "location": "Jimbaran",
+    "price": "Rp 5.5jt/bln",
+    "type": "Kontrakan",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": ""
+  },
+  {
+    "id": 5517,
+    "location": "Jimbaran",
+    "price": "Rp 1.4jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": ""
+  },
+  {
+    "id": 5503,
+    "location": "Pererenan",
+    "price": "Rp 2.7jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779453703/bantukos/ynzff3oal9snedkhhs4k.jpg"
+  },
+  {
+    "id": 5491,
+    "location": "Renon",
+    "price": "Rp 1.1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Parkir"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": ""
+  },
+  {
+    "id": 5479,
+    "location": "Mengwi",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": ""
+  },
+  {
+    "id": 5471,
+    "location": "Tabanan",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Parkir"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779453711/bantukos/x1qnga553labjc3dx4ok.jpg"
+  },
+  {
+    "id": 5465,
+    "location": "Pemogan",
+    "price": "Rp 7.8jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": ""
+  },
+  {
+    "id": 5459,
+    "location": "Pedungan",
+    "price": "Rp 2.3jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779453713/bantukos/gqccadcwup0euoyadlb9.jpg"
+  },
+  {
+    "id": 5455,
+    "location": "Panjer",
+    "price": "Rp 1.8jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-22",
+    "image_url": ""
+  },
+  {
     "id": 5443,
     "location": "Monang Maning",
     "price": "Rp 2jt/bln",
@@ -69,16 +178,6 @@
     "image_url": ""
   },
   {
-    "id": 5416,
-    "location": "Panjer",
-    "price": "Rp 1.8jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
     "id": 5415,
     "location": "Mas",
     "price": "Rp 1jt/bln",
@@ -104,22 +203,6 @@
     "price": "Rp 3jt/bln",
     "type": "Kos",
     "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
-    "id": 5384,
-    "location": "Jimbaran",
-    "price": "Rp 5.5jt/bln",
-    "type": "Kontrakan",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Parkir",
-      "Dapur",
-      "Kasur"
-    ],
     "source": "facebook",
     "posted_at": "2026-05-22",
     "image_url": ""
@@ -1474,20 +1557,6 @@
     "facilities": [
       "KM Dalam",
       "Dapur",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3696,
-    "location": "Mengwi",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
       "Kasur"
     ],
     "source": "facebook",
@@ -2926,16 +2995,6 @@
     "source": "facebook",
     "posted_at": "2026-05-03",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778751914/bantukos/jk8ifosfgaxdrpgqq3ly.jpg"
-  },
-  {
-    "id": 489,
-    "location": "Renon",
-    "price": "Rp 1.1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-02",
-    "image_url": ""
   },
   {
     "id": 482,
