@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import { notFound } from 'next/navigation'
 import { prisma } from '@/lib/prisma'
-import { CATEGORY_LABELS } from '@/lib/checklist'
+import { CATEGORY_LABELS, getItemConfig } from '@/lib/checklist'
 import { VERDICT_LABELS, scoreColor, scoreEmoji, formatRupiah, parsePriceToNumber } from '@/lib/report-utils'
 import type { Metadata } from 'next'
 
@@ -42,9 +42,19 @@ export default async function LaporanPage({ params }: Props) {
   const priceNum = parsePriceToNumber(report.price)
 
   const categoryScores = categories.map(cat => {
-    const items = report.items.filter(i => i.category === cat && i.score !== null)
-    const avg = items.length ? items.reduce((s, i) => s + i.score!, 0) / items.length : null
-    return { cat, avg, count: items.length, total: report.items.filter(i => i.category === cat).length }
+    const catItems = report.items.filter(i => i.category === cat)
+    // Item INFO tidak ikut rata-rata skor — cuma informasi, bukan rating.
+    const scored = catItems.filter(i => {
+      if (i.score === null) return false
+      return getItemConfig(i.label)?.type !== 'INFO'
+    })
+    const avg = scored.length ? scored.reduce((s, i) => s + i.score!, 0) / scored.length : null
+    // "Terisi" = punya skor (SCALE/BINARY) atau punya notes (INFO)
+    const filledCount = catItems.filter(i => {
+      const cfg = getItemConfig(i.label)
+      return cfg?.type === 'INFO' ? !!i.notes : i.score !== null
+    }).length
+    return { cat, avg, count: filledCount, total: catItems.length }
   })
 
   const allPhotos = report.items.flatMap(i => i.photoUrls).slice(0, 9)
@@ -179,7 +189,13 @@ export default async function LaporanPage({ params }: Props) {
                     {CATEGORY_LABELS[cat] || cat}
                   </h3>
                   <div className="space-y-2">
-                    {items.map(item => (
+                    {items.map(item => {
+                      const cfg = getItemConfig(item.label)
+                      const itemType = cfg?.type ?? 'SCALE'
+                      const binaryGood = cfg?.binaryGood ?? 'yes'
+                      const yesScore = binaryGood === 'yes' ? 5 : 1
+                      const isYes = item.score === yesScore
+                      return (
                       <div key={item.id} className="flex items-start gap-3 py-2 border-b border-gray-50 last:border-0">
                         <div className="flex-1 min-w-0">
                           <p className="text-sm text-gray-700">{item.label}</p>
@@ -195,7 +211,27 @@ export default async function LaporanPage({ params }: Props) {
                             </div>
                           )}
                         </div>
-                        {item.score !== null ? (
+                        {/* Badge sesuai tipe item */}
+                        {itemType === 'INFO' ? (
+                          item.notes ? (
+                            <div className="flex-shrink-0 px-3 h-8 rounded-full bg-blue-50 text-blue-700 flex items-center text-xs font-medium">
+                              📝 info
+                            </div>
+                          ) : (
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 text-xs">–</div>
+                          )
+                        ) : itemType === 'BINARY' ? (
+                          item.score !== null ? (
+                            <div
+                              className="flex-shrink-0 px-3 h-8 rounded-full flex items-center text-white text-xs font-semibold"
+                              style={{ backgroundColor: item.score === 5 ? '#16a34a' : '#dc2626' }}
+                            >
+                              {isYes ? '✓ Ya' : '✗ Tidak'}
+                            </div>
+                          ) : (
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 text-xs">–</div>
+                          )
+                        ) : item.score !== null ? (
                           <div
                             className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold"
                             style={{ backgroundColor: scoreColor(item.score) }}
@@ -208,7 +244,8 @@ export default async function LaporanPage({ params }: Props) {
                           </div>
                         )}
                       </div>
-                    ))}
+                      )
+                    })}
                   </div>
                 </div>
               )

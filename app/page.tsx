@@ -195,72 +195,116 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-xs font-bold tracking-[1.5px] uppercase text-sky-400 mb-3">Transparansi Kami</div>
           <h2 className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-extrabold tracking-tight mb-4">Ini yang kamu dapat dari kami</h2>
-          <p className="text-slate-400 max-w-2xl mb-12">Sebelum memutuskan, lihat dulu seperti apa laporan inspeksi asli dari Bantu Kos.</p>
+          <p className="text-slate-400 max-w-2xl mb-12">
+            Setelah inspeksi selesai, kamu dapat <strong className="text-slate-200">link laporan online</strong> via WhatsApp.
+            Bisa dibuka di HP, dibagi ke pasangan/keluarga, dan tetap aktif 30 hari. Berikut tampilan aslinya:
+          </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
 
             {/* Kiri - Preview Laporan */}
-            <div className="bg-white/5 border border-white/10 rounded-3xl p-8 hover:border-sky-400/30 transition-all">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 to-indigo-400 flex items-center justify-center text-[#0a0f1a] font-extrabold">📋</div>
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-sky-400/30 transition-all">
+              {/* Header laporan: verdict + skor */}
+              <div className="flex items-start justify-between gap-4 pb-5 mb-5 border-b border-white/10">
                 <div>
-                  <div className="font-bold text-sm">Laporan Inspeksi Kos</div>
-                  <div className="text-xs text-slate-400">Contoh hasil nyata dari tim kami</div>
+                  <div className="text-[10px] text-sky-400 font-bold uppercase tracking-wider mb-1">Laporan Inspeksi Kos</div>
+                  <div className="font-bold text-base">Kos Melati, Sesetan</div>
+                  <div className="text-xs text-slate-400 mt-0.5">Jl. Suradipa No. 12 · Inspeksi 23 Mei 2026</div>
                 </div>
-                <div className="ml-auto bg-emerald-400/10 border border-emerald-400/20 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full">✓ Terverifikasi</div>
+                <div className="flex-shrink-0 px-3 py-2 rounded-xl text-center bg-emerald-400/10 border border-emerald-400/30">
+                  <div className="text-2xl font-black text-emerald-400">4.3</div>
+                  <div className="text-[10px] text-emerald-400 font-medium">Direkomendasikan ✅</div>
+                </div>
               </div>
 
-              <div className="flex flex-col gap-3">
+              {/* Skor per kategori dengan bar */}
+              <div className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider mb-3">📊 Skor per Kategori</div>
+              <div className="flex flex-col gap-2.5 mb-5">
                 {[
-                  { label: '📶 Kecepatan WiFi', value: '47.2 Mbps Download / 23.8 Mbps Upload', status: 'good' },
-                  { label: '📡 Sinyal Telkomsel', value: '4G — Kuat (4 bar)', status: 'good' },
-                  { label: '💧 Kualitas Air', value: 'Jernih, tidak bau, tekanan cukup', status: 'good' },
-                  { label: '🔒 Keamanan', value: 'Ada CCTV & pagar, akses dengan kunci', status: 'good' },
-                  { label: '📍 Jarak ke Minimarket', value: '±200m jalan kaki', status: 'good' },
-                  { label: '⚠️ Catatan Tim', value: 'Ventilasi kamar kurang, disarankan bawa kipas angin', status: 'warn' },
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start justify-between gap-4 bg-white/5 rounded-xl px-4 py-3">
-                    <span className="text-sm text-slate-400 shrink-0">{item.label}</span>
-                    <span className={`text-sm font-medium text-right ${item.status === 'warn' ? 'text-amber-400' : 'text-slate-200'}`}>{item.value}</span>
+                  { cat: '🛏️ Kamar',         score: 4.2, color: '#16a34a' },
+                  { cat: '🚿 Kamar Mandi',   score: 3.8, color: '#16a34a' },
+                  { cat: '⚡ Fasilitas',     score: 4.5, color: '#16a34a' },
+                  { cat: '🔒 Keamanan',      score: 4.0, color: '#16a34a' },
+                  { cat: '📍 Sekitar Lokasi', score: 4.6, color: '#16a34a' },
+                ].map((c, i) => (
+                  <div key={i}>
+                    <div className="flex items-center justify-between text-xs mb-1">
+                      <span className="text-slate-300">{c.cat}</span>
+                      <span className="font-semibold text-emerald-400">{c.score.toFixed(1)} ✅</span>
+                    </div>
+                    <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
+                      <div className="h-full rounded-full" style={{ width: `${(c.score / 5) * 100}%`, backgroundColor: c.color }} />
+                    </div>
                   </div>
                 ))}
               </div>
 
-              <div className="mt-6 pt-5 border-t border-white/10">
-                <div className="text-xs text-slate-400 mb-3 font-semibold uppercase tracking-wide">Foto & Video Terlampir</div>
-                <div className="grid grid-cols-3 gap-2">
-                  {['🛏️ Kamar', '🚿 Kamar Mandi', '📶 Speed Test', '🌳 Lingkungan', '🚪 Akses Masuk', '💡 Listrik'].map((label, i) => (
-                    <div key={i} className="bg-white/5 border border-white/10 rounded-lg aspect-square flex flex-col items-center justify-center gap-1 text-center">
-                      <span className="text-xl">{label.split(' ')[0]}</span>
-                      <span className="text-[10px] text-slate-400">{label.split(' ').slice(1).join(' ')}</span>
+              {/* Detail item — mixed scoring */}
+              <div className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider mb-3">📋 Contoh Detail Item</div>
+              <div className="flex flex-col gap-2 mb-5">
+                {[
+                  { label: 'AC',                    badge: '✓ Ya',  type: 'binary-yes' },
+                  { label: 'CCTV di area kos',      badge: '✓ Ya',  type: 'binary-yes' },
+                  { label: 'Rawan banjir?',         badge: '✓ Tidak', type: 'binary-yes' },
+                  { label: 'Kecepatan WiFi',        badge: '4',     type: 'scale-good' },
+                  { label: 'Kunci pintu kamar',     badge: '5',     type: 'scale-good' },
+                  { label: 'Tingkat kebisingan',    badge: '2',     type: 'scale-bad' },
+                  { label: 'Ukuran kamar',          badge: '📝 info', type: 'info', notes: '3×4 m' },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-center justify-between gap-3 bg-white/5 rounded-lg px-3 py-2">
+                    <div className="min-w-0">
+                      <span className="text-xs text-slate-300">{item.label}</span>
+                      {'notes' in item && item.notes && (
+                        <span className="text-[10px] text-slate-500 ml-2">"{item.notes}"</span>
+                      )}
                     </div>
-                  ))}
-                </div>
+                    <span
+                      className={`flex-shrink-0 text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                        item.type === 'binary-yes' ? 'bg-emerald-500/20 text-emerald-300' :
+                        item.type === 'binary-no'  ? 'bg-red-500/20 text-red-300' :
+                        item.type === 'scale-good' ? 'bg-emerald-500/20 text-emerald-300' :
+                        item.type === 'scale-bad'  ? 'bg-red-500/20 text-red-300' :
+                                                     'bg-blue-500/20 text-blue-300'
+                      }`}
+                    >
+                      {item.badge}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="text-[10px] text-slate-500 italic text-center pt-2 border-t border-white/10">
+                + 40 item lain dicek di laporan lengkap
               </div>
             </div>
 
-            {/* Kanan - Penjelasan poin-poin */}
+            {/* Kanan - Penjelasan fitur laporan */}
             <div className="flex flex-col gap-5">
               {[
                 {
-                  icon: '📹',
-                  title: 'Video Real Tanpa Edit',
-                  desc: 'Kami rekam video walk-through seluruh kamar, kamar mandi, dapur (jika ada), dan lingkungan sekitar. Tidak ada filter, tidak ada re-take yang disiapkan.',
+                  icon: '🎯',
+                  title: 'Verdict & Skor Otomatis',
+                  desc: 'Tiap kos dapat skor 0-5 dan verdict tegas: Direkomendasikan ✅, Bisa Nego Dulu ⚠️, atau Lewati ❌. Tidak ambigu, langsung tahu posisinya.',
                 },
                 {
-                  icon: '📊',
-                  title: 'Data Teknis yang Jujur',
-                  desc: 'Speed test WiFi dengan screenshot langsung dari aplikasi, cek sinyal operator, tekanan dan kejernihan air — semua angka nyata, bukan klaim pemilik kos.',
+                  icon: '🧠',
+                  title: 'Penilaian "Kayak Manusia"',
+                  desc: 'Tidak semua item dipaksa skor 1-5. AC dijawab Ya/Tidak. Restoran terdekat dinilai 1-5 (banyak/sedikit). Ukuran kamar diisi info real ("3×4 m"). Logis dan jujur.',
                 },
                 {
-                  icon: '📝',
-                  title: 'Catatan Jujur dari Tim',
-                  desc: 'Kalau ada kekurangan, kami tulis apa adanya. Ventilasi buruk, suara bising, atau jarak yang tidak sesuai iklan — semua akan kami catat di bagian "Catatan Tim".',
+                  icon: '🚩',
+                  title: 'Red Flags & Hidden Gems',
+                  desc: 'Section khusus untuk hal-hal yang patut diperhatikan (mis. "air kadang mati siang") dan kelebihan tak terduga ("warung 24 jam tetangga"). Tidak hanya angka.',
                 },
                 {
-                  icon: '⚡',
-                  title: 'Dikirim dalam 24 Jam',
-                  desc: 'Laporan PDF + video dikirim via WhatsApp. Kamu bisa review dari kota asal sebelum memutuskan bayar DP ke pemilik kos.',
+                  icon: '💬',
+                  title: 'Notif WA Otomatis',
+                  desc: 'Saat tim mulai inspeksi, kamu langsung dapat WA. Saat laporan selesai, kamu dapat WA lagi dengan link laporan online — tidak perlu install aplikasi.',
+                },
+                {
+                  icon: '🌐',
+                  title: 'Bisa Dibuka di Mana Saja',
+                  desc: 'Link laporan format bantukos.com/laporan/xxx — bisa kamu share ke pasangan, ortu, atau teman untuk minta second opinion. Valid 30 hari.',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-sky-400/30 transition-all hover:-translate-y-0.5">
@@ -288,10 +332,11 @@ export default function Home() {
             <div className="absolute left-[23px] top-[24px] bottom-[24px] w-[1px] bg-gradient-to-b from-sky-400 to-indigo-400/0"></div>
             
             {[
-              { t: 'Isi Form Pemesanan', d: 'Pilih layanan, masukkan link kos yang kamu temukan, dan isi data dirimu. Tidak perlu daftar akun.' },
-              { t: 'Chat Konfirmasi via WhatsApp', d: 'Tim kami akan konfirmasi detail pesanan dan kirim link pembayaran QRIS / transfer bank dalam 15 menit.' },
-              { t: 'Bayar & Kami Berangkat', d: 'Setelah pembayaran, kami jadwalkan kunjungan ke lokasi kos. Biasanya dalam 1x24 jam.' },
-              { t: 'Terima Laporan Lengkap', d: 'Kamu menerima video real, foto, dan PDF laporan lengkap via WhatsApp. Keputusan ada di tanganmu.' }
+              { t: 'Isi Form Pemesanan', d: 'Pilih layanan, kirim link kos yang kamu temukan (Mamikos/Facebook/dll), isi data dirimu. Tidak perlu daftar akun.' },
+              { t: 'Chat Konfirmasi via WhatsApp', d: 'Tim kami konfirmasi detail dan kirim link pembayaran (QRIS / transfer) dalam 15 menit.' },
+              { t: 'Notif WA: Inspeksi Mulai 📋', d: 'Begitu pembayaran masuk, kamu otomatis dapat WA bahwa inspeksi sedang berjalan. Estimasi laporan siap dalam 24 jam.' },
+              { t: 'Notif WA: Laporan Siap ✅', d: 'Tim datang ke lokasi, cek 50+ item, foto/video, dan susun laporan. Kamu dapat WA dengan link laporan online begitu publish.' },
+              { t: 'Buka Laporan di HP', d: 'Klik link → langsung lihat verdict (Direkomendasikan / Nego / Lewati), skor per kategori, foto inspeksi, dan red flags. Share ke ortu/pasangan kalau perlu second opinion.' }
             ].map((s, i) => (
               <div key={i} className="flex gap-6 items-start py-6">
                 <div className="w-12 h-12 rounded-xl shrink-0 bg-gradient-to-br from-sky-400 to-indigo-400 text-[#0a0f1a] font-extrabold text-lg flex items-center justify-center relative z-10">{i + 1}</div>

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef, useCallback } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import { CATEGORY_LABELS } from '@/lib/checklist'
+import { CATEGORY_LABELS, getItemConfig } from '@/lib/checklist'
 import { VERDICT_LABELS, scoreColor, scoreEmoji } from '@/lib/report-utils'
 
 type Item = {
@@ -225,7 +225,11 @@ export default function InspectPage() {
         <div className="flex gap-2 overflow-x-auto pb-2 mb-4 scrollbar-hide">
           {categories.map(cat => {
             const items = report.items.filter(i => i.category === cat)
-            const scored = items.filter(i => i.score !== null).length
+            // Untuk item INFO, dianggap "terisi" kalau notes sudah diisi.
+            const scored = items.filter(i => {
+              const cfg = getItemConfig(i.label)
+              return cfg?.type === 'INFO' ? !!i.notes : i.score !== null
+            }).length
             return (
               <button
                 key={cat}
@@ -326,10 +330,18 @@ function ItemCard({
 }) {
   const [expanded, setExpanded] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
+  const config = getItemConfig(item.label)
+  const itemType = config?.type ?? 'SCALE'
+  const binaryGood = config?.binaryGood ?? 'yes'
+
+  // Untuk BINARY: tentukan score apa = jawaban "Ya" dan "Tidak"
+  // binaryGood='yes' → "Ya"=5, "Tidak"=1. binaryGood='no' → "Ya"=1, "Tidak"=5
+  const yesScore = binaryGood === 'yes' ? 5 : 1
+  const noScore  = binaryGood === 'yes' ? 1 : 5
 
   return (
     <div className={`bg-gray-900 border rounded-xl overflow-hidden transition-colors ${
-      item.score !== null ? 'border-gray-700' : 'border-gray-800'
+      item.score !== null || (itemType === 'INFO' && item.notes) ? 'border-gray-700' : 'border-gray-800'
     }`}>
       <div
         className="flex items-center gap-3 px-4 py-3 cursor-pointer"
@@ -345,35 +357,75 @@ function ItemCard({
           {item.photoUrls.length > 0 && (
             <span className="text-xs text-gray-500">📷{item.photoUrls.length}</span>
           )}
-          <ScoreBadge score={item.score} />
+          {itemType === 'INFO'
+            ? <InfoBadge filled={!!item.notes} />
+            : itemType === 'BINARY'
+              ? <BinaryBadge score={item.score} yesScore={yesScore} />
+              : <ScoreBadge score={item.score} />}
         </div>
       </div>
 
       {expanded && (
         <div className="border-t border-gray-800 px-4 py-3 space-y-3">
-          {/* Score buttons */}
-          <div>
-            <p className="text-xs text-gray-400 mb-2">Skor</p>
-            <div className="flex gap-2">
-              {[1, 2, 3, 4, 5].map(s => (
+          {/* Input sesuai tipe item */}
+          {itemType === 'SCALE' && (
+            <div>
+              <p className="text-xs text-gray-400 mb-2">Skor</p>
+              <div className="flex gap-2">
+                {[1, 2, 3, 4, 5].map(s => (
+                  <button
+                    key={s}
+                    onClick={() => onScore(item.score === s ? null : s)}
+                    className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
+                      item.score === s
+                        ? 'text-white'
+                        : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                    }`}
+                    style={item.score === s ? { backgroundColor: scoreColor(s), color: '#fff' } : {}}
+                  >
+                    {s}
+                  </button>
+                ))}
+                {item.score !== null && (
+                  <span className="self-center text-lg">{scoreEmoji(item.score)}</span>
+                )}
+              </div>
+            </div>
+          )}
+
+          {itemType === 'BINARY' && (
+            <div>
+              <p className="text-xs text-gray-400 mb-2">Jawaban</p>
+              <div className="flex gap-2">
                 <button
-                  key={s}
-                  onClick={() => onScore(item.score === s ? null : s)}
-                  className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
-                    item.score === s
-                      ? 'text-white'
+                  onClick={() => onScore(item.score === yesScore ? null : yesScore)}
+                  className={`flex-1 py-2.5 rounded-lg text-sm font-semibold transition-colors ${
+                    item.score === yesScore
+                      ? (binaryGood === 'yes' ? 'bg-green-600 text-white' : 'bg-red-600 text-white')
                       : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
                   }`}
-                  style={item.score === s ? { backgroundColor: scoreColor(s), color: '#fff' } : {}}
                 >
-                  {s}
+                  ✓ Ya
                 </button>
-              ))}
-              {item.score !== null && (
-                <span className="self-center text-lg">{scoreEmoji(item.score)}</span>
-              )}
+                <button
+                  onClick={() => onScore(item.score === noScore ? null : noScore)}
+                  className={`flex-1 py-2.5 rounded-lg text-sm font-semibold transition-colors ${
+                    item.score === noScore
+                      ? (binaryGood === 'no' ? 'bg-green-600 text-white' : 'bg-red-600 text-white')
+                      : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                  }`}
+                >
+                  ✗ Tidak
+                </button>
+              </div>
             </div>
-          </div>
+          )}
+
+          {itemType === 'INFO' && (
+            <p className="text-xs text-gray-500 -mb-1">
+              📝 Item info — tulis isinya di catatan, tidak perlu beri nilai.
+            </p>
+          )}
 
           {/* Notes */}
           <div>
@@ -439,6 +491,33 @@ function ScoreBadge({ score }: { score: number | null }) {
       style={{ backgroundColor: scoreColor(score) }}
     >
       {score}
+    </span>
+  )
+}
+
+function BinaryBadge({ score, yesScore }: { score: number | null; yesScore: number }) {
+  if (score === null) return (
+    <span className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center text-gray-600 text-xs">–</span>
+  )
+  const isYes = score === yesScore
+  const isGood = score === 5  // 5 = jawaban baik, terlepas dari Ya/Tidak
+  return (
+    <span
+      className="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold"
+      style={{ backgroundColor: isGood ? '#16a34a' : '#dc2626' }}
+      title={isYes ? 'Ya' : 'Tidak'}
+    >
+      {isYes ? '✓' : '✗'}
+    </span>
+  )
+}
+
+function InfoBadge({ filled }: { filled: boolean }) {
+  return (
+    <span className={`w-8 h-8 rounded-full flex items-center justify-center text-xs ${
+      filled ? 'bg-blue-900/60 text-blue-300' : 'bg-gray-800 text-gray-600'
+    }`}>
+      {filled ? '📝' : 'ℹ'}
     </span>
   )
 }

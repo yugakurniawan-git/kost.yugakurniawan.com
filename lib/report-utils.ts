@@ -1,4 +1,5 @@
 import { customAlphabet } from 'nanoid'
+import { getItemType } from './checklist'
 
 // Slug pendek yang mudah dibaca: "abc12"
 const nanoid = customAlphabet('abcdefghijklmnopqrstuvwxyz0123456789', 8)
@@ -7,8 +8,16 @@ export function generateSlug(): string {
   return nanoid()
 }
 
-export function calcOverallScore(items: { score: number | null }[]): number | null {
-  const scored = items.filter(i => i.score !== null) as { score: number }[]
+export function calcOverallScore(
+  items: { score: number | null; label?: string }[]
+): number | null {
+  // Item INFO tidak ikut perhitungan rata-rata (cuma informasi, bukan rating).
+  // SCALE & BINARY ikut: BINARY berkontribusi 1 atau 5 (sudah ter-set di form).
+  const scored = items.filter(i => {
+    if (i.score === null) return false
+    if (i.label && getItemType(i.label) === 'INFO') return false
+    return true
+  }) as { score: number }[]
   if (!scored.length) return null
   return Math.round((scored.reduce((s, i) => s + i.score, 0) / scored.length) * 10) / 10
 }
