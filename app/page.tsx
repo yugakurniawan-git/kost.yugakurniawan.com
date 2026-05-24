@@ -283,28 +283,28 @@ export default function Home() {
               {[
                 {
                   icon: '🎯',
-                  title: 'Verdict & Skor Otomatis',
-                  desc: 'Tiap kos dapat skor 0-5 dan verdict tegas: Direkomendasikan ✅, Bisa Nego Dulu ⚠️, atau Lewati ❌. Tidak ambigu, langsung tahu posisinya.',
+                  title: 'Verdict yang Jelas',
+                  desc: 'Tiap laporan kasih kesimpulan tegas: Direkomendasikan ✅, Bisa Nego Dulu ⚠️, atau Lewati ❌. Kamu langsung tahu harus ambil atau cari lagi — tidak perlu nebak-nebak.',
                 },
                 {
-                  icon: '🧠',
-                  title: 'Penilaian "Kayak Manusia"',
-                  desc: 'Tidak semua item dipaksa skor 1-5. AC dijawab Ya/Tidak. Restoran terdekat dinilai 1-5 (banyak/sedikit). Ukuran kamar diisi info real ("3×4 m"). Logis dan jujur.',
+                  icon: '🤝',
+                  title: 'Bukan Agen, Tidak Dibayar Pemilik Kos',
+                  desc: 'Kami tidak terima komisi dari pemilik kos. Kamu yang bayar, jadi kami berpihak ke kamu. Kalau kos jelek, kami tulis jelek. Tidak ada konflik kepentingan.',
                 },
                 {
                   icon: '🚩',
                   title: 'Red Flags & Hidden Gems',
-                  desc: 'Section khusus untuk hal-hal yang patut diperhatikan (mis. "air kadang mati siang") dan kelebihan tak terduga ("warung 24 jam tetangga"). Tidak hanya angka.',
+                  desc: 'Bukan cuma skor angka. Hal-hal yang harus kamu waspadai ("air kadang mati siang") dan kelebihan tak terduga ("warung 24 jam tetangga") kami catat khusus.',
                 },
                 {
                   icon: '💬',
-                  title: 'Notif WA Otomatis',
-                  desc: 'Saat tim mulai inspeksi, kamu langsung dapat WA. Saat laporan selesai, kamu dapat WA lagi dengan link laporan online — tidak perlu install aplikasi.',
+                  title: 'Kabar Real-time via WhatsApp',
+                  desc: 'Begitu tim mulai inspeksi, kamu dapat WA. Begitu laporan selesai, kamu dapat WA lagi dengan link laporannya. Tidak perlu refresh email atau install apa-apa.',
                 },
                 {
                   icon: '🌐',
-                  title: 'Bisa Dibuka di Mana Saja',
-                  desc: 'Link laporan format bantukos.com/laporan/xxx — bisa kamu share ke pasangan, ortu, atau teman untuk minta second opinion. Valid 30 hari.',
+                  title: 'Laporan Online, Mudah Dibagi',
+                  desc: 'Link laporan bisa kamu buka kapan saja di HP, dan share ke pasangan / ortu untuk minta second opinion. Aktif 30 hari sejak publish.',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-sky-400/30 transition-all hover:-translate-y-0.5">
