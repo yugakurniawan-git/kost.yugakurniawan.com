@@ -1,5 +1,17 @@
 [
   {
+    "id": 5613,
+    "location": "Jimbaran",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
     "id": 5608,
     "location": "Gatot Subroto",
     "price": "Rp 1jt/bln",
@@ -1378,18 +1390,6 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3356,
-    "location": "Jimbaran",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-17",
     "image_url": ""
   },
   {
