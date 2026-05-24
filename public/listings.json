@@ -1,5 +1,32 @@
 [
   {
+    "id": 5608,
+    "location": "Gatot Subroto",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
+    "id": 5605,
+    "location": "Mengwi",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779582126/bantukos/mlaiul9bkiiun5togi4j.jpg"
+  },
+  {
     "id": 5593,
     "location": "Kuta",
     "price": "Rp 7.8jt/bln",
@@ -150,21 +177,6 @@
     "source": "facebook",
     "posted_at": "2026-05-22",
     "image_url": ""
-  },
-  {
-    "id": 5523,
-    "location": "Mengwi",
-    "price": "Rp 1.6jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Dapur",
-      "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779454873/bantukos/clpabwerqa0zn1ldbod4.jpg"
   },
   {
     "id": 5519,
