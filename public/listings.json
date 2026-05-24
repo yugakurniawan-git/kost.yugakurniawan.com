@@ -1,5 +1,58 @@
 [
   {
+    "id": 5628,
+    "location": "Renon",
+    "price": "Rp 850rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
+    "id": 5627,
+    "location": "Sesetan",
+    "price": "Rp 1jt/bln",
+    "type": "Putra",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
+    "id": 5621,
+    "location": "Pemogan",
+    "price": "Rp 650rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
+    "id": 5618,
+    "location": "Sesetan",
+    "price": "Rp 1.3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779612139/bantukos/gl4wjeicjlzsd6yhiwof.jpg"
+  },
+  {
+    "id": 5616,
+    "location": "Sesetan",
+    "price": "Rp 1.1jt/bln",
+    "type": "Putra",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
     "id": 5613,
     "location": "Jimbaran",
     "price": "Rp 2jt/bln",
@@ -564,16 +617,6 @@
     "facilities": [
       "WiFi"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-21",
-    "image_url": ""
-  },
-  {
-    "id": 5025,
-    "location": "Sesetan",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-21",
     "image_url": ""
@@ -1887,16 +1930,6 @@
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748221/bantukos/v87lzakvav0albqiaakj.jpg"
   },
   {
-    "id": 1083,
-    "location": "Pemogan",
-    "price": "Rp 650rb/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-14",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778748232/bantukos/h33kijrlarlg6zfhqosr.jpg"
-  },
-  {
     "id": 1077,
     "location": "Dalung",
     "price": "Rp 1.2jt/bln",
@@ -2060,16 +2093,6 @@
     "source": "facebook",
     "posted_at": "2026-05-08",
     "image_url": ""
-  },
-  {
-    "id": 795,
-    "location": "Sesetan",
-    "price": "Rp 1.1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741710/bantukos/tojs0ix4k2z73gvokt4b.jpg"
   },
   {
     "id": 772,
