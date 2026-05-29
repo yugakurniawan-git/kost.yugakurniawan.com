@@ -1,5 +1,15 @@
 [
   {
+    "id": 5632,
+    "location": "Mas",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-24",
+    "image_url": ""
+  },
+  {
     "id": 5628,
     "location": "Renon",
     "price": "Rp 850rb/bln",
@@ -210,16 +220,6 @@
     "source": "facebook",
     "posted_at": "2026-05-22",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779465136/bantukos/dq6hxuzdcpvwivxvkv9f.jpg"
-  },
-  {
-    "id": 5545,
-    "location": "Mas",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
   },
   {
     "id": 5540,
@@ -629,7 +629,7 @@
     "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-21",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779360019/bantukos/as4hd3bw6dugomrktkoe.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780073080/bantukos/leas9iwdoxgscw3whhty.jpg"
   },
   {
     "id": 4981,
@@ -2000,7 +2000,7 @@
     ],
     "source": "facebook",
     "posted_at": "2026-05-08",
-    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1778741695/bantukos/mbi5xftkfk0og7ct00ab.jpg"
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780073099/bantukos/hvsmxefwjng5j551bvax.jpg"
   },
   {
     "id": 875,
