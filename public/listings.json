@@ -1,5 +1,37 @@
 [
   {
+    "id": 5649,
+    "location": "Sesetan",
+    "price": "Rp 7jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-05-31",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780232797/bantukos/kkdoa6whp9rbrpctmuue.jpg"
+  },
+  {
+    "id": 5643,
+    "location": "Sesetan",
+    "price": "Rp 1.8jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-31",
+    "image_url": ""
+  },
+  {
+    "id": 5638,
+    "location": "Sanur",
+    "price": "Rp 1.2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-05-31",
+    "image_url": ""
+  },
+  {
     "id": 5632,
     "location": "Mas",
     "price": "Rp 1jt/bln",
@@ -197,16 +229,6 @@
       "Parkir",
       "Dapur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
-    "id": 5552,
-    "location": "Sesetan",
-    "price": "Rp 7jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-22",
     "image_url": ""
