@@ -1,5 +1,18 @@
 [
   {
+    "id": 5709,
+    "location": "Mas",
+    "price": "Rp 1.5jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
     "id": 5707,
     "location": "Canggu",
     "price": "Rp 1.6jt/bln",
@@ -1504,18 +1517,6 @@
     "type": "Kos",
     "facilities": [
       "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3489,
-    "location": "Mas",
-    "price": "Rp 1.5jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC"
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
