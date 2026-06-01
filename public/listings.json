@@ -1,5 +1,15 @@
 [
   {
+    "id": 5653,
+    "location": "Pemogan",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
     "id": 5649,
     "location": "Sesetan",
     "price": "Rp 7jt/bln",
@@ -412,16 +422,6 @@
     "id": 5406,
     "location": "Sesetan",
     "price": "Rp 1.2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
-    "id": 5364,
-    "location": "Pemogan",
-    "price": "Rp 1.6jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
