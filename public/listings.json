@@ -1,5 +1,17 @@
 [
   {
+    "id": 5670,
+    "location": "Mas",
+    "price": "Rp 1.1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "KM Dalam"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
     "id": 5659,
     "location": "Padangsambian",
     "price": "Rp 2.7jt/bln",
@@ -199,20 +211,6 @@
     "type": "Kos",
     "facilities": [
       "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
-    "id": 5575,
-    "location": "Mas",
-    "price": "Rp 1.1jt/bln",
-    "type": "Kontrakan",
-    "facilities": [
-      "WiFi",
-      "Parkir",
-      "Kasur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-22",
