@@ -1,5 +1,29 @@
 [
   {
+    "id": 5659,
+    "location": "Padangsambian",
+    "price": "Rp 2.7jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780280255/bantukos/sio7snpq1b1qdrke2ylg.jpg"
+  },
+  {
+    "id": 5657,
+    "location": "Peguyangan",
+    "price": "Rp 750rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780280256/bantukos/upizkqgdj6yno6v5beu0.jpg"
+  },
+  {
     "id": 5653,
     "location": "Pemogan",
     "price": "Rp 1.6jt/bln",
@@ -1438,20 +1462,6 @@
     "type": "Kos",
     "facilities": [
       "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-18",
-    "image_url": ""
-  },
-  {
-    "id": 3454,
-    "location": "Padangsambian",
-    "price": "Rp 2.7jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Kasur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-18",
