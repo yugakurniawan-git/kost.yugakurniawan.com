@@ -1,5 +1,71 @@
 [
   {
+    "id": 5707,
+    "location": "Canggu",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780304616/bantukos/cjhtmt12yu5syu4vcsne.jpg"
+  },
+  {
+    "id": 5706,
+    "location": "Dalung",
+    "price": "Rp 1jt/bln",
+    "type": "Putri",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Dapur",
+      "Kasur",
+      "Kulkas"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
+    "id": 5702,
+    "location": "Gatsu",
+    "price": "Rp 2.3jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir",
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
+    "id": 5687,
+    "location": "Pedungan",
+    "price": "Rp 3.8jt/bln",
+    "type": "Kontrakan",
+    "facilities": [
+      "Dapur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
+    "id": 5682,
+    "location": "Padangsambian",
+    "price": "Rp 800rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-06-01",
+    "image_url": ""
+  },
+  {
     "id": 5670,
     "location": "Mas",
     "price": "Rp 1.1jt/bln",
@@ -1007,16 +1073,6 @@
     "source": "facebook",
     "posted_at": "2026-05-20",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1779465142/bantukos/a2kl2sbioc6v0zgjr8cd.jpg"
-  },
-  {
-    "id": 4534,
-    "location": "Dalung",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-20",
-    "image_url": ""
   },
   {
     "id": 4529,
@@ -2199,20 +2255,6 @@
     "type": "Kos",
     "facilities": [
       "AC"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-04",
-    "image_url": ""
-  },
-  {
-    "id": 629,
-    "location": "Gatsu",
-    "price": "Rp 2.3jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "WiFi",
-      "Dapur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-04",
