@@ -1,5 +1,30 @@
 [
   {
+    "id": 5751,
+    "location": "Jimbaran",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780389707/bantukos/csnrwr7wxjkupd62rmcs.jpg"
+  },
+  {
+    "id": 5747,
+    "location": "Jimbaran",
+    "price": "Rp 8jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Furnished"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
     "id": 5730,
     "location": "Canggu",
     "price": "Rp 1jt/bln",
@@ -286,18 +311,6 @@
     "image_url": ""
   },
   {
-    "id": 5613,
-    "location": "Jimbaran",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-24",
-    "image_url": ""
-  },
-  {
     "id": 5608,
     "location": "Gatot Subroto",
     "price": "Rp 1jt/bln",
@@ -530,16 +543,6 @@
     "id": 5443,
     "location": "Monang Maning",
     "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
-    "id": 5441,
-    "location": "Jimbaran",
-    "price": "Rp 8jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
