@@ -1,5 +1,67 @@
 [
   {
+    "id": 5730,
+    "location": "Canggu",
+    "price": "Rp 1jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "WiFi",
+      "KM Dalam"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780379250/bantukos/bu4hk2ng4ihpikfefh2x.jpg"
+  },
+  {
+    "id": 5731,
+    "location": "Peguyangan",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
+    "id": 5727,
+    "location": "Mas",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
+    "id": 5728,
+    "location": "Pemogan",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "WiFi",
+      "Parkir"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
+    "id": 5724,
+    "location": "Mas",
+    "price": "Rp 700rb/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
     "id": 5721,
     "location": "Mas",
     "price": "Rp 1.6jt/bln",
@@ -127,16 +189,6 @@
     "source": "facebook",
     "posted_at": "2026-06-01",
     "image_url": "https://res.cloudinary.com/dmz5yzewg/image/upload/v1780280256/bantukos/upizkqgdj6yno6v5beu0.jpg"
-  },
-  {
-    "id": 5653,
-    "location": "Pemogan",
-    "price": "Rp 1.6jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-06-01",
-    "image_url": ""
   },
   {
     "id": 5649,
@@ -304,21 +356,6 @@
     "type": "Kos",
     "facilities": [
       "Dapur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-22",
-    "image_url": ""
-  },
-  {
-    "id": 5574,
-    "location": "Mas",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "Dapur",
-      "Kasur",
-      "Kulkas"
     ],
     "source": "facebook",
     "posted_at": "2026-05-22",
@@ -729,18 +766,6 @@
       "AC",
       "KM Dalam",
       "Kasur"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-05-21",
-    "image_url": ""
-  },
-  {
-    "id": 5059,
-    "location": "Canggu",
-    "price": "Rp 1jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "Dapur"
     ],
     "source": "facebook",
     "posted_at": "2026-05-21",
