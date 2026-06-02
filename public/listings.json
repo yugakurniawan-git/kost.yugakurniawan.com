@@ -1,5 +1,28 @@
 [
   {
+    "id": 5769,
+    "location": "Gatsu",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Parkir"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
+    "id": 5767,
+    "location": "Panjer",
+    "price": "Rp 2jt/bln",
+    "type": "Kos",
+    "facilities": [],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
     "id": 5761,
     "location": "Mas",
     "price": "Rp 500rb/bln",
@@ -687,16 +710,6 @@
     "id": 5272,
     "location": "Jimbaran",
     "price": "Rp 2.5jt/bln",
-    "type": "Kos",
-    "facilities": [],
-    "source": "facebook",
-    "posted_at": "2026-05-21",
-    "image_url": ""
-  },
-  {
-    "id": 5230,
-    "location": "Gatsu",
-    "price": "Rp 2jt/bln",
     "type": "Kos",
     "facilities": [],
     "source": "facebook",
@@ -1702,16 +1715,6 @@
       "WiFi",
       "Kasur"
     ],
-    "source": "facebook",
-    "posted_at": "2026-05-16",
-    "image_url": ""
-  },
-  {
-    "id": 2538,
-    "location": "Panjer",
-    "price": "Rp 2jt/bln",
-    "type": "Kos",
-    "facilities": [],
     "source": "facebook",
     "posted_at": "2026-05-16",
     "image_url": ""
