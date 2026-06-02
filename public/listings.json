@@ -1,6 +1,20 @@
 [
   {
-    "id": 5709,
+    "id": 5721,
+    "location": "Mas",
+    "price": "Rp 1.6jt/bln",
+    "type": "Kos",
+    "facilities": [
+      "AC",
+      "Dapur",
+      "Kasur"
+    ],
+    "source": "facebook",
+    "posted_at": "2026-06-02",
+    "image_url": ""
+  },
+  {
+    "id": 5718,
     "location": "Mas",
     "price": "Rp 1.5jt/bln",
     "type": "Kos",
@@ -9,7 +23,7 @@
       "WiFi"
     ],
     "source": "facebook",
-    "posted_at": "2026-06-01",
+    "posted_at": "2026-06-02",
     "image_url": ""
   },
   {
@@ -2558,21 +2572,6 @@
     "facilities": [
       "AC",
       "Kulkas"
-    ],
-    "source": "facebook",
-    "posted_at": "2026-04-28",
-    "image_url": ""
-  },
-  {
-    "id": 3,
-    "location": "Mas",
-    "price": "Rp 1.6jt/bln",
-    "type": "Kos",
-    "facilities": [
-      "AC",
-      "KM Dalam",
-      "Parkir",
-      "Kasur"
     ],
     "source": "facebook",
     "posted_at": "2026-04-28",
