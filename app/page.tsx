@@ -8,6 +8,7 @@ const WA_NUMBER = "6285190810100"
 
 export default function Home() {
   const [faqOpen, setFaqOpen] = useState<number | null>(null)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [formData, setFormData] = useState({
     nama: '', wa: '', kota: '', layanan: '', linkKos: '', tanggal: ''
   })
@@ -32,22 +33,70 @@ export default function Home() {
     <main className="min-h-screen relative overflow-hidden text-slate-200">
       
       {/* NAV */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 sm:px-8 py-4 bg-[#080c14]/70 backdrop-blur-xl border-b border-white/10">
-        <div className="text-xl font-extrabold tracking-tight text-gradient">
-          Bantu <span className="text-slate-200">Kos</span>
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#080c14]/70 backdrop-blur-xl border-b border-white/10">
+        <div className="flex items-center justify-between px-4 sm:px-8 py-4">
+          <div className="text-xl font-extrabold tracking-tight text-gradient">
+            Bantu <span className="text-slate-200">Kos</span>
+          </div>
+
+          {/* Desktop menu */}
+          <ul className="hidden sm:flex gap-8 list-none m-0">
+            <li><Link href="#layanan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Layanan</Link></li>
+            <li><Link href="#contoh-laporan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Contoh Laporan</Link></li>
+            <li><Link href="#cara-kerja" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Cara Kerja</Link></li>
+            <li><Link href="/listings" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Kos Tersedia</Link></li>
+            <li><Link href="#faq" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">FAQ</Link></li>
+          </ul>
+
+          <div className="flex items-center gap-3">
+            <Link href="#pesan" className="hidden sm:block">
+              <Button className="bg-gradient-to-r from-sky-400 to-indigo-400 font-bold text-[#0a0f1a] rounded-lg">
+                Pesan Sekarang
+              </Button>
+            </Link>
+
+            {/* Hamburger — mobile only */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="sm:hidden flex flex-col justify-center items-center w-9 h-9 gap-1.5 rounded-lg hover:bg-white/10 transition-colors"
+              aria-label="Menu"
+            >
+              <span className={`block w-5 h-0.5 bg-slate-300 transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+              <span className={`block w-5 h-0.5 bg-slate-300 transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`} />
+              <span className={`block w-5 h-0.5 bg-slate-300 transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+            </button>
+          </div>
         </div>
-        <ul className="hidden sm:flex gap-8 list-none m-0">
-          <li><Link href="#layanan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Layanan</Link></li>
-          <li><Link href="#contoh-laporan" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Contoh Laporan</Link></li>
-          <li><Link href="#cara-kerja" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Cara Kerja</Link></li>
-          <li><Link href="/listings" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">Kos Tersedia</Link></li>
-          <li><Link href="#faq" className="text-slate-400 hover:text-sky-400 text-sm transition-colors">FAQ</Link></li>
-        </ul>
-        <Link href="#pesan">
-          <Button className="bg-gradient-to-r from-sky-400 to-indigo-400 font-bold text-[#0a0f1a] rounded-lg">
-            Pesan Sekarang
-          </Button>
-        </Link>
+
+        {/* Mobile dropdown menu */}
+        <div className={`sm:hidden overflow-hidden transition-all duration-300 ${mobileMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
+          <ul className="flex flex-col list-none m-0 px-4 pb-4 border-t border-white/10 pt-3 gap-1">
+            {[
+              { href: '#layanan', label: 'Layanan' },
+              { href: '#contoh-laporan', label: 'Contoh Laporan' },
+              { href: '#cara-kerja', label: 'Cara Kerja' },
+              { href: '/listings', label: 'Kos Tersedia' },
+              { href: '#faq', label: 'FAQ' },
+            ].map(item => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block py-2.5 px-3 rounded-lg text-slate-300 hover:text-sky-400 hover:bg-white/5 text-sm transition-colors"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+            <li className="pt-2">
+              <Link href="#pesan" onClick={() => setMobileMenuOpen(false)}>
+                <Button className="w-full bg-gradient-to-r from-sky-400 to-indigo-400 font-bold text-[#0a0f1a] rounded-lg">
+                  Pesan Sekarang
+                </Button>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       {/* HERO */}
